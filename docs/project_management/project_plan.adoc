@@ -15,18 +15,18 @@ Der Projektplan wird fortlaufend erweitert. Die Verantwortlichkeit, zur Pflege d
 //Introduce the project team, team members, and roles that they play during this project. If applicable, introduce work areas, domains, or technical work packages that are assigned to team members. Introduce neighboring projects, relationships, and communication channels. If the project is introduced somewhere else, reference that location with a link.
 Die Rollen der einzelnen Mitglieder werden in der xref:responsibilities.adoc#Rollenverteilung[Rollenübersicht] beschrieben. Dabei werden auch Aufgaben erwähnt, welche nicht in der Klassischen Rollendefinition des Open UP genannt sind.
 
-Es findet ein wöchentliches Meeting statt welches Hybrid erfolgt, dieses findet Montags von 17:00-18:30 statt. Von der Hybriden Form des Meeetings erhoffen wir uns, dass niemand lange Wartezeiten hat, falls die Lehrveranstaltungen an diesen Tagen bereits eher vorüber sind. Die remote Teilnehmer wurden mittles BigBlueButton in das Meeting inkludiert. Neben den hybriden wöchentlichen Meetings fand die Kommunikation über Whatsapp, Discord und GitHub statt.
+Es findet ein wöchentliches Meeting statt welches Hybrid erfolgt, dieses findet Montags von 17:00-18:30 statt. Von der Hybriden Form des Meetings erhoffen wir uns, dass niemand lange Wartezeiten hat, falls die Lehrveranstaltungen an diesen Tagen bereits eher vorüber sind. Die remote Teilnehmer werden mittles BigBlueButton in das Meeting inkludiert. Neben den hybriden wöchentlichen Meetings finet die Kommunikation über Whatsapp, Discord und GitHub statt.
 
-Whatsapp wurde verwendet um auf kurzem Wege alle Teammitglieder an kommende Meetings oder ähnliche Deadlines zu erinnern. 
+Whatsapp wird verwendet um auf kurzem Wege alle Teammitglieder an kommende Meetings oder ähnliche Deadlines zu erinnern. 
 
-Im Discord trafen sich Teilmengen der Gruppenmitglieder um Dokumentationen zu bearbeiten oder Co-Coding Sessions zu realisieren. Außerdem wurden Terminabstimmungen mithilfe eines Umfrage-Bots realisiert um möglichst einfach die Wünsche aller Mitglieder zu berücksichtigen.
+Im Discord treffen sich Teilmengen der Gruppenmitglieder um Dokumentationen zu bearbeiten oder Co-Coding Sessions zu realisieren. Außerdem werden Terminabstimmungen mithilfe eines Umfrage-Bots realisiert um möglichst einfach die Wünsche aller Mitglieder zu berücksichtigen.
 
-GitHub stellte die Struktur zur Verfügung welche wir zur Aufgabenverteilung und Aufgabenverwaltung verwendeten. 
+GitHub stellt die Struktur zur Verfügung welche wir zur Aufgabenverteilung und Aufgabenverwaltung verwenden. 
 
 == Praktiken und Bewertung
 //Describe or reference which management and technical practices will be used in the project, such as iterative development, continuous integration, independent testing and list any changes or particular configuration to the project. Specify how you will track progress in each practice. As an example, for iterative development the team may decide to use iteration assessments and iteration burndown reports and collect metrics such as velocity (completed work item points/ iteration).
 === Management Praktiken
-Wir verwendeten das https://www2.htw-dresden.de/~anke/openup/practice.mgmt.iterative_dev.base/guidances/practices/iterative_development_CD1297B8.html[Iterative Deployment] des Open UP um unsere Aufgaben zu strukturieren.
+Wir verwenden das https://www2.htw-dresden.de/~anke/openup/practice.mgmt.iterative_dev.base/guidances/practices/iterative_development_CD1297B8.html[Iterative Deployment] des Open UP um unsere Aufgaben zu strukturieren.
 
 Dabei erstellen wir Iterationen, diese dauern jeweils *14 Tage* und werden im GitHub als *Projekt* angelegt. Innerhalb der Projekte wird ein auf unsere Bedürfnisse abgewandeltes KanBan Board verwendet. (https://github.com/users/henrikalbrecht/projects/2[Siehe Iteration 2]) Innerhalb dieser Iterationen gibt es verschiedene Aufgaben welche bewältigt werden mussten. Die Aufgaben werden zum Beginn der Iteration definiert und bestmöglich nach den Wünschen und Fähigkeiten der Gruppenmitglieder verteilt. Dabei sind wir auch flexibel im Nachhinein Änderungen vorzunehmen wenn dies von allen Betroffenen gewünscht wird.
 
