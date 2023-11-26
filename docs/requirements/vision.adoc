@@ -1,5 +1,5 @@
 = Vision: {project-name}
-Paul Kiok <paul.kiok@stud.htw-dresden.de>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
+Paul Kiok <paul.kiok@stud.htw-dresden.de>; Henrik Albrecht <henrik.albrecht@stud.htw-dresden.de>; Vorname3 Nachname3 <email3@domain.org>
 {localdatetime}
 include::../_includes/default-attributes.inc.adoc[]
 // Platzhalter für weitere Dokumenten-Attribute
@@ -94,15 +94,19 @@ Beispiel Produkt:
 === Benutzerumgebung
 Beschreiben Sie die Arbeitsumgebung des Nutzers. Hier sind einige Anregungen:
 
+==== VM Verwalter
+* Es gibt einen VM Verwalter und er ist der einzige Nutzer des Systems. Er ist jedoch abhängig von der Zuarbeit des Rechenzentrums der Hochschule.
+* Der VM Verwalter verwendet den Browser eines PC um die Verwaltung vorzunehmen.
+* Bevor eine VM verwaltet werden kann muss sie erstmal angelegt werden. Dies stellt somit den ersten Arbeitsschritt dar. 
+* Wenn die VM angelegt wurde wird sie in der Liste verfügbaren VMs dargestellt. 
+* Ein Klick auf eine verfügbare VM zeigt weitere detailliertere Informationen der VM. 
+* In dieser Übersicht befindet sich dann auch der button um die VM zu deaktivieren.
 //Zutreffendes angeben, nicht zutreffendes streichen oder auskommentieren
-. Anzahl der Personen, die an der Erfüllung der Aufgabe beteiligt sind. Ändert sich das?
-. Wie lange dauert die Bearbeitung der Aufgabe? Wie viel Zeit wird für jeden Arbeitsschritt benötigt? Ändert sich das?
-. Gibt es besondere Umgebungsbedingungen, z.B. mobil, offline, Außeneinsatz, Touchbedienung, Nutzung durch seh- oder hörbeeinträchtigte Personen?
-. Welche Systemplattformen werden heute eingesetzt? Welche sind es ggf. zukünftig?
-. Welche anderen Anwendungen sind im Einsatz? Muss ihre Anwendung mit diesen integriert werden?
-
-Hier können zudem bei Bedarf Teile des Unternehmensmodells (Prozesse, Organigramme, IT-Landschaft, ...) eingefügt werden, um die beteiligten Aufgaben und Rollen zu skizzieren.
-
+//. Anzahl der Personen, die an der Erfüllung der Aufgabe beteiligt sind. Ändert sich das?
+//. Wie lange dauert die Bearbeitung der Aufgabe? Wie viel Zeit wird für jeden Arbeitsschritt benötigt? Ändert sich das?
+//. Gibt es besondere Umgebungsbedingungen, z.B. mobil, offline, Außeneinsatz, Touchbedienung, Nutzung durch seh- oder hörbeeinträchtigte Personen?
+//. Welche Systemplattformen werden heute eingesetzt? Welche sind es ggf. zukünftig?
+//. Welche anderen Anwendungen sind im Einsatz? Muss ihre Anwendung mit diesen integriert werden?
 
 == Produkt-/Lösungsüberblick
 
@@ -112,7 +116,16 @@ Hier können zudem bei Bedarf Teile des Unternehmensmodells (Prozesse, Organigra
 [%header, cols="4,1,4,1"]
 |===
 | Bedarf | Priorität | Features | Geplantes Release
-| xx | xx | xx | xx
+| Übersicht der vergebenen VMs | hoch | Zeige den Pool der VMs mit dem Namen, dem zugehörigen Team oder ob es kein zugehöriges Team gibt. | xx
+
+|Hinzufügen einer VM | hoch | Es muss eine neue VM zum Pool hinzugefügt werden können. | xx
+
+|Entfernen einer VM | hoch | Es muss eine VM vom Pool entfernt werden können. | xx
+
+|Modifizieren der VM | hoch | Die Eigenschaften jeder VM muss individuell verändert werden können | xx
+
+|Detailansicht einer VM | hoch | Die Eigenschaften jeder VM müssen individuell betrachtet werden können | xx
+
 |===
 
 
@@ -120,14 +133,20 @@ Hier können zudem bei Bedarf Teile des Unternehmensmodells (Prozesse, Organigra
 //Zutreffendes angeben, nicht zutreffendes streichen oder auskommentieren
 Hinweise:
 
-. Führen Sie die wesentlichen anzuwendenden Standards, Hardware oder andere Plattformanforderungen, Leistungsanforderungen und Umgebungsanforderungen auf
-. Definieren Sie grob die Qualitätsanforderungen für Leistung, Robustheit, Ausfalltoleranz, Benutzbarkeit und ähnliche Merkmale, die nicht von den genannten Features erfasst werden.
-. Notieren Sie alle Entwurfseinschränkungen, externe Einschränkungen, Annahmen oder andere Abhängigkeiten, die wenn Sie geändert werden, das Visions-Dokument beeinflussen. Ein Beispiel wäre die Annahme, dass ein bestimmtes Betriebssystem für die vom System erforderliche Hardware verfügbar ist. Ist das Betriebssystem nicht verfügbar, muss das Visions-Dokument angepasst werden.
-. Definieren Sie alle Dokumentationsanforderugen, inkl. Benutzerhandbücher, Onlinehilfe, Installations-, Kennzeichnungs- und Auslieferungsanforderungen-
-. Definieren Sie die Priorität für diese zusätzlichen Produktanforderungen. Ergänzen Sie, falls sinnvoll, Angaben zu Stabilität, Nutzen, Aufwand und Risiko für diese Anforderungen.
+//. Führen Sie die wesentlichen anzuwendenden Standards, Hardware oder andere Plattformanforderungen, Leistungsanforderungen und Umgebungsanforderungen auf
+//. Definieren Sie grob die Qualitätsanforderungen für Leistung, Robustheit, Ausfalltoleranz, Benutzbarkeit und ähnliche Merkmale, die nicht von den genannten Features erfasst werden.
+//. Notieren Sie alle Entwurfseinschränkungen, externe Einschränkungen, Annahmen oder andere Abhängigkeiten, die wenn Sie geändert werden, das Visions-Dokument beeinflussen. Ein Beispiel wäre die Annahme, dass ein bestimmtes Betriebssystem für die vom System erforderliche Hardware verfügbar ist. Ist das Betriebssystem nicht verfügbar, muss das Visions-Dokument angepasst werden.
+//. Definieren Sie alle Dokumentationsanforderugen, inkl. Benutzerhandbücher, Onlinehilfe, Installations-, Kennzeichnungs- und Auslieferungsanforderungen-
+//. Definieren Sie die Priorität für diese zusätzlichen Produktanforderungen. Ergänzen Sie, falls sinnvoll, Angaben zu Stabilität, Nutzen, Aufwand und Risiko für diese Anforderungen.
 
 [%header, cols="4,1,1"]
 |===
 | Anforderung | Priorität | Geplantes Release
-| xx | xx | xx
+| einfach Zugänglich | hoch | xx
+
+| einfaches Design | hoch | xx
+
+| wenig Farben | hoch | xx
+
+| keine Animationen | hoch | xx
 |===
