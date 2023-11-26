@@ -1,7 +1,7 @@
 // Meta
 :project-name: I05 - Vergabe von Virtuellen Maschinen
 :project-system-name: VM-Verwaltungssystem
-:project-team-name: Team i7
+:project-team-name: Team I05
 // Settings:
 :toc:
 :toc-title: Inhaltsverzeichnis
