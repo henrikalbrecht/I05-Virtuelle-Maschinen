@@ -1,0 +1,119 @@
+= Iteration Plan 02: {project-name}
+Paul Kiok <paul.kiok@stud.htw-dresden.de>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
+{localdatetime}
+include::../_includes/default-attributes.inc.adoc[]
+// Platzhalter für weitere Dokumenten-Attribute
+
+
+== Meilensteine
+//Meilensteine zeigen den Ablauf der Iteration, wie z.B. den Beginn und das Ende, Zwischen-Meilensteine, Synchronisation mit anderen Teams, Demos usw.
+
+[%header, cols="3,1"]
+|===
+| Meilenstein | Datum
+
+| Beginn der Iteration | 20.11.2023
+| Git workshop durchgeführt | 20.11.2023
+| Iterationsplan 2 aufgestellt | 27.11.2023
+| Vision finalisiert | 29.11.2023
+| Risikoliste aufgestellt | 02.12.2023
+| Iterationsplan 3 aufgestellt | 03.12.2023
+| Ende der Iteration | 03.12.2023
+|===
+
+
+== Wesentliche Ziele
+//Nennen Sie 1-5 wesentliche Ziele für die Iteration.
+
+* Erarbeitung der Vision
+* Erstellen eines groben grafischen Prototyps zur Veranschaulichung der Hauptfunktionalität
+* Besprechung der Vision und des grafischen Prototyps mit Auftraggeber
+* Finalisierung der Vision
+* Erarbeitung der Risikoliste
+* Weiterbildung des gesamten teams durch einen Git-Workshop
+
+
+== Aufgabenzuordnung
+//Dieser Abschnitt sollte einen Verweis auf die Work Items List enthalten, die die für diese Iteration vorgesehenen Aufgaben dokumentiert sowie die Zuordnung dieser Aufgaben zu Teammitgliedern. Alternativ können die Aufgaben für die Iteration und die Zuordnung zu Teammitgliedern in nachfolgender Tabelle dokumentiert werden - je nach dem, was einfacher für die Projektbeteiligten einfacher zu finden ist.
+
+Die in dieser Iteration geplanten Aufgaben sind in der https://github.com/users/henrikalbrecht/projects/2[Work Items List] dargestellt.
+
+_alternativ:_ Die folgenden Aufgaben werden in dieser Iteration bearbeitet:
+[%header, cols="3,1,1,1,2,1"]
+|===
+| Aufgabe / Beschreibung | Priorität (Skala 1-3; 1 = höchste Priorität) | Aufwand (Fibonacci; 1 = kleinster Aufwand) |Termin | Zugewiesen (Kürzel)|GitHub Issue
+
+| Projektplan erstellen | 1 | 2 | 01.12.2023 | HA, PK | https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/issues/11[#11]
+| Vision erarbeiten | 1 | 1 | 26.11.2023 | CN, HA, PK | https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/issues/7[#7]
+| Git workshop | 1 | 2 | 20.11.2023  | HA | https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/issues/13[#13]
+| GUI Prototyp für Hauptfunktionalität | 1 | 1 | 26.11.2023 | AS, CN, JK | https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/issues/6[#6]
+| Glossar anlegen | 2 | 1 | 01.12.2023 | ES, JV | https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/issues/1[#1]
+| Vision überarbeiten | 1 | 1 | 27.11.2023 | PK | https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/issues/14[#14]
+| Bestätigung Vision einholen | 1 | 1 | 29.11.2023 | PK | https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/issues/14[#14]
+| Iterationsplan pflegen | n/a | n/a | fortlaufend | PK | n/a
+| Workshop branches & pull requests | 1 | 1 | 27.11.2023 | PK | https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/issues/15[#15]
+| Risikoliste erstellen | 1 | 2 | 01.12.2023 | PK | https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/issues/12[#12]
+| Iterationsende: Review | 1 | 1 | 04.12.2023 | {project-team-name} | n/a
+| Iterationsende: Retrospektive | 1 | 1 | 04.12.2023 | {project-team-name} | n/a
+|===
+
+
+== Probleme (optional)
+//Optional: Führen Sie alle Probleme auf, die in dieser Iteration adressiert werden sollen. Aktualisieren Sie den Status, wenn neue Probleme bei den täglichen / regelmäßigen Abstimmungen berichtet werden.
+
+[%header, cols="2,1,3"]
+|===
+| Problem | Status | Notizen
+
+| Aufgabenverteilung | open 
+a|* Die Verteilung der Aufgaben gestaltet sich mitunter schwierig, da das technische Verständnis über die Aufgabenstellung im Team noch nicht auf einem adäquaten Niveau ist.
+* Dadurch, dass issues in GitHub erst spät angelegt wurden, ist das Bewusstsein über den Projektumfang noch nicht ausgeprägt.
+| Git Workflow | open | Um die Arbeit an einzelnen Funktionalitäten in den Pull requests besser unterscheiden zu können, ist eine Arbeit mit branches notwendig. Die Arbeit mit branches muss bei einem weiteren Workshop während eines Team meetings vermittelt werden.
+|===
+
+
+== Bewertungskriterien
+//Eine kurze Beschreibung, wie Erfüllung die o.g. Ziele bewertet werden sollen.
+
+* Auftraggeber hat finalisierte Vision bestätigt
+* Iterationspläne 2 und 3 liegen vor
+* GUI Prototyp liegt zum Auftraggeber-Meeting am 27.11.2023 vor
+* Risikoliste liegt mit min. 5 vollständigen Einträgen vor
+* Git Workshops wurden inkl. Erfolgskontrollen durchgeführt
+
+
+== Assessment
+//In diesem Abschnitt werden die Ergebnisse und Maßnahmen der Bewertung erfasst und kommuniziert. Die Bewertung wird üblicherweise am Ende jeder Iteration durchgeführt. Wenn Sie diese Bewertungen nicht machen, ist das Team möglicherweise nicht in der Lage, die eigene Arbeitsweise ("Way of Working") zu verbessern.
+
+[%header, cols="1,3"]
+|===
+| Review | Iteration 2
+
+| Assessment Datum | 04.12.2023
+| Teilnehmer | {project-team-name}
+| Projektstatus: *color* | Ziel...
+|===
+
+[%header, cols="1,3"]
+|===
+| Retrospektive | Iteration 2
+
+| Assessment Datum | 04.12.2023
+| Teilnehmer | {project-team-name}
+| Projektstatus: *color* | Ziel...
+|===
+
+
+// TODO
+//* Beurteilung im Vergleich zu den Zielen
+//Dokumentieren Sie, ob die angestrebten Ziele des Iterationsplans erreicht wurden.
+
+//* Geplante vs. erledigte Aufgaben
+//Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
+
+//* Beurteilung im Vergleich zu den Bewertungskriterien
+//Document whether you met the evaluation criteria as specified in the Iteration Plan.
+//Geben Sie an, ob Sie die o.g. Bewertungskriterien erfüllt haben. Das kann z.B. folgende Informationen enthalten: “Demo for Department X was well-received, with some concerns raised around usability,” or “495 test cases were automated with a 98% pass rate. 9 test cases were deferred because the corresponding Work Items were postponed.”
+
+//* Andere Belange und Abweichungen
+//Führen Sie weitere Themen auf, für die eine Bewertung durchgeführt wurde. Beispiele sind Finanzen, Zeitabweichungen oder Feedback von Stakeholdern, die nicht bereits an anderer Stelle dokumentiert wurden.
