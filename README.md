@@ -1,7 +1,5 @@
 # Vorlage Projektstruktur & OpenUP-Templates
 
-TEST TEST
-
 Das Repository enthält die Vorlage einer Projektstruktur und Template-Dokumente im AsciiDoc-Format. Dies wird für die Bearbeitung der Belegarbeit in Software Engineering I und II benötigt. Im Detail wären dies:
 
 - Projektstruktur anhand der Work Products im OpenUP
@@ -13,11 +11,18 @@ _Hinweis: Dieses Repository enthält keinen Code._
 
 
 **Inhaltsverzeichnis**
-- [Projektstruktur](#projektstruktur)
-- [Unified Process - Templates](#unified-process---templates)
-- [Hinweise zu AsciiDoc](#hinweise-zu-asciidoc)
-- [Belegabgabe in SE I](#belegabgabe-in-se-i)
-- [Lizenz](#lizenz)
+- [Vorlage Projektstruktur \& OpenUP-Templates](#vorlage-projektstruktur--openup-templates)
+  - [Projektstruktur](#projektstruktur)
+  - [Unified Process - Templates](#unified-process---templates)
+    - [Hinweise](#hinweise)
+    - [Referenzen](#referenzen)
+  - [Hinweise zu AsciiDoc](#hinweise-zu-asciidoc)
+    - [Projektnamen definieren](#projektnamen-definieren)
+    - [Bilder einbinden](#bilder-einbinden)
+  - [Belegabgabe in SE I](#belegabgabe-in-se-i)
+  - [Lizenz](#lizenz)
+    - [Dokumentation](#dokumentation)
+    - [Quellcode / Anderes](#quellcode--anderes)
 
 
 ## Projektstruktur
