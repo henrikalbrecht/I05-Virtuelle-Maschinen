@@ -1,18 +1,18 @@
 = Vision: {project-name}
-Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
+Paul Kiok <paul.kiok@stud.htw-dresden.de>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
 {localdatetime}
 include::../_includes/default-attributes.inc.adoc[]
 // Platzhalter für weitere Dokumenten-Attribute
 
 
 == Einführung
-Der Zweck dieses Dokuments ist es, die wesentlichen Bedarfe und Funktionalitäten des Systems {project-system-name} zu sammeln, zu analysieren und zu definieren. Der Fokus liegt auf den Fähigkeiten, die von Stakeholdern und adressierten Nutzern benötigt werden, und der Begründung dieser Bedarfe. Die  Details, wie das System {project-system-name} diese Bedarfe erfüllt, werden in der Use-Case und Supplementary Specification beschrieben.
+Der Zweck dieses Dokuments ist es, die wesentlichen Bedarfe und Funktionalitäten des {project-system-name} zu sammeln, zu analysieren und zu definieren. Der Fokus liegt auf den Fähigkeiten, die von Stakeholdern und adressierten Nutzern benötigt werden, und der Begründung dieser Bedarfe. Die  Details, wie das {project-system-name} diese Bedarfe erfüllt, werden in der Use-Case und Supplementary Specification beschrieben.
 
 === Zweck
-Der Zweck dieses Dokuments ist es, die wesentlichen Anforderungen an das System aus Sicht und mit den Begriffen der künftigen Anwender zu beschreiben.
+Der Zweck dieses Dokuments ist es, die wesentlichen Anforderungen an das {project-system-name} aus Sicht und mit den Begriffen der künftigen Anwender zu beschreiben.
 
 === Gültigkeitsbereich (Scope)
-Dieses Visions-Dokument bezieht sich auf das System {project-system-name}, das von <Team> entwickelt wird. Das System wird es <Zielkunde/Auftraggeber> erlauben, <Hauptfunktionen> zu nutzen, um damit <Vorteile> zu erreichen / <Aufgabe> zu erleichtern / <Problem> zu lösen.
+Dieses Visions-Dokument bezieht sich auf das System "{project-system-name}", das von {project-team-name} entwickelt wird. Das System wird es <Zielkunde/Auftraggeber> erlauben, <Hauptfunktionen> zu nutzen, um damit <Vorteile> zu erreichen / <Aufgabe> zu erleichtern / <Problem> zu lösen.
 
 === Definitionen, Akronyme und Abkürzungen
 //Verweis passend zum Belegabgabe-Template se1_belegabgabe_t00.adoc
@@ -26,16 +26,17 @@ Siehe <<#glossary, Glossar>>.
 
 === Fachliche Motivation
 //Erläutern Sie kurz den Hintergrund, in dem das Projekt angesiedelt ist. Welches Problem soll gelöst werden, wie ist es entstanden? Welche Verbesserung wird angestrebt. Achten Sie darauf, eine fachliche (organisatorische, betriebswirtschaftliche) Perspektive einzunehmen.
+Die HTW Dresden stellt im Rahmen der Module Software Engineering I + II (SE I bzw. SE II) den Studierenden eine technische Umgebung zur Realisierung ihrer Software-Projekte zur Verfügung. Den Studierenden können nach Beantragung VMs für die Arbeit an ihren Software-Projekten bereitgestellt werden. Die VMs werden durch einen eigenen VM Cluster innerhalb der HTW Dresden bereitgestellt, der vom Labor der Fakultät Informatik administriert wird. Die Beantragung einer VM erfolgt per Email an einen Kursbetreuer des jeweiligen Software Engineering Moduls. Aktuell findet die Verwaltung der verfügbaren und vergebenen VMs mit Textdateien statt, was unhandlich und fehleranfällig ist. Die Handhabung soll durch die Realisierung einer webbasierten Lösung verbessert, sowie gleichzeitig die Fehleranfälligkeit verringert werden.
 
 === Problem Statement
 //Stellen Sie zusammenfassend das Problem dar, das mit diesem Projekt gelöst werden soll. Das folgende Format kann dazu verwendet werden:
 
 [cols="1,3"]
 |===
-| Das Problem | [beschreiben Sie das Problem]
+| Das Problem | der nutzerunfreundlichen und fehleranfälligen VM-Verwaltung
 | betrifft | [die Stakeholder, die vom Problem betroffen sind]
-| die Auswirkung davon ist | [welche Auswirkungen hat das Problem?]
-| eine erfolgreiche Lösung wäre | Führen Sie einige wesentliche Vorteile einer erfolgreichen Lösung auf]
+| Die Auswirkung davon ist | ein erhöhter Zeitbedarf für die Verwaltung der VMs, eine gestiegene Anforderung an die Konzentration um Fehler zu vermeiden, sowie geringere Motivation auf längere Sicht.
+| Eine erfolgreiche Lösung wäre | die Umsetzung des {project-system-name} als webbasierte Lösung um die Verwaltung zu vereinfachen und die Fehleranfälligkeit zu reduzieren]
 |===
 
 ////
@@ -50,18 +51,18 @@ Beispiel:
 ////
 
 === Positionierung des Produkts
-//Ein Positionierung des Produkts beschreibt das Einsatzziel der Anwendung und die Bedeutung das Projekts an alle beteiligten Mitarbeiter.
+//Ein Positionierung des Produkts beschreibt das Einsatzziel der Anwendung und die Bedeutung des Projekts an alle beteiligten Mitarbeiter.
 
 //Geben Sie in knapper Form übersichtsartig die Positionierung der angestrebten Lösung im Vergleich zu verfügbaren Alternativen dar. Das folgende Format kann dazu verwendet werden:
 
 [cols="1,3"]
 |===
-| Für | [Zielkunde / Nutzer]
-| der / die | [Angabe des Bedarfs oder Chance]
-| Das Produkt / die Lösung ist ein | [Produktkategorie]
-| Die / Das | [Aussage zum Hauptvorteil / Alleinstellungsmerkmal]
-| Im Gegensatz zu | [wesentliche Lösungsalternative]
-| Unser Produkt | [Aussage zum Hauptunterschied]
+| Für | Betreuer der Module SE I + SE II,
+| die | VMs an teilnehmende Studierende dieser Module vergeben.
+| Die Lösung ist ein | webbasiertes Verwaltungssystem, das
+| die | webbasierte Veraltung der VMs für Studierende ermöglicht.
+| Im Gegensatz zum | aktuellen Verfahren ermöglicht
+| unsere Lösung | eine nutzerfreundliche, zeitsparende und fehlertolerante Verwaltung von VMs.
 |===
 
 ////
