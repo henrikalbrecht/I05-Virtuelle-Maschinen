@@ -17,11 +17,11 @@ Um das Projekt zu Strukturieren wurden Rollen nach dem Open Unified Process verg
 
 |Arshnoor Singh | Developer | Frontend Developer
 
-|Jakub | Developer | Backend Developer
+|Jakub Kliemann | Developer | Backend Developer
 
 |Clemens Näther | Tester | 
 
 |Eric Steinchen | Analyst | 
 
-|Julius | Analyst | 
+|Julius Viertel | Analyst | 
 |===
