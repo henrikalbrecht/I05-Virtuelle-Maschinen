@@ -82,13 +82,30 @@ Beispiel Produkt:
 
 === Zusammenfassung der Stakeholder
 
-[%header, cols="1,3,3"]
+[%header, cols="1,3,3a"]
 |===
 | Name | Beschreibung | Verantwortlichkeiten
 
-| [Benennung des Stakeholder-Typs.]
-| [Kurze Beschreibung des Stakeholders.]
-| [Fassen Sie die wesentlichen Verantwortlichkeiten des Stakeholder mit Bezug auf das zu entwickelnde System kurz zusammen, d.h. ihr besonderen Interessen. Beispiele: Dieser Stakeholder sorgt dafür, dass das System gewartet wird / dass die angezeigten Daten aktuell sind / überwacht den Projektfortschritt / usw.]
+| Auftraggeber/Admin
+| Die Person, welches für die Vergabe der virtuellen Maschinen zuständig ist und zu der Verwaltung Zugang hat.
+| * Anlegen, Bearbeiten, Löschen und Anzeigen von VMs
+* Verwaltung der Konfigkurationsmöglichkeiten
+* Verwaltung von E-Mail-Templates für die Vergabe und Kommunikation mit den Studierenden und dem Laborbereich Informatik
+* Zuweisung von VMs an Studierende
+
+| Softwareentwicklungsteam
+| Personen, die für die Entwicklung des Systems zuständig sind.
+| 
+* Umsetzung der technischen und organisatorischen Anforderungen
+* Sicherstellung der Qualität, Benutzerfreundlichkeit und Zuverlässigkeit des Systems
+* Dokumentation des Systems
+* Implementierung von Funktionen der Verwaltung
+
+| Rechenzentrum der HTW Dresden
+| Betrieb der Nutzeranwendung für die Vergabe und Verwaltung von VMs.
+| 
+* Bereitstellung der Anwendung
+* Sicherstellung der Verfügbarkeit der Anwendung
 |===
 
 === Benutzerumgebung
