@@ -1,0 +1,27 @@
+= Projektplan: {project-name}
+Paul Kiok <paul.kiok@stud.htw-dresden.de>; Henrik Albrecht <henrik.albrecht@stud.htw-dresden.de>; Arshnoor Singh <arshnoor.singh@stud.htw-dresden.de>; Eric Steinchen <eric.steinchen@stud.htw-dresden.de>
+{localdatetime}
+include::../_includes/default-attributes.inc.adoc[]
+
+== Einführung
+Um das Projekt zu Strukturieren wurden Rollen nach dem Open Unified Process vergeben. Neben diesen Rollen wurde noch weitere Aufgaben an die einzelnen Teammitglieder vergeben um eine klare Struktur zu haben welche Aufgabe von wem übernommen wird.
+
+== Rollenübersicht
+
+|===
+|Name | Rolle | Anmerkungen
+
+|Paul Kiok | Project Manager | Bereitet die wöchentlichen Meetings vor, erinnert an Termine und Deadlines, Ist erste Kontaktperson für Coach und Projektgeber
+
+|Henrik Albrecht | Architect | Ist verantwortlicher für GitHub und Discord
+
+|Arshnoor Singh | Developer | Frontend Developer
+
+|Jakub Kliemann | Developer | Backend Developer
+
+|Clemens Näther | Tester | 
+
+|Eric Steinchen | Analyst | 
+
+|Julius Viertel | Analyst | 
+|===

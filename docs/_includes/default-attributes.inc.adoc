@@ -1,6 +1,7 @@
 // Meta
-:project-name: <Projektthema (T00)>
-:project-system-name: <Projektname-System>
+:project-name: I05 - Vergabe von Virtuellen Maschinen
+:project-system-name: VM-Verwaltungssystem
+:project-team-name: Team I05
 // Settings:
 :toc:
 :toc-title: Inhaltsverzeichnis
