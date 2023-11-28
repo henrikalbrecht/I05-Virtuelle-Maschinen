@@ -90,7 +90,8 @@ Beispiel Produkt:
 | Der Auftraggeber, welcher für die Vergabe der virtuellen Maschinen zuständig ist und zu der Verwaltung Zugang hat.
 | * Anlegen, Bearbeiten, Löschen und Anzeigen von VMs
 * Verwaltung der Konfigkurationsmöglichkeiten
-* Zuweisung von VMs an Projektgruppen
+* Verwaltung von E-Mail-Templates für die Vergabe und Kommunikation mit der Projektgruppe und dem Laborbereich Informatik
+* Vergabe von VMs an Projektgruppen
 
 | Projektgruppe
 | Das Projektteam, welches im Rahmen der Module SE I + SE II eine virtuelle Maschine benötigt.
@@ -134,7 +135,7 @@ Beschreiben Sie die Arbeitsumgebung des Nutzers. Hier sind einige Anregungen:
 
 |Entfernen einer VM | hoch | Es muss eine VM vom Pool entfernt werden können. | xx
 
-|Modifizieren der VM | hoch | Die Eigenschaften jeder VM muss individuell verändert werden können. | xx
+|Modifizieren der VM | hoch | Die Eigenschaften jeder VM müssen individuell verändert werden können. | xx
 
 |Detailansicht einer VM | hoch | Die Eigenschaften jeder VM müssen individuell betrachtet werden können. | xx
 
@@ -144,7 +145,7 @@ Beschreiben Sie die Arbeitsumgebung des Nutzers. Hier sind einige Anregungen:
 
 == Zusätzliche Produktanforderungen
 //Zutreffendes angeben, nicht zutreffendes streichen oder auskommentieren
-Hinweise:
+//Hinweise:
 
 //. Führen Sie die wesentlichen anzuwendenden Standards, Hardware oder andere Plattformanforderungen, Leistungsanforderungen und Umgebungsanforderungen auf
 //. Definieren Sie grob die Qualitätsanforderungen für Leistung, Robustheit, Ausfalltoleranz, Benutzbarkeit und ähnliche Merkmale, die nicht von den genannten Features erfasst werden.
