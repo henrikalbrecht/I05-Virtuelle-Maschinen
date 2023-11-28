@@ -86,26 +86,22 @@ Beispiel Produkt:
 |===
 | Name | Beschreibung | Verantwortlichkeiten
 
-| Auftraggeber/Admin
-| Die Person, welches für die Vergabe der virtuellen Maschinen zuständig ist und zu der Verwaltung Zugang hat.
+| Christoph Zirkelbach
+| Der Auftraggeber, welcher für die Vergabe der virtuellen Maschinen zuständig ist und zu der Verwaltung Zugang hat.
 | * Anlegen, Bearbeiten, Löschen und Anzeigen von VMs
 * Verwaltung der Konfigkurationsmöglichkeiten
-* Verwaltung von E-Mail-Templates für die Vergabe und Kommunikation mit den Studierenden und dem Laborbereich Informatik
-* Zuweisung von VMs an Studierende
+* Verwaltung von E-Mail-Templates für die Vergabe und Kommunikation mit der Projektgruppe und dem Laborbereich Informatik
+* Vergabe von VMs an Projektgruppen
 
-| Softwareentwicklungsteam
-| Personen, die für die Entwicklung des Systems zuständig sind.
-| 
-* Umsetzung der technischen und organisatorischen Anforderungen
-* Sicherstellung der Qualität, Benutzerfreundlichkeit und Zuverlässigkeit des Systems
-* Dokumentation des Systems
-* Implementierung von Funktionen der Verwaltung
+| Projektgruppe
+| Das Projektteam, welches im Rahmen der Module SE I + SE II eine virtuelle Maschine benötigt.
+| * Beantragung einer VM für das Projekt
+* Auswahl von verschiedenen Konfigurationsmöglichkeiten
 
-| Rechenzentrum der HTW Dresden
+| Laborbereich der HTW Dresden
 | Betrieb der Nutzeranwendung für die Vergabe und Verwaltung von VMs.
 | 
-* Bereitstellung der Anwendung
-* Sicherstellung der Verfügbarkeit der Anwendung
+* Bereitstellung der virtuellen Maschinen
 |===
 
 === Benutzerumgebung
@@ -139,16 +135,17 @@ Beschreiben Sie die Arbeitsumgebung des Nutzers. Hier sind einige Anregungen:
 
 |Entfernen einer VM | hoch | Es muss eine VM vom Pool entfernt werden können. | xx
 
-|Modifizieren der VM | hoch | Die Eigenschaften jeder VM muss individuell verändert werden können | xx
+|Modifizieren der VM | hoch | Die Eigenschaften jeder VM müssen individuell verändert werden können. | xx
 
-|Detailansicht einer VM | hoch | Die Eigenschaften jeder VM müssen individuell betrachtet werden können | xx
+|Detailansicht einer VM | hoch | Die Eigenschaften jeder VM müssen individuell betrachtet werden können. | xx
 
+|E-Mail-Templates verwalten | hoch | E-Mail-Templates müssen verändert werden können. Weiterhin muss das Löschen und Hinzufügen von Templates möglich sein. | xx
 |===
 
 
 == Zusätzliche Produktanforderungen
 //Zutreffendes angeben, nicht zutreffendes streichen oder auskommentieren
-Hinweise:
+//Hinweise:
 
 //. Führen Sie die wesentlichen anzuwendenden Standards, Hardware oder andere Plattformanforderungen, Leistungsanforderungen und Umgebungsanforderungen auf
 //. Definieren Sie grob die Qualitätsanforderungen für Leistung, Robustheit, Ausfalltoleranz, Benutzbarkeit und ähnliche Merkmale, die nicht von den genannten Features erfasst werden.
