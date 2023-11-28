@@ -12,31 +12,31 @@ Der Zweck dieses Dokuments ist es, die wesentlichen Bedarfe und Funktionalitäte
 Der Zweck dieses Dokuments ist es, die wesentlichen Anforderungen an das {project-system-name} aus Sicht und mit den Begriffen der künftigen Anwender zu beschreiben.
 
 === Gültigkeitsbereich (Scope)
-Dieses Visions-Dokument bezieht sich auf das System "{project-system-name}", das von {project-team-name} entwickelt wird. Das System wird es <Zielkunde/Auftraggeber> erlauben, <Hauptfunktionen> zu nutzen, um damit <Vorteile> zu erreichen / <Aufgabe> zu erleichtern / <Problem> zu lösen.
+Dieses Visions-Dokument bezieht sich auf das System "{project-system-name}", das von {project-team-name} entwickelt wird. Das System wird es dem Auftraggeber erlauben, die webbasierte Vergabe von VMs zu nutzen, um damit effizienter und zukunftssicher zu arbeiten.
 
 === Definitionen, Akronyme und Abkürzungen
 //Verweis passend zum Belegabgabe-Template se1_belegabgabe_t00.adoc
 Siehe link:glossary.adoc[Glossar]
 
 === Referenzen
-(hier externe Verweise zu anderen Dokumenten, Quellen, Standards etc. einfügen, sofern notwendig)
+//(hier externe Verweise zu anderen Dokumenten, Quellen, Standards etc. einfügen, sofern notwendig)
 
 
 == Positionierung
 
 === Fachliche Motivation
 //Erläutern Sie kurz den Hintergrund, in dem das Projekt angesiedelt ist. Welches Problem soll gelöst werden, wie ist es entstanden? Welche Verbesserung wird angestrebt. Achten Sie darauf, eine fachliche (organisatorische, betriebswirtschaftliche) Perspektive einzunehmen.
-Die HTW Dresden stellt im Rahmen der Module Software Engineering I + II (SE I bzw. SE II) den Studierenden eine technische Umgebung zur Realisierung ihrer Software-Projekte zur Verfügung. Den Studierenden können nach Beantragung VMs für die Arbeit an ihren Software-Projekten bereitgestellt werden. Die VMs werden durch einen eigenen VM Cluster innerhalb der HTW Dresden bereitgestellt, der vom Labor der Fakultät Informatik administriert wird. Die Beantragung einer VM erfolgt per Email an einen Kursbetreuer des jeweiligen Software Engineering Moduls. Aktuell findet die Verwaltung der verfügbaren und vergebenen VMs mit Textdateien statt, was unhandlich und fehleranfällig ist. Die Handhabung soll durch die Realisierung einer webbasierten Lösung verbessert, sowie gleichzeitig die Fehleranfälligkeit verringert werden.
+Die HTW Dresden stellt im Rahmen der Module Software Engineering I + II (SE I bzw. SE II) den Studierenden eine technische Umgebung zur Realisierung ihrer Software-Projekte zur Verfügung. Den Studierenden können nach Beantragung VMs für die Arbeit an ihren Software-Projekten bereitgestellt werden. Die VMs werden durch einen eigenen VM Cluster innerhalb der HTW Dresden bereitgestellt, der vom Laborbereich der Fakultät Informatik administriert wird. Die Beantragung einer VM erfolgt per Email an einen Kursbetreuer des jeweiligen Software Engineering Moduls. Aktuell findet die Verwaltung der verfügbaren und vergebenen VMs rudimentär mit Textdateien statt, was aufwendig und fehleranfällig ist. Die Handhabung soll durch die Realisierung einer webbasierten Lösung verbessert, sowie gleichzeitig die Fehleranfälligkeit verringert werden. Außerdem soll durch die Einführung der webbasierten Lösung ein zukunftsfähiges System integriert werden, welches für zukünftige Nutzer wenig Einarbeitungsaufwand erfordert.
 
 === Problem Statement
 //Stellen Sie zusammenfassend das Problem dar, das mit diesem Projekt gelöst werden soll. Das folgende Format kann dazu verwendet werden:
 
 [cols="1,3"]
 |===
-| Das Problem | der nutzerunfreundlichen und fehleranfälligen VM-Verwaltung
-| betrifft | [die Stakeholder, die vom Problem betroffen sind]
-| Die Auswirkung davon ist | ein erhöhter Zeitbedarf für die Verwaltung der VMs, eine gestiegene Anforderung an die Konzentration um Fehler zu vermeiden, sowie geringere Motivation auf längere Sicht.
-| Eine erfolgreiche Lösung wäre | die Umsetzung des {project-system-name} als webbasierte Lösung um die Verwaltung zu vereinfachen und die Fehleranfälligkeit zu reduzieren]
+| Das Problem | der aufwendigen und fehleranfälligen VM-Verwaltung
+| betrifft | den Auftraggeber
+| Die Auswirkung davon ist | ein erhöhter Zeitbedarf für die Vergabe der VMs und eine gestiegene Anforderung an die Konzentration um Fehler zu vermeiden.
+| Eine erfolgreiche Lösung wäre | die Umsetzung des {project-system-name} als webbasierte Lösung um die Vergabe zu vereinfachen und die Fehleranfälligkeit zu reduzieren]
 |===
 
 ////
@@ -59,10 +59,10 @@ Beispiel:
 |===
 | Für | Betreuer der Module SE I + SE II,
 | die | VMs an teilnehmende Studierende dieser Module vergeben.
-| Die Lösung ist ein | webbasiertes Verwaltungssystem, das
-| die | webbasierte Veraltung der VMs für Studierende ermöglicht.
+| Die Lösung ist ein | webbasiertes Vergabesystem, das
+| die | webbasierte Vergabe der VMs für Projektgruppen ermöglicht.
 | Im Gegensatz zum | aktuellen Verfahren ermöglicht
-| unsere Lösung | eine nutzerfreundliche, zeitsparende und fehlertolerante Verwaltung von VMs.
+| unsere Lösung | eine nutzerfreundliche, zeitsparende und fehlertolerante Vergabe von VMs.
 |===
 
 ////
@@ -162,8 +162,4 @@ Hinweise:
 | einfach Zugänglich | hoch | xx
 
 | einfaches Design | hoch | xx
-
-| wenig Farben | hoch | xx
-
-| keine Animationen | hoch | xx
 |===
