@@ -108,12 +108,9 @@ Beispiel Produkt:
 Beschreiben Sie die Arbeitsumgebung des Nutzers. Hier sind einige Anregungen:
 
 ==== VM Verwalter
-* Es gibt einen VM Verwalter und er ist der einzige Nutzer des Systems. Er ist jedoch abhängig von der Zuarbeit des Rechenzentrums der Hochschule.
-* Der VM Verwalter verwendet den Browser eines PC um die Verwaltung vorzunehmen.
-* Bevor eine VM verwaltet werden kann muss sie erstmal angelegt werden. Dies stellt somit den ersten Arbeitsschritt dar. 
-* Wenn die VM angelegt wurde wird sie in der Liste verfügbaren VMs dargestellt. 
-* Ein Klick auf eine verfügbare VM zeigt weitere detailliertere Informationen der VM. 
-* In dieser Übersicht befindet sich dann auch der button um die VM zu deaktivieren.
+* Es gibt einen VM Verwalter und er ist der einzige Nutzer des Systems.
+* Er verwaltet die VMs, welche an Beleggruppen vergeben wurden.
+* Die Kommunikation mit Projektgruppen und Laborbereich findet per E-Mail statt.
 //Zutreffendes angeben, nicht zutreffendes streichen oder auskommentieren
 //. Anzahl der Personen, die an der Erfüllung der Aufgabe beteiligt sind. Ändert sich das?
 //. Wie lange dauert die Bearbeitung der Aufgabe? Wie viel Zeit wird für jeden Arbeitsschritt benötigt? Ändert sich das?
