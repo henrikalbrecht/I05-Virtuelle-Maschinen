@@ -110,7 +110,7 @@ Beschreiben Sie die Arbeitsumgebung des Nutzers. Hier sind einige Anregungen:
 ==== VM Verwalter
 * Es gibt einen VM Verwalter und er ist der einzige Nutzer des Systems.
 * Er verwaltet die VMs, welche an Beleggruppen vergeben wurden.
-* Zur Kommunikation mit Studenten und Laborbereich wird der E-Mail Verkehr verwendet.
+* Die Kommunikation mit Projektgruppen und Laborbereich findet per E-Mail statt.
 //Zutreffendes angeben, nicht zutreffendes streichen oder auskommentieren
 //. Anzahl der Personen, die an der Erfüllung der Aufgabe beteiligt sind. Ändert sich das?
 //. Wie lange dauert die Bearbeitung der Aufgabe? Wie viel Zeit wird für jeden Arbeitsschritt benötigt? Ändert sich das?
