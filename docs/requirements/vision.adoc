@@ -33,10 +33,10 @@ Die HTW Dresden stellt im Rahmen der Module Software Engineering I + II (SE I bz
 
 [cols="1,3"]
 |===
-| Das Problem | der aufwendigen und fehleranfälligen VM-Verwaltung
+| Das Problem | der textdokument-basierten und fehleranfälligen VM-Vergabe
 | betrifft | den Auftraggeber
 | Die Auswirkung davon ist | ein erhöhter Zeitbedarf für die Vergabe der VMs und eine gestiegene Anforderung an die Konzentration um Fehler zu vermeiden.
-| Eine erfolgreiche Lösung wäre | die Umsetzung des {project-system-name} als webbasierte Lösung um die Vergabe zu vereinfachen und die Fehleranfälligkeit zu reduzieren]
+| Eine erfolgreiche Lösung wäre | die Umsetzung des {project-system-name} als webbasierte Lösung um die Vergabe zu vereinfachen und die Fehleranfälligkeit zu reduzieren
 |===
 
 ////
@@ -86,10 +86,10 @@ Beispiel Produkt:
 |===
 | Name | Beschreibung | Verantwortlichkeiten
 
-| Christoph Zirkelbach
-| Der Auftraggeber, welcher für die Vergabe der virtuellen Maschinen zuständig ist und zu der Verwaltung Zugang hat.
+| Christoph Zirkelbach / Auftraggeber
+| Ist der Auftraggeber, welcher für die Vergabe der virtuellen Maschinen zuständig ist und zu der Verwaltung Zugang hat.
 | * Anlegen, Bearbeiten, Löschen und Anzeigen von VMs
-* Verwaltung der Konfigkurationsmöglichkeiten
+* Verwaltung der VM-Konfigkurationsmöglichkeiten
 * Verwaltung von E-Mail-Templates für die Vergabe und Kommunikation mit der Projektgruppe und dem Laborbereich Informatik
 * Vergabe von VMs an Projektgruppen
 
@@ -101,15 +101,15 @@ Beispiel Produkt:
 | Laborbereich der HTW Dresden
 | Betrieb der Nutzeranwendung für die Vergabe und Verwaltung von VMs.
 | 
-* Bereitstellung der virtuellen Maschinen
+* Bereitstellung und Deaktivierung der virtuellen Maschinen
 |===
 
 === Benutzerumgebung
 Beschreiben Sie die Arbeitsumgebung des Nutzers. Hier sind einige Anregungen:
 
-==== VM Verwalter
-* Es gibt einen VM Verwalter und er ist der einzige Nutzer des Systems.
-* Er verwaltet die VMs, welche an Beleggruppen vergeben wurden.
+==== Auftraggeber
+* Der Auftraggeber ist der einzige Nutzer der textbasierten Lösung.
+* Er verwaltet die VMs, welche an Beleggruppen vergeben werden.
 * Die Kommunikation mit Projektgruppen und Laborbereich findet per E-Mail statt.
 //Zutreffendes angeben, nicht zutreffendes streichen oder auskommentieren
 //. Anzahl der Personen, die an der Erfüllung der Aufgabe beteiligt sind. Ändert sich das?
@@ -126,17 +126,13 @@ Beschreiben Sie die Arbeitsumgebung des Nutzers. Hier sind einige Anregungen:
 [%header, cols="4,1,4,1"]
 |===
 | Bedarf | Priorität | Features | Geplantes Release
-| Übersicht der vergebenen VMs | hoch | Zeige den Pool der VMs mit dem Namen, dem zugehörigen Team oder ob es kein zugehöriges Team gibt. | xx
+| Übersicht der VMs | hoch | Zeige den Pool der VMs mit dem Namen, dem zugehörigen Team oder ob es kein zugehöriges Team gibt. | xx
 
-|Hinzufügen einer VM | hoch | Es muss eine neue VM zum Pool hinzugefügt werden können. | xx
+| Verwaltung der Vergabe der VMs | hoch | Hinzufügen, Ändern, Entfernen der VMs inkl. Anpassung des Vergabestatus. | xx
 
-|Entfernen einer VM | hoch | Es muss eine VM vom Pool entfernt werden können. | xx
+| Verwaltung der VM-Templates | mittel | Hinzufügen, Ändern, Entfernen von vordefinierten VM-Eigenschaften. | xx
 
-|Modifizieren der VM | hoch | Die Eigenschaften jeder VM müssen individuell verändert werden können. | xx
-
-|Detailansicht einer VM | hoch | Die Eigenschaften jeder VM müssen individuell betrachtet werden können. | xx
-
-|E-Mail-Templates verwalten | hoch | E-Mail-Templates müssen verändert werden können. Weiterhin muss das Löschen und Hinzufügen von Templates möglich sein. | xx
+| Verwaltung der E-Mail-Templates | mittel | E-Mail-Templates müssen verändert werden können. Weiterhin muss das Löschen und Hinzufügen von Templates möglich sein. | xx
 |===
 
 
@@ -156,4 +152,6 @@ Beschreiben Sie die Arbeitsumgebung des Nutzers. Hier sind einige Anregungen:
 | einfach Zugänglich | hoch | xx
 
 | einfaches Design | hoch | xx
+
+| mobile Darstellung | mittel | xx
 |===
