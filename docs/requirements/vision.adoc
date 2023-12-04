@@ -105,12 +105,12 @@ Beispiel Produkt:
 |===
 
 === Benutzerumgebung
-Beschreiben Sie die Arbeitsumgebung des Nutzers. Hier sind einige Anregungen:
 
 ==== Auftraggeber
 * Der Auftraggeber ist der einzige Nutzer der textbasierten Lösung.
 * Er verwaltet die VMs, welche an Beleggruppen vergeben werden.
 * Die Kommunikation mit Projektgruppen und Laborbereich findet per E-Mail statt.
+* Die Arbeit findet hauptsächlich Arbeitsplatzcomputer/-notebook im Büro statt
 //Zutreffendes angeben, nicht zutreffendes streichen oder auskommentieren
 //. Anzahl der Personen, die an der Erfüllung der Aufgabe beteiligt sind. Ändert sich das?
 //. Wie lange dauert die Bearbeitung der Aufgabe? Wie viel Zeit wird für jeden Arbeitsschritt benötigt? Ändert sich das?
