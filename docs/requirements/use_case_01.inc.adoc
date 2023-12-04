@@ -2,27 +2,27 @@
 ifndef::main-document[include::../_includes/default-attributes.inc.adoc[]]
 
 
-== Use-Case: UC01 <use-case name>
+== Use-Case: UC01 Auflisten der VMs
 
 === Kurzbeschreibung
 //<Kurze Beschreibung des Use Case>
+Eine visuelle Auflistung aller existenten VMS. Zudem sind Bedienelemente zur Konfiguration vorhanden.
 
 === Kurzbeschreibung der Akteure
 
-==== <Akteur 1 Name>
+Herr Zirkelbach kann vorhandene VMs einsehen und konfigurieren
 
 === Vorbedingungen
-//Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
+Akteur muss angemeldet sein
 
-<Vorbedingung 1>
+
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
-. Der Use Case beginnt, wenn <akteur> <macht>…
-. <Standardablauf Schritt 1>
-. …
-. <Standardablauf Schritt n>
+. Der Use Case beginnt, mit der Anmeldung des Akteurs
+. Nach erfolgreicher Anmeldung, Auflistung aller vorhandener VMs 
+. Über Bedienelemente kann die Vergabe und Konfiguration der VMs erfolgen
 . Der Use Case ist abgeschlossen.
 
 === Alternative Abläufe

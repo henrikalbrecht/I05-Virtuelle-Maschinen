@@ -22,7 +22,12 @@ In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fa
 |===
 | Abkürzung | Bedeutung | Erläuterung
 //| UP | Unified Process | Vorgehensmodell für die Softwareentwicklung
-| xx | xx | xx
+| VPN | Virtual Private Network | xstellt eine sichere Verbindung zwischen Internet und Benutzer über ein privates Netzwerk her
+| OS | Operating System | engl. Abkürzung für Betriebssystem
+| HDD | Hard Disk Drive | (Festplattenlaufwerk) - permanenter Speicher zur Langzeitdatenspeicherung
+| RAM | Random Access Memory | (Arbeitsspeicher) - temporärer Speicher, um Daten vorübergehend zu speichern und schnell darauf zugreifen zu können
+| CPU | Central Processing Unit | ein zentrales Bauteil “Gehirn” in einem Computer, steuert Hardwarekomponenten und führt die meisten Rechenoperationen durch
+| DNS | Domain Name System | ein System, welches IP-Adressen in Domain Namen übersetzt und umgekehrt
 |===
 
 == Verzeichnis der Datenstrukturen
