@@ -16,16 +16,9 @@ include::../_includes/default-attributes.inc.adoc[]
 
 
 == Use Case Diagramm
-// ...
 
-//Fügen Sie nachfolgend alle detaillierten Use-Cases per Include ein.
-//Dafür sollten Sie pro Use-Case eine Datei anlegen, die auf dem use_case_01.inc.adoc Template basiert.
-
-////
-Mit `<<<` wird im PDF ein Seitenumbruch erzeugt.
-Zwischen `include::...` und dem darauf folgenden `<<<` muss sich eine Leerzeile befinden. Fehlt diese, werden unter Umständen die erste Überschriften aus der inkludierten Datei nicht korrekt übernommen.
-Ein `include` entfernt am Anfang und Ende eine möglich Leerzeile, was in Kombination mit `<<<` zu Fehlern führen kann.
-////
+.UML Use Case Diagram
+image::use_case_uml.jpg[]
 
 <<<
 include::use_case_01.inc.adoc[]
