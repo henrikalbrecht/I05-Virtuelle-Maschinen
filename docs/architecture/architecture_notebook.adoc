@@ -17,11 +17,17 @@ Dieses Dokument beschreibt die Philosophie, Entscheidungen, Nebenbedingungen, Be
 //Hinweise: Beschreiben Sie die Philosophie der Architektur, d.h. den zentralen Ansatz für ihre Architektur. Identifizieren Sie alle Aspekte, die die Philosophie beeinflussen, z.B. komplexe Auslieferung Aspekte, Anpassung von Altsystemen oder besondere Geschwindigkeitsanforderungen. Muss es besonders robust sein, um eine langfristige Wartung und Pflege zu ermöglichen?
 
 //Formulieren Sie eine Reihe von Zielen, die die Architektur in ihrer Struktur und ihrem Verhalten erfüllen muss. Identifizieren Sie kritische Fragen, die von der Architektur adressiert werden müssen, z.B. besondere Hardware-Abhängigkeiten, die vom Rest des Systems isoliert werden sollten oder Sicherstellung der Funktionsfähigkeit unter besonderen Bedingungen (z.B. Offline-Nutzung).
-
+Es wird eine Webanwendung zur Verwaltung der Vergabe von virtuellen Maschinen für die Software Engineering Module I + II entwickelt, daher muss die Architektur dieser Funktionalität dienen. Dabei wird die Lösung neu entwickelt und kann in Ihrem Umfang in zukünftigen Projekten erweitert werden. Aufgrund dieser Weiterentwicklungsmöglichkeit muss die Architektur die Erweiterung der bestehenden Funktionen ermöglichen. Dies bedeutet konkret eine klar strukturierte Code Basis, sowie die Verwendung von langlebigen und gut dokumentierten Technologien und Tools. Die Anwendung wird in Form eines Docker Containers zur Verfügung gestellt, somit bestehen keine Hardwareabhängigkeiten auf der Seite des Nutzers.
 
 == Annahmen und Abhängigkeiten
 //[List the assumptions and dependencies that drive architectural decisions. This could include sensitive or critical areas, dependencies on legacy interfaces, the skill and experience of the team, the availability of important resources, and so forth]
+Der Auftraggeber hat eine strikte Vorgabe bei den verwendeten Tools und Technologien gemacht. 
 
+* Frontend: geeignetes Oberflächenframework
+** Wir haben uns für React entschieden.
+* Backend: Python mit Django
+* Datenbank: PostgreSQL
+* Bereitstellung: Docker Container 
 
 == Architektur-relevante Anforderungen
 //Fügen Sie eine Referenz / Link zu den Anforderungen ein, die implementiert werden müssen, um die Architektur zu erzeugen.
