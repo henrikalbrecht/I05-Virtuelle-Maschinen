@@ -11,12 +11,13 @@ include::../_includes/default-attributes.inc.adoc[]
 
 == Identifizierte Use Cases
 // Liste aller identifizierten Use Cases (priorisiert)
-* *UC01*: Auflisten der VMs
-* *UC02*: Vergabe der VMs
-* *UC03*: Email Templates Verwalten
-* *UC04*: Login des Nutzers
+* *UC01*: VMs auflisten
+* *UC02*: VMs verwalten
+* *UC03*: Vergabe verwalten
+* *UC04*: Email Templates verwalten
 * *UC05*: VM Templates verwalten
-* *UC06*: Zurücksetzung der VMs 
+* *UC06*: Backup verwalten
+* *UC07*: VMs zurücksetzen
 
 
 
