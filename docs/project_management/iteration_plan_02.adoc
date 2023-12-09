@@ -1,5 +1,5 @@
 = Iteration Plan 02: {project-name}
-Paul Kiok <paul.kiok@stud.htw-dresden.de>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
+Paul Kiok <paul.kiok@stud.htw-dresden.de>
 {localdatetime}
 include::../_includes/default-attributes.inc.adoc[]
 // Platzhalter für weitere Dokumenten-Attribute
@@ -13,11 +13,8 @@ include::../_includes/default-attributes.inc.adoc[]
 | Meilenstein | Datum
 
 | Beginn der Iteration | 20.11.2023
-| Git workshop durchgeführt | 20.11.2023
-| Iterationsplan 2 aufgestellt | 27.11.2023
-| Vision finalisiert | 29.11.2023
-| Risikoliste aufgestellt | 02.12.2023
-| Iterationsplan 3 aufgestellt | 03.12.2023
+| Durchführung Git Workshop | 20.11.2023
+| Treffen mit Auftraggeber | 27.11.2023
 | Ende der Iteration | 03.12.2023
 |===
 
@@ -30,7 +27,7 @@ include::../_includes/default-attributes.inc.adoc[]
 * Besprechung der Vision und des grafischen Prototyps mit Auftraggeber
 * Finalisierung der Vision
 * Erarbeitung der Risikoliste
-* Weiterbildung des gesamten teams durch einen Git-Workshop
+* Weiterbildung des gesamten Teams durch einen Git-Workshop
 
 
 == Aufgabenzuordnung
@@ -76,7 +73,6 @@ a|* Die Verteilung der Aufgaben gestaltet sich mitunter schwierig, da das techni
 //Eine kurze Beschreibung, wie Erfüllung die o.g. Ziele bewertet werden sollen.
 
 * Auftraggeber hat finalisierte Vision bestätigt
-* Iterationspläne 2 und 3 liegen vor
 * GUI Prototyp liegt zum Auftraggeber-Meeting am 27.11.2023 vor
 * Risikoliste liegt mit min. 5 vollständigen Einträgen vor
 * Git Workshops wurden inkl. Erfolgskontrollen durchgeführt
@@ -91,7 +87,15 @@ a|* Die Verteilung der Aufgaben gestaltet sich mitunter schwierig, da das techni
 
 | Assessment Datum | 04.12.2023
 | Teilnehmer | {project-team-name}
-| Projektstatus: *color* | Ziel...
+| Projektstatus: *gelb*
+a|* Überprüfung der Iterationsziele: 
+** Vision wurde erarbeitet **(Y)**
+** GUI Prototyp für Hauptfunktion wurde erstellt **(Y)**
+** Vision und GUI Prototyp wurden mit Auftraggeber besprochen **(Y)**
+** Vision wurde finalisiert **(N)**
+** Bestätigung der Vision wurde eingeholt **(N)**
+** Risikoliste wurde erarbeitet **(N)**
+** Git-Workshop wurde durchgeführt **(Y)**
 |===
 
 [%header, cols="1,3"]
@@ -100,9 +104,8 @@ a|* Die Verteilung der Aufgaben gestaltet sich mitunter schwierig, da das techni
 
 | Assessment Datum | 04.12.2023
 | Teilnehmer | {project-team-name}
-| Projektstatus: *color* | Ziel...
+| Projektstatus: *gelb* | Eine Retrospektive wurde nicht durchgeführt.
 |===
-
 
 // TODO
 //* Beurteilung im Vergleich zu den Zielen
