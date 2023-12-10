@@ -8,16 +8,20 @@ include::../_includes/default-attributes.inc.adoc[]
 == Allgemeine Informationen
 // ...
 
-
-== Identifizierte Use Cases
+=== Identifizierte Use Cases
+[%header]
+|=== 
 // Liste aller identifizierten Use Cases (priorisiert)
-* *UC01*: VMs auflisten
-* *UC02*: VMs verwalten
-* *UC03*: Vergabe verwalten
-* *UC04*: Email Templates verwalten
-* *UC05*: VM Templates verwalten
-* *UC06*: Backup verwalten
-* *UC07*: VMs zurücksetzen
+|Use Case | Name | Priorität
+|*_UC01_*| _VMs auflisten_ | _high_
+|*_UC02_*| _VMs verwalten_ | _mid_
+|*_UC03_*| _Vergabe verwalten_ | _high_
+|*_UC04_*| _Email Templates verwalten_ | _mid_
+|*_UC05_*| _VM Templates verwalten_ | _mid_
+|*_UC06_*| _Backup verwalten_ | _low_
+|*_UC07_*| _VMs zurücksetzen_ | _low_
+|===
+
 
 
 
