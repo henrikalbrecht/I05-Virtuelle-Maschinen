@@ -43,22 +43,56 @@ Um die Verwendung von GitHub zu strukturieren und praxisorientiert zu arbeiten, 
 | Iteration
 | Primary objectives +
 (risks and use case scenarios)
-| Scheduled start or milestone
+| start and end date
 | Target velocity
 
 | I1
 |
-* Mitigate Risk1
-* Develop Use Case 3, Scenario 2
-| Date from/Date to
+* Teamfindung und Kennenlernen
+* Verteilung der Rollen
+* Einigung auf gemeinsame Arbeitsweise
+* Kennenlernen der Aufgabe
+* Kontaktaufnahme und Treffen mit Auftraggeber
+* Kontaktaufnahme und Treffen mit Coach
+| 06.11.2023-19.11.2023
 | 15
 
 | I2
 |
-* Mitigate Risk 2
-* Develop Use Case 1, Scenario 2
-| Date from/Date to
+* Erarbeitung und Finalisierung der Vision
+* Erstellung eines groben grafischen Prototyps zu Abbildung der Hauptfunktionalität
+* Erarbeitung der Risikoliste
+* Workshop für alle mit Github
+| 20.11.2023-03.12.2023
 | 16
+
+| I3
+|
+* Erstellung des Use-Case Models
+* Ausarbeitung von UC01
+* Ausarbeitung von UC03
+* Weiterbildung für alle mit Github
+* Workshop für Developer und Tester
+| 04.12.2023-17.12.2023
+| 16
+
+| I4
+|
+* TODO
+| 18.12.2023-31.12.2023
+| tbd
+
+| I5
+|
+* TODO
+| 01.01.2024-14.01.2024
+| tbd
+
+| I6
+|
+* TODO
+| 15.01.2024-28.01.2024
+| tbd
 |===
 
 
