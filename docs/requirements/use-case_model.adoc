@@ -14,8 +14,8 @@ include::../_includes/default-attributes.inc.adoc[]
 // Liste aller identifizierten Use Cases (priorisiert)
 |Use Case | Name | Priorität
 |*_UC01_*| _VMs auflisten_ | _high_
-|*_UC02_*| _VMs verwalten_ | _mid_
 |*_UC03_*| _Vergabe verwalten_ | _high_
+|*_UC02_*| _VMs verwalten_ | _mid_
 |*_UC04_*| _Email Templates verwalten_ | _mid_
 |*_UC05_*| _VM Templates verwalten_ | _mid_
 |*_UC06_*| _Backup verwalten_ | _low_
