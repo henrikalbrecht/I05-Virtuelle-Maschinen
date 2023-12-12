@@ -1,46 +1,22 @@
 = Iteration Plan 03: {project-name}
-Paul Kiok <paul.kiok@stud.htw-dresden.de>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
+Paul Kiok <paul.kiok@stud.htw-dresden.de>
 {localdatetime}
 include::../_includes/default-attributes.inc.adoc[]
 // Platzhalter für weitere Dokumenten-Attribute
 
-
-== Meilensteine
-//Meilensteine zeigen den Ablauf der Iteration, wie z.B. den Beginn und das Ende, Zwischen-Meilensteine, Synchronisation mit anderen Teams, Demos usw.
-
-[%header, cols="3,1"]
-|===
-| Meilenstein | Datum
-
-| Beginn der Iteration | 04.12.2023
-| ... | -
-| Ende der Iteration | 17.12.2023
-|===
-
-
 == Wesentliche Ziele
 //Nennen Sie 1-5 wesentliche Ziele für die Iteration.
 
-Beispiele:
-
-* Beheben der Usability-Probleme, die von Abteilung X berichtet wurden
-* Ausliefern der Hauptszenarios, die die Integration mit System Y zeigen
-* Present a technical demonstration (demo).
-
+* Finalisierung der Vision und Abnahme durch Auftraggeber
+* Erstellung der Risikoliste
+* Ausarbeitung von mindestens zwei Use Cases
+* Treffen mit Auftraggeber zur Besprechung von Use-Case Model und Use Cases
+* Durchführung eines Workshops für Developer und Tester
 
 == Aufgabenzuordnung
 //Dieser Abschnitt sollte einen Verweis auf die Work Items List enthalten, die die für diese Iteration vorgesehenen Aufgaben dokumentiert sowie die Zuordnung dieser Aufgaben zu Teammitgliedern. Alternativ können die Aufgaben für die Iteration und die Zuordnung zu Teammitgliedern in nachfolgender Tabelle dokumentiert werden - je nach dem, was einfacher für die Projektbeteiligten einfacher zu finden ist.
 
-Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestellt (hier Verweis einfügen).
-
-_alternativ:_ Die folgenden Aufgaben werden in dieser Iteration bearbeitet:
-[%header, cols="3,1,1,1,2,1,1,1,1"]
-|===
-| Aufgabe bzw. Beschreibung | Priorität | Schätzung der Größe (Punkte) |Status | Referenzen | geplante Iteration | Zugewiesen (Name) | Gearbeite Stunden | Schätzung der verbleibenden Stunden
-
-| x | x | x | x | x | x | x | x | x
-|===
-
+Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestellt: https://github.com/users/henrikalbrecht/projects/2/views/8[Iteration 3].
 
 == Probleme (optional)
 //Optional: Führen Sie alle Probleme auf, die in dieser Iteration adressiert werden sollen. Aktualisieren Sie den Status, wenn neue Probleme bei den täglichen / regelmäßigen Abstimmungen berichtet werden.
@@ -49,18 +25,28 @@ _alternativ:_ Die folgenden Aufgaben werden in dieser Iteration bearbeitet:
 |===
 | Problem | Status | Notizen
 
-| x | x | x
+| PRB01: Aufgabenverteilung | fixed (siehe Assessment)
+a|* Die Verteilung der Aufgaben gestaltet sich mitunter schwierig, da das technische Verständnis über die Aufgabenstellung im Team noch nicht auf einem adäquaten Niveau ist.
+* Dadurch, dass issues in GitHub erst spät angelegt wurden, ist das Bewusstsein über den Projektumfang noch nicht ausgeprägt.
+
+| PRB02: Git Workflow | fixed  (siehe Assessment)| Um die Arbeit an einzelnen Funktionalitäten in den Pull requests besser unterscheiden zu können, ist eine Arbeit mit branches notwendig. Die Arbeit mit branches muss bei einem weiteren Workshop während eines Team-Meetings vermittelt werden.
+
+| PRB03: Nutzung von Google Docs | open | Für die Erstellung des Glossars wurde durch die Verantwortlichen ein Google Docs Dokument angelegt, was Mehrarbeit zur Folge hat, da die Daten im Anschluss in das entsprechende Dokument auf Github überführt werden müssen. Es gilt Einigung darüber zu erreichen, dass Arbeit direkt über die Entwicklungsumgebung an den Github-Dokumenten durchgeführt wird, um effizient zu bleiben.
+
+| PRB04: Statusaktualisierung Github Issues | open | Die in Git angelegten Issues, welche die Verteilung der Aufgaben an alle Teammitglieder darstellt, sind dafür vorgesehen, von dem entsprechenden Bearbeiter in den Status "In progress" gesetzt zu werden, sobald die Arbeit daran beginnt. Diese Regel wird aktuell ungenügend beachtet und muss in einem zukünftigen Team-Meeting erneut vermittelt werden.
 |===
 
 
 == Bewertungskriterien
 //Eine kurze Beschreibung, wie Erfüllung die o.g. Ziele bewertet werden sollen.
 
-Beispiele:
-
-* 97% der Testfälle auf Systemebene sind erfolgreich.
-* Gemeinsame Inspektion des Iterations-Ergebnisses (Inkrement) mit den Abteilungen X und Y ergibt positive Rückmeldung.
-* Technische Präsentation / Demo erhält positive Rückmeldungen.
+* Use-Case Model erhält positive Rückmeldung
+* Use-Cases 01 und 03 liegen vollständig vor
+* Identifizierte Probleme aus Iteration 2 wurden behoben
+* Auftraggeber hat finalisierte Vision bestätigt
+* Use-Case Model und identifizierte Use-Cases liegen zum Auftraggeber-Meeting am 05.12.2023 vor
+* Risikoliste liegt mit min. 5 vollständigen Einträgen vor
+* Workshop für Developer und Tester wurden inkl. Erfolgskontrolle durchgeführt
 
 
 == Assessment
@@ -68,13 +54,54 @@ Beispiele:
 
 [%header, cols="1,3"]
 |===
-| Assessment Ziel | Das kann die gesamte Iteration oder eine spezifische Komponente sein
+| Assessment Ziel | Problemlösung zu __PRB01__
 
-| Assessment Datum | ...
-| Teilnehmer | ...
-| Projektstatus	| Zum Beispiel ausgedrückt als rot, gelb oder grün.
+| Assessment Datum | 10.12.2023
+| Teilnehmer | PK, HA
+| Projektstatus: *grün*	
+a|* Durch die konsequente Durchführung von Workshops und Erfahrungsaustausch während der Team-Meetings konnte das technische Verständnis verbessert werden.
+* Issues wurden zeitiger in Github angelegt und das Team regelmäßig auf neu angelegte Issues hingewiesen, damit es selbstständig die zugewiesenen Aufgaben abarbeiten kann.
 |===
 
+[%header, cols="1,3"]
+|===
+| Assessment Ziel | Problemlösung zu __PRB02__
+
+| Assessment Datum | 04.12.2023
+| Teilnehmer | {project-team-name}
+| Projektstatus: *grün*	
+| Der Git Workflow wurde auf einen Branching-Workflow umgestellt und die erforderlichen Kenntnisse während eines Team-Meetings dem gesamten Team vermittelt.
+|===
+
+[%header, cols="1,3"]
+|===
+| Review | Iteration 3
+
+| Assessment Datum | 18.12.2023
+| Teilnehmer | {project-team-name}
+| Projektstatus: *gelb*
+a|* Überprüfung der Iterationsziele: 
+** Vision wurde finalisiert **(Y)**
+** Bestätigung der Vision wurde eingeholt **(Y)**
+** Das Use-Case Model erhielt positive Rückmeldung **(Y)**
+** Use-Case 01 liegt vollständig vor **(Y/N)**
+** Use-Case 03 liegt vollständig vor **(Y/N)**
+** Probleme aus Iteration 02 wurden adressiert und behoben **(Y)**
+** Risikoliste wurde mit mindestens 5 Risiken erarbeitet **(Y/N)**
+** Developer und Tester Workshop wurde durchgeführt **(Y)**
+|===
+
+[%header, cols="1,3"]
+|===
+| Retrospektive | Iteration 3
+
+| Assessment Datum | 18.12.2023
+| Teilnehmer | {project-team-name}
+| Projektstatus: *grün* | //TODO: Retro durchführen
+|===
+
+
+//TODO: 10.12.2023, PK
 * Beurteilung im Vergleich zu den Zielen
 //Dokumentieren Sie, ob die angestrebten Ziele des Iterationsplans erreicht wurden.
 
