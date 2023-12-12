@@ -4,21 +4,6 @@ Paul Kiok <paul.kiok@stud.htw-dresden.de>
 include::../_includes/default-attributes.inc.adoc[]
 // Platzhalter für weitere Dokumenten-Attribute
 
-
-== Meilensteine
-//Meilensteine zeigen den Ablauf der Iteration, wie z.B. den Beginn und das Ende, Zwischen-Meilensteine, Synchronisation mit anderen Teams, Demos usw.
-
-[%header, cols="3,1"]
-|===
-| Meilenstein | Datum
-
-| Beginn der Iteration | 20.11.2023
-| Durchführung Git Workshop | 20.11.2023
-| Treffen mit Auftraggeber | 27.11.2023
-| Ende der Iteration | 03.12.2023
-|===
-
-
 == Wesentliche Ziele
 //Nennen Sie 1-5 wesentliche Ziele für die Iteration.
 
@@ -62,10 +47,10 @@ _alternativ:_ Die folgenden Aufgaben werden in dieser Iteration bearbeitet:
 |===
 | Problem | Status | Notizen
 
-| Aufgabenverteilung | open 
+| PRB01: Aufgabenverteilung | open 
 a|* Die Verteilung der Aufgaben gestaltet sich mitunter schwierig, da das technische Verständnis über die Aufgabenstellung im Team noch nicht auf einem adäquaten Niveau ist.
 * Dadurch, dass issues in GitHub erst spät angelegt wurden, ist das Bewusstsein über den Projektumfang noch nicht ausgeprägt.
-| Git Workflow | open | Um die Arbeit an einzelnen Funktionalitäten in den Pull requests besser unterscheiden zu können, ist eine Arbeit mit branches notwendig. Die Arbeit mit branches muss bei einem weiteren Workshop während eines Team meetings vermittelt werden.
+| PRB02: Git Workflow | open | Um die Arbeit an einzelnen Funktionalitäten in den Pull requests besser unterscheiden zu können, ist eine Arbeit mit branches notwendig. Die Arbeit mit branches muss bei einem weiteren Workshop während eines Team meetings vermittelt werden.
 |===
 
 
