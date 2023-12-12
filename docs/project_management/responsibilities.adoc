@@ -9,19 +9,19 @@ Um das Projekt zu Strukturieren wurden Rollen nach dem Open Unified Process verg
 == Rollenübersicht
 
 |===
-|Name | Rolle | Anmerkungen
+|Name | Rolle | Backup-Rolle | Anmerkungen
 
-|Paul Kiok | Project Manager | Bereitet die wöchentlichen Meetings vor, erinnert an Termine und Deadlines, Ist erste Kontaktperson für Coach und Projektgeber
+|Paul Kiok | Project Manager | Analyst | Bereitet die wöchentlichen Meetings vor, erinnert an Termine und Deadlines, Ist erste Kontaktperson für Coach und Projektgeber
 
-|Henrik Albrecht | Architect | Ist verantwortlicher für GitHub und Discord
+|Henrik Albrecht | Architect | Project Manager | Ist verantwortlicher für GitHub und Discord
 
-|Arshnoor Singh | Developer | Frontend Developer
+|Arshnoor Singh | Developer | Tester, Backend Developer | Frontend Developer
 
-|Jakub Kliemann | Developer | Backend Developer
+|Jakub Kliemann | Developer | Frontend Developer, Tester | Backend Developer
 
-|Clemens Näther | Tester | 
+|Clemens Näther | Tester | Developer |
 
-|Eric Steinchen | Analyst | 
+|Eric Steinchen | Analyst | Tester |
 
-|Julius Viertel | Analyst | 
+|Julius Viertel | Analyst | Architect |
 |===
