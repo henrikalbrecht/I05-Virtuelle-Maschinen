@@ -4,14 +4,6 @@ Paul Kiok <paul.kiok@stud.htw-dresden.de>
 include::../_includes/default-attributes.inc.adoc[]
 // Platzhalter für weitere Dokumenten-Attribute
 
-
-== Meilensteine
-//Meilensteine zeigen den Ablauf der Iteration, wie z.B. den Beginn und das Ende, Zwischen-Meilensteine, Synchronisation mit anderen Teams, Demos usw.
-
-[%header, cols="3,1"]
-siehe Projektplan, xref:project_plan.adoc#Meilensteine und Ziele[Meilensteine und Ziele]
-
-
 == Wesentliche Ziele
 //Nennen Sie 1-5 wesentliche Ziele für die Iteration.
 
@@ -26,7 +18,6 @@ siehe Projektplan, xref:project_plan.adoc#Meilensteine und Ziele[Meilensteine un
 
 Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestellt: https://github.com/users/henrikalbrecht/projects/2/views/8[Iteration 3].
 
-
 == Probleme (optional)
 //Optional: Führen Sie alle Probleme auf, die in dieser Iteration adressiert werden sollen. Aktualisieren Sie den Status, wenn neue Probleme bei den täglichen / regelmäßigen Abstimmungen berichtet werden.
 
@@ -34,15 +25,15 @@ Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestel
 |===
 | Problem | Status | Notizen
 
-| Aufgabenverteilung | fixed 
+| PRB01: Aufgabenverteilung | fixed (siehe Assessment)
 a|* Die Verteilung der Aufgaben gestaltet sich mitunter schwierig, da das technische Verständnis über die Aufgabenstellung im Team noch nicht auf einem adäquaten Niveau ist.
 * Dadurch, dass issues in GitHub erst spät angelegt wurden, ist das Bewusstsein über den Projektumfang noch nicht ausgeprägt.
 
-| Git Workflow | fixed | Um die Arbeit an einzelnen Funktionalitäten in den Pull requests besser unterscheiden zu können, ist eine Arbeit mit branches notwendig. Die Arbeit mit branches muss bei einem weiteren Workshop während eines Team meetings vermittelt werden.
+| PRB02: Git Workflow | fixed  (siehe Assessment)| Um die Arbeit an einzelnen Funktionalitäten in den Pull requests besser unterscheiden zu können, ist eine Arbeit mit branches notwendig. Die Arbeit mit branches muss bei einem weiteren Workshop während eines Team meetings vermittelt werden.
 
-| Nutzung von Google Docs | open | Für die Erstellung des Glossars wurde durch die Verantwortlichen ein Google Docs Dokument angelegt, was Mehrarbeit zur Folge hat, da die Daten im Anschluss in das entsprechende Dokument auf Github überführt werden müssen. Es gilt Einigung darüber zu erreichen, dass Arbeit direkt über die Entwicklungsumgebung an den Github-Dokumenten durchgeführt wird, um effizient zu bleiben.
+| PRB03: Nutzung von Google Docs | open | Für die Erstellung des Glossars wurde durch die Verantwortlichen ein Google Docs Dokument angelegt, was Mehrarbeit zur Folge hat, da die Daten im Anschluss in das entsprechende Dokument auf Github überführt werden müssen. Es gilt Einigung darüber zu erreichen, dass Arbeit direkt über die Entwicklungsumgebung an den Github-Dokumenten durchgeführt wird, um effizient zu bleiben.
 
-| Statusaktualisierung Github Issues | open | Die in Git angelegten Issues, welche die Verteilung der Aufgaben an alle Teammitglieder darstellt, sind dafür vorgesehen, von dem entsprechenden Bearbeiter in den Status "In progress" gesetzt zu werden, sobald die Arbeit daran beginnt. Diese Regel wird aktuell ungenügend beachtet und muss in einem zukünftigen Team-Meeting erneut vermittelt werden.
+| PRB04: Statusaktualisierung Github Issues | open | Die in Git angelegten Issues, welche die Verteilung der Aufgaben an alle Teammitglieder darstellt, sind dafür vorgesehen, von dem entsprechenden Bearbeiter in den Status "In progress" gesetzt zu werden, sobald die Arbeit daran beginnt. Diese Regel wird aktuell ungenügend beachtet und muss in einem zukünftigen Team-Meeting erneut vermittelt werden.
 |===
 
 
@@ -63,7 +54,7 @@ a|* Die Verteilung der Aufgaben gestaltet sich mitunter schwierig, da das techni
 
 [%header, cols="1,3"]
 |===
-| Assessment Ziel | Problemlösung zu __Aufgabenverteilung__
+| Assessment Ziel | Problemlösung zu __PRB01__
 
 | Assessment Datum | 10.12.2023
 | Teilnehmer | PK, HA
@@ -74,7 +65,7 @@ a|* Durch die konsequente Durchführung von Workshops und Erfahrungsaustausch w�
 
 [%header, cols="1,3"]
 |===
-| Assessment Ziel | Problemlösung zu __Git Workflow__
+| Assessment Ziel | Problemlösung zu __PRB02__
 
 | Assessment Datum | 04.12.2023
 | Teilnehmer | {project-team-name}
