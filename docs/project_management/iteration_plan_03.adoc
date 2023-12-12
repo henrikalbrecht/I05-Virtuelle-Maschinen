@@ -29,7 +29,7 @@ Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestel
 a|* Die Verteilung der Aufgaben gestaltet sich mitunter schwierig, da das technische Verständnis über die Aufgabenstellung im Team noch nicht auf einem adäquaten Niveau ist.
 * Dadurch, dass issues in GitHub erst spät angelegt wurden, ist das Bewusstsein über den Projektumfang noch nicht ausgeprägt.
 
-| PRB02: Git Workflow | fixed  (siehe Assessment)| Um die Arbeit an einzelnen Funktionalitäten in den Pull requests besser unterscheiden zu können, ist eine Arbeit mit branches notwendig. Die Arbeit mit branches muss bei einem weiteren Workshop während eines Team meetings vermittelt werden.
+| PRB02: Git Workflow | fixed  (siehe Assessment)| Um die Arbeit an einzelnen Funktionalitäten in den Pull requests besser unterscheiden zu können, ist eine Arbeit mit branches notwendig. Die Arbeit mit branches muss bei einem weiteren Workshop während eines Team-Meetings vermittelt werden.
 
 | PRB03: Nutzung von Google Docs | open | Für die Erstellung des Glossars wurde durch die Verantwortlichen ein Google Docs Dokument angelegt, was Mehrarbeit zur Folge hat, da die Daten im Anschluss in das entsprechende Dokument auf Github überführt werden müssen. Es gilt Einigung darüber zu erreichen, dass Arbeit direkt über die Entwicklungsumgebung an den Github-Dokumenten durchgeführt wird, um effizient zu bleiben.
 
