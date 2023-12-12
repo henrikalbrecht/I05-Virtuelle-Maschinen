@@ -18,27 +18,7 @@ include::../_includes/default-attributes.inc.adoc[]
 == Aufgabenzuordnung
 //Dieser Abschnitt sollte einen Verweis auf die Work Items List enthalten, die die für diese Iteration vorgesehenen Aufgaben dokumentiert sowie die Zuordnung dieser Aufgaben zu Teammitgliedern. Alternativ können die Aufgaben für die Iteration und die Zuordnung zu Teammitgliedern in nachfolgender Tabelle dokumentiert werden - je nach dem, was einfacher für die Projektbeteiligten einfacher zu finden ist.
 
-Die in dieser Iteration geplanten Aufgaben sind in der https://github.com/users/henrikalbrecht/projects/2[Work Items List] dargestellt.
-
-_alternativ:_ Die folgenden Aufgaben werden in dieser Iteration bearbeitet:
-[%header, cols="3,1,1,1,2,1"]
-|===
-| Aufgabe / Beschreibung | Priorität (Skala 1-3; 1 = höchste Priorität) | Aufwand (Fibonacci; 1 = kleinster Aufwand) |Termin | Zugewiesen (Kürzel)|GitHub Issue
-
-| Projektplan erstellen | 1 | 2 | 01.12.2023 | HA, PK | https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/issues/11[#11]
-| Vision erarbeiten | 1 | 1 | 26.11.2023 | CN, HA, PK | https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/issues/7[#7]
-| Git workshop | 1 | 2 | 20.11.2023  | HA | https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/issues/13[#13]
-| GUI Prototyp für Hauptfunktionalität | 1 | 1 | 26.11.2023 | AS, CN, JK | https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/issues/6[#6]
-| Glossar anlegen | 2 | 1 | 01.12.2023 | ES, JV | https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/issues/1[#1]
-| Vision überarbeiten | 1 | 1 | 27.11.2023 | PK | https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/issues/14[#14]
-| Bestätigung Vision einholen | 1 | 1 | 29.11.2023 | PK | https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/issues/14[#14]
-| Iterationsplan pflegen | n/a | n/a | fortlaufend | PK | n/a
-| Workshop branches & pull requests | 1 | 1 | 27.11.2023 | PK | https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/issues/15[#15]
-| Risikoliste erstellen | 1 | 2 | 01.12.2023 | PK | https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/issues/12[#12]
-| Iterationsende: Review | 1 | 1 | 04.12.2023 | {project-team-name} | n/a
-| Iterationsende: Retrospektive | 1 | 1 | 04.12.2023 | {project-team-name} | n/a
-|===
-
+Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestellt: https://github.com/users/henrikalbrecht/projects/2/views/9[Iteration 2]
 
 == Probleme (optional)
 //Optional: Führen Sie alle Probleme auf, die in dieser Iteration adressiert werden sollen. Aktualisieren Sie den Status, wenn neue Probleme bei den täglichen / regelmäßigen Abstimmungen berichtet werden.
