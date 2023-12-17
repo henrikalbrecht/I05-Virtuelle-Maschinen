@@ -1,0 +1,50 @@
+Wire Frame Use Case 3
+== UC03: Vergabe Verwalten Vergabe der VMs
+
+== Use-Case: UC01 Auflisten der VMs
+
+=== Kurzbeschreibung
+//<Kurze Beschreibung des Use Case>
+Die Zuweisung, Verwaltung und Bereitstellung virtueller Maschinen (VMs) bezieht sich auf den Prozess, in dem Ressourcen und virtuelle Maschinen innerhalb einer IT-Infrastruktur an Benutzer, Anwendungen oder spezifische Arbeitslasten zugewiesen werden. Diese Prozedur ist von entscheidender Bedeutung, um die unterschiedlichen Anforderungen der Nutzer oder Anwendungen zu erfüllen und gleichzeitig eine effiziente Auslastung der vorhandenen Ressourcen sicherzustellen.
+
+=== Kurzbeschreibung der Akteure
+
+Akteur muss VM beantragen, VM muss zugewiesen werden 
+
+=== Vorbedingungen
+
+VM müssen angemeldet und und verwaltbar sein
+
+=== Standardablauf (Basic Flow)
+//Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
+    Bedarfsanalyse: Identifizieren Sie die Anforderungen und Bedürfnisse der Benutzer oder Anwendungen, um festzustellen, wie viele VM-Ressourcen benötigt werden und welche Art von Ressourcen benötigt werden.
+    Ressourcenzuweisung: VM -Ressourcen werden Anforderungsbasiert auf die Bedürfnisse der Nutzer zugewiesen.
+    Bereitstellung von VMs: VM s nach Bedürfnissen erstellen, konfigurieren und richtig einrichten.
+    Überwachung und Verwaltung: Ordnungsgemäße Funktionalität und erwartete leistungsanforderungen werden überwacht, aktualisiert.
+    Anpassung und Skalierung: Ressourcen werden bei Bedarf angepasst und Verändert. Die Anzahl der Vms werden den Anforderungen entsprechend angepasst und skaliert.
+    Überprüfung und Verbesserung: Regelmäßige Übersicht um Effizienz und Ressourcenzuweisung zu bewerten. Verbesseungsmöglichkeiten identifizieren und Prozess Optimieren.
+
+=== Alternative Abläufe
+//Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
+Erweiterung, hinzufügen neuer Vms
+==== <Alternativer Ablauf 1>
+
+=== Unterabläufe (subflows)
+//Nutzen Sie Unterabläufe, um wiederkehrende Schritte auszulagern
+Zuweisen von VM Ressourcen 
+==== <Unterablauf 1>
+
+=== Wesentliche Szenarios
+//Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
+
+==== <Szenario 1>
+
+=== Nachbedingungen
+//Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
+
+==== <Nachbedingung 1>
+
+=== Besondere Anforderungen
+//Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
+
+==== <Besondere Anforderung 1>
