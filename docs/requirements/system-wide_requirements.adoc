@@ -33,14 +33,11 @@ In diesem Dokument werden die systemweiten Anforderungen für das Projekt {proje
 === Zuverlässigkeit (Reliability)
 // Zuverlässigkeit beinhaltet die Fähigkeit des Produkts und/oder des Systems unter Stress und ungünstigen Bedingungen am laufen zu bleiben. Spezifizieren Sie Anforderungen für zuverlässige Akzeptanzstufen, und wie diese gemessen und evaluiert werden. Vorgeschlagene Themen sind Verfügbarkeit, Häufigkeit und Schwere von Fehlern und Wiederherstellbarkeit.
 * *NFAR-1*: Fehlertoleranz
-** Spezielle Textfelder müssen auf sinnvolle Eingaben überprüft werden.
-** Dazu gehören insbesondere die folgenden Textfelder:
-*** Email-Adresse: diese muss genau ein @-Zeichen enthalten
-*** IP-Adresse: diese muss eine gültige IPv4-Adresse sein
-
-=== Effizienz (Performance)
-// Die Performanz Charakteristiken des Systems sollten in diesem Bereich ausgeführt werden. Beispiele sind Antwortzeit, Durchsatz, Kapazität und Zeiten zum Starten oder Beenden.
-* An die Performance wird kein besonderer Anspruch gestellt.
+** Spezielle Textfelder müssen auf sinnvolle Eingaben überprüft werden. Fehlerhaft eingegebene Textfelder müssen im Programm mit der Signalfarbe (rot) kenntlich gemacht werden.
+// TODO --> nachfolgende Punkte in die einzelnen use cases übernehmen
+//** Dazu gehören insbesondere die folgenden Textfelder:
+//*** Email-Adresse: diese muss genau ein @-Zeichen enthalten
+//*** IP-Adresse: diese muss eine gültige IPv4-Adresse sein
 
 === Wartbarkeit (Supportability)
 // Dieser Bereich beschreibt sämtliche Anforderungen welche die Supportfähigkeit oder Wartbarkeit des zu entwickelnden Systems verbessern, einschließlich Anpassungsfähigkeit und Erweiterbarkeit, Kompatibilität, Skalierbarkeit und Anforderungen bezüglich der System Installation sowie Maß an Support und Wartbarkeit.
