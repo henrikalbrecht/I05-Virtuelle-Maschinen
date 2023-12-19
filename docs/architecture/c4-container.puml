@@ -1,0 +1,16 @@
+!include <C4/C4_Container>
+
+@startuml Container
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(admin, "VM Verwalter")
+System_Boundary(c1, "VM Verwaltungssystem") {
+    Container(frontend, "Frontend", "Container, React", "Stellt die Nutzeransicht im Browser zur Verfügung")
+    Container(database, "Database", "Container, Relational Database, PostgreSQL", "Ermöglicht es die Verwaltungsdaten der VMs persistent vorzuhalten"   )
+    Container(backend, "Backend", "Container, Django", "Führt die Änderungen welche durch den Nutzer eingegeben werden um" )
+}
+
+Rel(admin, frontend, "Nutzt", "Browser")
+database<-->backend: ließt und schreibt auf der Datenbank
+backend<--frontend: nutzt die Daten welche das Backend zur Verfügung stellt
+@enduml
