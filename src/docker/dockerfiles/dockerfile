@@ -1,0 +1,50 @@
+# Verwende Ubuntu als Basisimage
+FROM ubuntu:latest
+
+# Setze Umgebungsvariablen
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Aktualisiere und installiere erforderliche Pakete
+RUN apt-get update && apt-get install -y \
+    python3 \
+    python3-pip \
+    nodejs \
+    npm \
+    postgresql \
+    postgresql-contrib
+
+# Installiere Django über pip
+RUN pip3 install django
+
+# Erstelle ein Verzeichnis für das Django-Projekt
+WORKDIR /app
+
+# Installiere React-App (create-react-app)
+RUN npm install -g create-react-app
+
+# Füge PostgreSQL-Initialisierungs- und Setup-Skripte hinzu (falls nötig)
+
+# Füge den Django-Code und React-Code hinzu
+# Zum Beispiel: COPY django_project /app/django_project
+# Zum Beispiel: COPY react_app /app/react_app
+
+# Exponiere die Ports (Django, React, PostgreSQL usw.)
+# EXPOSE 8000 (für Django)
+# EXPOSE 3000 (für React)
+# EXPOSE 5432 (für PostgreSQL)
+
+# Führe Startbefehle aus (zum Beispiel Django-Server starten, React-Server starten usw.)
+# CMD ["python3", "manage.py", "runserver"]
+# CMD ["npm", "start"]
+# CMD ["postgres"]
+
+# Wenn PostgreSQL konfiguriert wird, müssen möglicherweise auch Datenbanken und Benutzer erstellt werden
+
+# Beispiel für PostgreSQL-Setup:
+# USER postgres
+# RUN /etc/init.d/postgresql start &&\
+#     psql --command "CREATE USER myuser WITH SUPERUSER PASSWORD 'mypassword';" &&\
+#     createdb -O myuser mydatabase
+
+# Führe beim Start mehrere Befehle aus (Beispiel)
+# CMD [ "sh", "-c", "service postgresql start && python3 manage.py runserver 0.0.0.0:8000" ]
