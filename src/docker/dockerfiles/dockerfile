@@ -29,9 +29,9 @@ RUN npm install -g create-react-app
 # Zum Beispiel: COPY react_app /app/react_app
 
 # Exponiere die Ports (Django, React, PostgreSQL usw.)
-# EXPOSE 8000 (für Django)
-# EXPOSE 3000 (für React)
-# EXPOSE 5432 (für PostgreSQL)
+ EXPOSE 8000 
+ EXPOSE 3000 
+ EXPOSE 5432 
 
 # Führe Startbefehle aus (zum Beispiel Django-Server starten, React-Server starten usw.)
 # CMD ["python3", "manage.py", "runserver"]
