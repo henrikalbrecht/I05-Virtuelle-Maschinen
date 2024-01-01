@@ -2,59 +2,32 @@
 ifndef::main-document[include::../_includes/default-attributes.inc.adoc[]]
 
 
-== Use-Case: UC01 Auflisten der VMs
+== UC01: VMs auflisten
 
 === Kurzbeschreibung
 //<Kurze Beschreibung des Use Case>
-Eine visuelle Auflistung aller existenten VMS. Zudem sind Bedienelemente zur Konfiguration vorhanden.
+Der Use-Case umfasst die Auflistung aller vorhandenen VMs.
 
 === Kurzbeschreibung der Akteure
-
-Herr Zirkelbach kann vorhandene VMs einsehen und konfigurieren
+- Herr Zirkelbach (User)
 
 === Vorbedingungen
-Akteur muss angemeldet sein
-
-
+Der User muss angemeldet sein.
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
+. Der Use Case beginnt, wenn der User auf den Menüpunkt *Übersicht* klickt.
+. Die Übersichtsseite wird geöffnet.
+. Es werden grundlegende Informationen zu allen VMs aufgelistet. (Lesen aus DB)
+. Der Use Case endet mit der abgeschlossenen Auflistung der letzten VM
 
-. Der Use Case beginnt, mit der Anmeldung des Akteurs
-. Nach erfolgreicher Anmeldung, Auflistung aller vorhandener VMs 
-. Über Bedienelemente kann die Vergabe und Konfiguration der VMs erfolgen
-. Der Use Case ist abgeschlossen.
+==== Wireframe
+.Wireframe - UC01 VMs auflisten
+image::uc01_wireframe.png[]
 
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
 
-==== <Alternativer Ablauf 1>
-Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
-. <Ablauf beschreiben>
-. Der Use Case wird im Schritt <y> fortgesetzt.
-
-=== Unterabläufe (subflows)
-//Nutzen Sie Unterabläufe, um wiederkehrende Schritte auszulagern
-
-==== <Unterablauf 1>
-. <Unterablauf 1, Schritt 1>
-. …
-. <Unterablauf 1, Schritt n>
-
-=== Wesentliche Szenarios
-//Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
-
-==== <Szenario 1>
-. <Szenario 1, Schritt 1>
-. …
-. <Szenario 1, Schritt n>
-
-=== Nachbedingungen
-//Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
-
-==== <Nachbedingung 1>
-
-=== Besondere Anforderungen
-//Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
-
-==== <Besondere Anforderung 1>
+==== Übersicht nach Login
+Schritt 1 des Standardablaufs wird übersprungen, wenn sich der User gerade am System anmeldet. 
+Sobald sich der User erfolgreich am System angemeldet hat, wird mit Schritt 2 des Standardablaufs fortgefahren.
