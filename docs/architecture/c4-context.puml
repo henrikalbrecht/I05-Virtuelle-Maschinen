@@ -1,0 +1,12 @@
+!include <C4/C4_Container>
+
+@startuml Context
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(admin, "VM-Verwalter")
+System_Boundary(c1, "VM-Verwaltungssystem") {
+    Container(web_app, "Docker Container", "Django, PostgreSQL, React, ", "Ermöglicht es dem VM-Verwalter, eine Übersicht über alle VMs zu erhalten und deren Eigenschaften zu verändern")
+}
+
+Rel(admin, web_app, "Uses", "Browser")
+@enduml
