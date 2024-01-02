@@ -1,5 +1,5 @@
 // Meta
-:project-name: I05 - Vergabe von Virtuellen Maschinen
+:project-name: I05 - Vergabe virtueller Maschinen
 :project-system-name: VM-Verwaltungssystem
 :project-team-name: Team I05
 // Settings:
