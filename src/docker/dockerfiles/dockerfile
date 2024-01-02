@@ -7,20 +7,33 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Aktualisiere und installiere erforderliche Pakete
 RUN apt-get update && apt-get install -y \
     python3 \
+    wget \
     python3-pip \
-    nodejs \
-    npm \
     postgresql \
-    postgresql-contrib
+    postgresql-contrib \
+    && rm -rf /var/lib/apt/lists/*
 
 # Installiere Django über pip
 RUN pip3 install django
+
+# Installiere Rest Framework
+RUN pip3 install djangorestframework
+
+# Erstelle ein Verzeichnis für das Django-Projekt
+WORKDIR /app
+
+# Installiere nvm
+RUN wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+# Aktiviere nvm und installiere node mit nvm
+RUN /bin/bash -c "source $HOME/.nvm/nvm.sh && nvm install --lts && nvm alias default node"
+
 
 # Erstelle ein Verzeichnis für das Django-Projekt
 WORKDIR /app
 
 # Installiere React-App (create-react-app)
-RUN npm install -g create-react-app
+#RUN /bin/bash -c "source $HOME/.nvm/nvm.sh && npx create-react-app my-react-app"
 
 # Füge PostgreSQL-Initialisierungs- und Setup-Skripte hinzu (falls nötig)
 
@@ -29,9 +42,9 @@ RUN npm install -g create-react-app
 # Zum Beispiel: COPY react_app /app/react_app
 
 # Exponiere die Ports (Django, React, PostgreSQL usw.)
- EXPOSE 8000 
- EXPOSE 3000 
- EXPOSE 5432 
+EXPOSE 8000 
+EXPOSE 3000 
+EXPOSE 5432 
 
 # Führe Startbefehle aus (zum Beispiel Django-Server starten, React-Server starten usw.)
 # CMD ["python3", "manage.py", "runserver"]
