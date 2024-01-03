@@ -6,6 +6,6 @@ class VM(models.Model):
     team_id = models.IntegerField()
     team_name = models.CharField(max_length=30)
     team_email = models.EmailField()
-    intern_net = models.BooleanField()
+    external_net = models.BooleanField(default=False)
     ip = models.GenericIPAddressField()
     operating_sys = models.CharField(max_length=20)
