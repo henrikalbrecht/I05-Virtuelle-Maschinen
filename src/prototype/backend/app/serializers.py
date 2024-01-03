@@ -4,7 +4,7 @@ from . models import *
 class VMSerializer(serializers.ModelSerializer):
     class Meta:
         model = VM
-        fields = ['id','dns_name', 'created_at', 'team_id', 'team_name', 'team_email', 'intern_net', 'ip', 'opertation_sys']
+        fields = ['id','dns_name', 'created_at', 'team_id', 'team_name', 'team_email', 'intern_net', 'ip', 'operating_sys']
         extra_kwargs = {
             'dns_name': {'required': True},
             'created_at':  {'required': False},
@@ -13,5 +13,5 @@ class VMSerializer(serializers.ModelSerializer):
             'team_email': {'required': True},
             'intern_net': {'required': False},
             'ip': {'required': True},
-            'opertation_sys': {'required': True},
+            'operating_sys': {'required': True},
         }
