@@ -32,6 +32,17 @@ image::uc01_wireframe.png[]
 Schritt 1 des Standardablaufs wird übersprungen, wenn sich der User gerade am System anmeldet. 
 Sobald sich der User erfolgreich am System angemeldet hat, wird mit Schritt 2 des Standardablaufs fortgefahren.
 
+==== Vergabe aus Übersicht heraus verwalten (Erweiterung)
+Wenn sich der User auf der Seite *Übersicht* befindet und eine bereits vergebene oder in Vorbereitung befindliche VM anklickt, dann
+
+. wird ein Symbol zum Editieren angezeigt.
+. Klickt der User auf das Symbol, so öffnet sich die Seite zur Verwaltung der Vergabe mit der entsprechenden VM vorausgewählt.
+
+[.big]##Wireframe##
+
+.Wireframe - UC01 Vergabe aufrufen
+image::uc01_wireframe_extension.png[]
+
 
 === Wesentliche Szenarios
 //Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
