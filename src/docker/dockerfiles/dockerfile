@@ -11,6 +11,8 @@ RUN apt-get update && apt-get install -y \
     python3-pip \
     postgresql \
     postgresql-contrib \
+    nodejs \
+    npm \
     && rm -rf /var/lib/apt/lists/*
 
 # Installiere Django über pip
@@ -18,6 +20,9 @@ RUN pip3 install django
 
 # Installiere Rest Framework
 RUN pip3 install djangorestframework
+
+# Installiere Axios global mit npm
+RUN npm install -g axios
 
 # Erstelle ein Verzeichnis für das Django-Projekt
 WORKDIR /app
@@ -27,7 +32,6 @@ RUN wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | 
 
 # Aktiviere nvm und installiere node mit nvm
 RUN /bin/bash -c "source $HOME/.nvm/nvm.sh && nvm install --lts && nvm alias default node"
-
 
 # Erstelle ein Verzeichnis für das Django-Projekt
 WORKDIR /app
