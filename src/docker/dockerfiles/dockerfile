@@ -21,6 +21,9 @@ RUN pip3 install django
 # Installiere Rest Framework
 RUN pip3 install djangorestframework
 
+#CORS (Cross-Origin Resource Sharing) 
+RUN pip install django-cors-headers
+
 # Installiere Axios global mit npm
 RUN npm install -g axios
 
@@ -65,3 +68,5 @@ EXPOSE 5432
 
 # Führe beim Start mehrere Befehle aus (Beispiel)
 # CMD [ "sh", "-c", "service postgresql start && python3 manage.py runserver 0.0.0.0:8000" ]
+
+# npm install reactstrap bootstrap
