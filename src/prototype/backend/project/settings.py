@@ -44,6 +44,7 @@ INSTALLED_APPS = [
 ]
 
 #comment for changes
+#comment for changes
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
