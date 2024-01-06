@@ -39,7 +39,7 @@ const VmList: React.FC = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-4 p-6 bg-white rounded-md shadow-md">
+    <div className="max-w-md mx-auto mt-4 p-6 bg-white rounded-md shadow-md text-black">
       <h2 className="text-2xl font-bold mb-4">Allocated VMs</h2>
       <ul>
         {allocatedVMs.map((vm) => (

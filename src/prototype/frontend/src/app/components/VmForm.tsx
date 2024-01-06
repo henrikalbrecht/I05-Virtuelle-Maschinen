@@ -47,8 +47,8 @@ const VmForm: React.FC = () => {
   };
 
   return (
-    <div className="flex items-center justify-center h-screen">
-      <form onSubmit={handleSubmit} className="max-w-md mx-auto p-6 bg-white rounded-md shadow-md">
+    <div className="flex items-center justify-center h-screen text-orange ">
+      <form onSubmit={handleSubmit} className="max-w-md mx-auto p-8 bg-white rounded-md shadow-md ">
         <label htmlFor="dns_name" className="block text-gray-700">
           DNS Name:
         </label>
@@ -72,7 +72,7 @@ const VmForm: React.FC = () => {
           value={formData.team_id}
           onChange={handleChange}
           required
-          className="mt-1 p-2 border rounded-md w-full"
+          className="mt-1 p-2 border rounded-md w-full "
         />
 
         <label htmlFor="team_name" className="block text-gray-700 mt-4">
