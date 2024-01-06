@@ -20,9 +20,9 @@ const App: React.FC = () => {
       {/* Header */}
       <Header /> 
       {currentPage === 'allocation' ? (
-        <div>
+        <div className=''>
           <VmForm />
-          <button onClick={() => handleNavigate('allocated')} className="bg-blue-500 text-white p-2 rounded-md mt-4">View Allocated VMs</button>
+          <button onClick={() => handleNavigate('allocated')} className=" bg-blue-500 text-white p-2 rounded-md mt-4">View Allocated VMs</button>
         </div>
       ) : (
         <div>

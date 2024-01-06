@@ -48,7 +48,7 @@ const VmForm: React.FC = () => {
 
   return (
     <div className="flex items-center justify-center h-screen text-orange ">
-      <form onSubmit={handleSubmit} className="max-w-md mx-auto p-8 bg-white rounded-md shadow-md ">
+      <form onSubmit={handleSubmit} className="max-w-md mx-auto p-10 bg-white rounded-md shadow-md container_card ">
         <label htmlFor="dns_name" className="block text-gray-700">
           DNS Name:
         </label>

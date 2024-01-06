@@ -19,7 +19,9 @@ from django.urls import path, include
 from app.views import *
 from app.urls import *
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('app.urls'), name='react-list-create')
+    path('api/', include('app.urls'), name='react-list-create'),
+
 ]
