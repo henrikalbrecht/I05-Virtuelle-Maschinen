@@ -14,6 +14,7 @@ In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fa
 | Begriff | Definition und Erläuterung | Synonyme
 //| Kommissionierung | Bereitstellung von Waren aus einem Lager entsprechend eines Kundenauftrags | (keine)
 | xx | xx | xx
+| Docker-Container |  | Die Docker-Technologie verwendet den Linux-Kernel und seine Funktionen wie Cgroups und Namespaces, um Prozesse zu isolieren, damit diese unabhängig voneinander ausgeführt werden können. Diese Unabhängigkeit ist der Zweck der Container die Fähigkeit, mehrere Prozesse und Apps getrennt voneinander ausführen zu können.
 |===
 
 
@@ -35,7 +36,7 @@ In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fa
 | VMWare Clusters |  |Ein Cluster aus virtuellen Maschinen über mehrere physische Hosts hinweg schützt vor Software- und Hardwarefehlern auf der physischen Maschine, indem die Clusterknoten auf unterschiedlichen ESXi-Hosts platziert werden
 | ESXi-Hosts |  |Damit ist es möglich, physische Host Ressourcen, beispielsweise Arbeitsspeicher, CPU, Netzwerk Verbindungen oder Speicherplatz unterschiedlichen virtuellen Maschinen zuzuweisen.
 | Datenbank SQL-Dump |  | Teilweise oder ganze Auszüge aus einer Datenbank werden als Datenbankdump (dump = engl. für Auszug) bezeichnet. Derartige Auszüge werden für die Datensicherung oder Portierung der Datenbank erstellt. Ein Datenbankdump kann aber auch nur die Struktur der Datenbank ohne Daten beinhalten.
-| Docker-Container |  | Die Docker-Technologie verwendet den Linux-Kernel und seine Funktionen wie Cgroups und Namespaces, um Prozesse zu isolieren, damit diese unabhängig voneinander ausgeführt werden können. Diese Unabhängigkeit ist der Zweck der Container die Fähigkeit, mehrere Prozesse und Apps getrennt voneinander ausführen zu können.
+
 | Linux-Kernel |  | Der Kernel ist ein elementares, zentrales Modul eines Betriebssystems, mit anderen Worten: der Betriebssystemkern. Er ist die Schnittstelle zwischen der Software und der Systemhardware, indem er die unterste Software-Schicht des Systems einnimmt und somit einen direkten Zugriff auf die Hardware hat.
 | Oberflächen-Frameworks |  | (englisch für Rahmenstruktur) ist ein Programmiergerüst, das in der Softwaretechnik, insbesondere bei der objektorientierten Softwareentwicklung sowie bei komponentenbasierten Entwicklungsansätzen, verwendet wird. Im allgemeineren Sinne bezeichnet man mit Framework auch einen Ordnungsrahmen.
 | Ojektorientierte Softwareentwicklung |  |  In der Entwicklung von Software ist das eine Sichtweise auf komplexe Systeme, bei der ein System durch das Zusammenspiel kooperierender Objekte beschrieben wird.
