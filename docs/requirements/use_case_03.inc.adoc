@@ -1,0 +1,83 @@
+//Nutzen Sie dieses Template als Grundlage für die Spezifikation *einzelner* Use-Cases. Diese lassen sich dann per Include in das Use-Case Model Dokument einbinden (siehe Beispiel dort).
+ifndef::main-document[include::../_includes/default-attributes.inc.adoc[]]
+
+== UC03: Vergabe verwalten
+
+=== Kurzbeschreibung
+//<Kurze Beschreibung des Use Case>
+Der Use-Case umfasst die Verwaltung der Vergabe von VMs an Projektteams.
+
+=== Kurzbeschreibung der Akteure
+
+- Herr Zirkelbach (User)
+
+=== Vorbedingungen
+- Der User muss angemeldet sein.
+- Es müssen Daten über VMs in der Datenbank existieren.
+
+
+=== Standardablauf (Basic Flow)
+//Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
+1. Der Use-Case beginnt, wenn der User auf den Menüpunkt *Vergabe verwalten* klickt.
+2. Die Seite für die Verwaltung der Vergabe wird geöffnet.
+3. Es werden die Namen aller VMs aus der Datenbank gelesen und in einer Auswahlliste angezeigt.
+4. Der User wählt eine beliebige VM aus der Auswahlliste aus.
+5. Es werden die Detailinformationen der ausgewählten VM aus der Datenbank gelesen.
+6. Die VM Details werden angezeigt.
+7. Der User gibt die Team Details an.
+8. Der User wählt einen Vergabestatus.
+9. Der Use Case endet mit dem Speichern der Eingaben in der Datenbank.
+
+==== Wireframe
+.Wireframe - UC03 Vergabe verwalten
+image::uc03_wireframe.png[]
+
+=== Alternative Abläufe
+//Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
+
+==== Email an Team versenden (Erweiterung)
+Wenn der User nach Schritt 9 des Standardablaufes auf *Email* klickt, dann
+
+. wird die Funktion zum Versenden einer neuen Email aufgerufen
+. und die zur VM hinterlegte Email-Adresse als Empfänger für die Email definiert.
+
+=== Wesentliche Szenarios
+//Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
+
+==== VM __iseproject04__ an Team __I05 - Virtuelle Maschinen__ vergeben
+. Herr Zirkelbach befindet sich auf der Seite *Übersicht* im System.
+. Herr Zirkelbach klickt auf den Menüpunkt *Vergabe verwalten*.
+. Die Seite zur Verwaltung der Vergabe wird geöffnet.
+. Es werden die Namen aller VMs aus der Datenbank gelesen und in der Auswahlliste *VM* angezeigt.
+. Herr Zirkelbach wählt *iseproject04* aus der Auswahlliste *VM* aus.
+. Es werden Detailinformationen von *iseproject04* aus der Datenbank gelesen und angezeigt.
+. Herr Zirkelbach gibt *I05 - Virtuelle Maschinen* in das Textfeld *Projektgruppe* ein.
+. Herr Zirkelbach gibt *Paul Kiok* in das Textfeld *Ansprechpartner* ein.
+. Herr Zirkelbach gibt *paul.kiok@stud.htw-dresden.de* in das Textfeld *Email* ein.
+. Herr Zirkelbach wählt *Zugewiesen* als Vergabestatus aus.
+. Herr Zirkelbach klickt auf *Speichern*.
+
+=== Nachbedingungen
+//Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
+
+==== Rückmeldung über gespeicherte Daten
+Sobald der User auf *Speichern* klickt, werden die eingegebenen Daten validiert.
+Nach erfolgreicher Validierung werden die Daten in der Datenbank gespeichert.
+Sind die Daten erfolgreich in der Datenbank gespeichert worden, ist dies mit einer entsprechenden Erfolgsmeldung dem User anzuzeigen.
+Falls die Daten nicht in der Datenbank gespeichert werden konnten, ist dies mit einer entsprechenden Fehlermeldung dem User anzuzeigen.
+
+=== Besondere Anforderungen
+//Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
+
+==== Korrekte Eingabe der Email-Adresse (NFAR-1: Fehlertoleranz)
+Das Textfeld *Email* muss nach dem Klick auf *Speichern* auf eine sinnvolle Eingabe geprüft werden.
+Wird eine fehlerhafte Email-Adresse eingegeben, ist das Textfeld *rot* zu markieren und der Nutzer mit einer Fehlermeldung zu informieren.
+
+Eine fehlerfreie Email-Adresse muss mindestens folgende Bestandteile aufweisen:
+
+- Alias
+- das @ Zeichen
+- Domain und Domainendung mit einem Punkt getrennt
+
+Beispiel:
+s12345@htw-dresden.de (*s12345* = Alias, *htw-dresden* = domain, *de* = Domainendung)
