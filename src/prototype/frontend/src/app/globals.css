@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-orange {
+  color: orange;
+}
+
+.centered-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center; /* Optional: Center the text horizontally */
+}
+
