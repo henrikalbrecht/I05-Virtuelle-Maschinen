@@ -16,6 +16,8 @@ interface FormData {
 }
 
 const VmForm: React.FC = () => {
+ 
+
   const [formData, setFormData] = useState<FormData>({
     dns_name: '',
     team_id: '',
@@ -26,6 +28,7 @@ const VmForm: React.FC = () => {
     operating_sys: '',
     allocationStage: 'unassigned', // Default value
   });
+
 
   const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -153,10 +156,15 @@ const VmForm: React.FC = () => {
           <option value="preparation">Preparation</option>
           <option value="in_use">In Use</option>
         </select>
-
-        <button type="submit" className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        <div className='flex justify-center p-5'>
+          <button type="submit" className="mt-4 p-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
           Allocate VM
-        </button>
+          </button>
+          
+
+
+        </div>
+        
       </form>
     </div>
   );
