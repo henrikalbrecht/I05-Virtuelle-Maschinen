@@ -50,7 +50,7 @@ const VmForm: React.FC = () => {
     <div className="flex items-center justify-center h-screen text-orange ">
       <form onSubmit={handleSubmit} className="max-w-md mx-auto p-10 bg-white rounded-md shadow-md container_card ">
         <label htmlFor="dns_name" className="block text-gray-700">
-          DNS Name:
+          Hostname:
         </label>
         <input
           type="text"
@@ -76,7 +76,7 @@ const VmForm: React.FC = () => {
         />
 
         <label htmlFor="team_name" className="block text-gray-700 mt-4">
-          Team Name:
+         Project Name:
         </label>
         <input
           type="text"
@@ -89,7 +89,7 @@ const VmForm: React.FC = () => {
         />
 
         <label htmlFor="team_email" className="block text-gray-700 mt-4">
-          Team Email:
+          Contact Email:
         </label>
         <input
           type="email"
