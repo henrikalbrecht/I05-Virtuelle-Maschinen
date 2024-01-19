@@ -5,8 +5,8 @@ import axios from 'axios';
 
 interface VM {
   id: number;
-  dns_name: string;
-  team_name: string;
+  hostname: string;
+  project_name: string;
 }
 
 const VmList: React.FC = () => {
@@ -44,7 +44,7 @@ const VmList: React.FC = () => {
       <ul>
         {allocatedVMs.map((vm) => (
           <li key={vm.id} className="flex justify-between items-center border-b py-2">
-            <span>{vm.dns_name} - {vm.team_name}</span>
+            <span>{vm.hostname} - {vm.project_name}</span>
             <button onClick={() => handleDelete(vm.id)} className="bg-red-500 text-white p-2 rounded-md">Delete</button>
           </li>
         ))}

@@ -12,5 +12,6 @@ class VMSerializer(serializers.ModelSerializer):
             'contact_name': {'required': False},
             'ip': {'required': True},
             'operating_sys': {'required': True},
-            'allocationStage': {'required': False}
+            'allocationStage': {'required': False},
+            'awarded_on': {'required': False}
         }

@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import VmForm from './components/VmForm';
 import VmList from './components/VmLists';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
   const [currentPage, setCurrentPage] = useState<string>('allocation');
@@ -19,17 +20,19 @@ const App: React.FC = () => {
       
       {/* Header */}
       <Header /> 
+      
       {currentPage === 'allocation' ? (
         <div className=''>
           <VmForm />
-          <button onClick={() => handleNavigate('allocated')} className=" bg-blue-500 text-white p-2 rounded-md mt-4">View VMs</button>
         </div>
       ) : (
         <div>
           <VmList />
-          <button onClick={() => handleNavigate('allocation')} className="bg-gray-500 text-white p-2 rounded-md mt-4">Back to Allocation</button>
         </div>
       )}
+
+      {/* Footer */}
+      <Footer onNavigate={handleNavigate} currentPage={currentPage} />
     </div>
   );
 }
