@@ -12,7 +12,8 @@
     "axios": "^1.6.5",
     "next": "13.5.6",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-social-icons": "^6.9.0"
   },
   "devDependencies": {
     "@types/node": "^20",
