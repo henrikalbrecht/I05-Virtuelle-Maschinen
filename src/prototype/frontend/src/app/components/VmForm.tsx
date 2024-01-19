@@ -152,18 +152,7 @@ const VmForm: React.FC = () => {
           <option value="linux">Linux</option>
           </select>
 
-          <label htmlFor="awarded_on" className="block text-gray-700 mt-4">
-          Awarded On:
-        </label>
-        <input
-          type="date"
-          id="awarded_on"
-          name="awarded_on"
-          value={formData.awarded_on}
-          onChange={handleDateChange}
-          required
-          className="mt-1 p-2 border rounded-md w-full"
-        />
+          
         
 
         <label htmlFor="allocationStage" className="block text-gray-700 mt-4">
