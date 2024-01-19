@@ -14,7 +14,7 @@ interface FormData {
   ip: string;
   operating_sys: string;
   allocationStage: string;
-  awarded_on: string;
+  // awarded_on: string;
 }
 
 const VmForm: React.FC = () => {
@@ -29,12 +29,12 @@ const VmForm: React.FC = () => {
     ip: '',
     operating_sys: '',
     allocationStage: 'unassigned', // Default value
-    awarded_on: ''
+    // awarded_on: ''
   });
 
-  const handleDateChange = (e: ChangeEvent<HTMLInputElement>) => {
-    setFormData({ ...formData, awarded_on: e.target.value });
-  };
+  // const handleDateChange = (e: ChangeEvent<HTMLInputElement>) => {
+  //   setFormData({ ...formData, awarded_on: e.target.value });
+  // };
 
 
   const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
@@ -152,7 +152,18 @@ const VmForm: React.FC = () => {
           <option value="linux">Linux</option>
           </select>
 
-          
+          {/* <label htmlFor="awarded_on" className="block text-gray-700 mt-4">
+          Awarded On:
+        </label>
+        <input
+          type="date"
+          id="awarded_on"
+          name="awarded_on"
+          value={formData.awarded_on}
+          onChange={handleDateChange}
+          required
+          className="mt-1 p-2 border rounded-md w-full"
+        /> */}
         
 
         <label htmlFor="allocationStage" className="block text-gray-700 mt-4">
