@@ -179,6 +179,7 @@ const VmForm: React.FC = () => {
           <option value="unassigned">Unassigned</option>
           <option value="preparation">Preparation</option>
           <option value="in_use">In Use</option>
+          <option value="blocked">Blocked</option>
         </select>
         <div className='flex justify-center p-5'>
           <button type="submit" className="mt-4 p-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
