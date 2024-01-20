@@ -1,14 +1,60 @@
 = Test Cases: {project-name}
-Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
+Clemens Näther <clemens.naether@stud.htw-dresden.de>;
 {localdatetime}
 include::../_includes/default-attributes.inc.adoc[]
 // Platzhalter für weitere Dokumenten-Attribute
 
 
 == Allgemeine Informationen
+Die nachfolgenden Test Cases dienen der Überprüfung und Sicherstellung der Funktionalität der entwickelten VM-Vergabe. Im Allgemeinen zielen Test Cases darauf ab, sicherzustellen, dass das zu testende Objekt korrekt funktioniert.
 
 == Test Cases
 
-=== Test Case 01
+=== Test Case 01: VMs auflisten
+==== Beschreibung
+Das Ziel dieses Test Cases ist es, sicherzustellen, dass der UC01 "VMs auflisten" ordnungsgemäß funktioniert und alle vorhandenen VMs erfolgreich aufgelistet werden.
 
-=== Test Case 02
+==== Vorbedingungen
+1. Der User (Herr Zirkelbach) ist erfolgreich am System angemeldet. 
+2. Es existiert mindestens eine VM im System.
+
+==== Testablauf
+1. Der User navigiert im System zum Menüpunkt "VMs auflisten".
+2. Das System zeigt eine Liste aller vorhandenen VMs und deren Eigenschaften an.
+
+==== Erwartetes Ergebnis
+* Die Übersichtsseite öffnet sich ohne Fehler.
+* Alle vorhandenen VMs werden korrekt aufgelistet.
+* Die angezeigten Informationen entsprechen den erwarteten Daten aus dem Testdatensatz.
+* Es werden keine Fehler bei der Anzeige oder den aufgelisteten Informationen festgestellt.
+
+=== Test Case 02: Vergabe verwalten
+==== Beschreibung
+Das Ziel dieses Test Cases ist es, sicherzustellen, dass der UC03 "Vergabe verwalten" ordnungsgemäß funktioniert und die Vergabe von VMs an Projektteams erfolgreich durchgeführt werden kann.
+
+==== Vorbedingungen
+1. Der User (Herr Zirkelbach) ist erfolgreich am System angemeldet.
+2. Es existiert mindestens eine VM mit Daten in der Datenbank.
+
+==== Testablauf
+1. Der User klickt auf den Menüpunkt Vergabe verwalten.
+* Überprüfen, ob die Seite zur Verwaltung der Vergabe erfolgreich geöffnet wird.
+2. Es werden die Namen aller VMs aus der Datenbank gelesen und in einer Auswahlliste angezeigt.
+* Überprüfen, ob die VMs korrekt in der Auswahlliste erscheinen.
+3. Der User wählt eine VM aus der Auswahlliste aus.
+* Überprüfen, ob die Detailinformationen der ausgewählten VM korrekt aus der Datenbank gelesen und angezeigt werden.
+4. Der User gibt die Team Details an (Projektgruppe, Ansprechpartner, Email).
+* Überprüfen, ob die eingegebenen Team Details korrekt im System erfasst werden.
+5. Der User wählt einen Vergabestatus aus.
+* Überprüfen, ob der ausgewählte Vergabestatus korrekt im System erfasst wird.
+6. Der User klickt auf Speichern.
+* Überprüfen, ob die eingegebenen Daten erfolgreich validiert und in der Datenbank gespeichert werden.
+
+==== Erwartetes Ergebnis
+* Die Seite zur Verwaltung der Vergabe öffnet sich ohne Fehler.
+* Die VMs werden korrekt in der Auswahlliste angezeigt.
+* Die Detailinformationen der ausgewählten VM werden korrekt angezeigt.
+* Die eingegebenen Team Details und der ausgewählte Vergabestatus werden korrekt im System erfasst.
+* Nach dem Klick auf Speichern werden die Daten erfolgreich validiert und in der Datenbank gespeichert.
+* Der User erhält eine Erfolgsmeldung über die erfolgreiche Vergabe der VM an das Projektteam.
+
