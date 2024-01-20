@@ -34,27 +34,26 @@ Das Ziel dieses Test Cases ist es, sicherzustellen, dass der UC03 "Vergabe verwa
 
 ==== Vorbedingungen
 1. Der User (Herr Zirkelbach) ist erfolgreich am System angemeldet.
-2. Es existiert mindestens eine VM mit Daten in der Datenbank.
+2. Es existiert mindestens eine VM in der Datenbank.
 
 ==== Testablauf
 1. Der User klickt auf den Menüpunkt Vergabe verwalten.
-* Überprüfen, ob die Seite zur Verwaltung der Vergabe erfolgreich geöffnet wird.
 2. Es werden die Namen aller VMs aus der Datenbank gelesen und in einer Auswahlliste angezeigt.
-* Überprüfen, ob die VMs korrekt in der Auswahlliste erscheinen.
 3. Der User wählt eine VM aus der Auswahlliste aus.
-* Überprüfen, ob die Detailinformationen der ausgewählten VM korrekt aus der Datenbank gelesen und angezeigt werden.
-4. Der User gibt die Team Details an (Projektgruppe, Ansprechpartner, Email).
-* Überprüfen, ob die eingegebenen Team Details korrekt im System erfasst werden.
-5. Der User wählt einen Vergabestatus aus.
-* Überprüfen, ob der ausgewählte Vergabestatus korrekt im System erfasst wird.
-6. Der User klickt auf Speichern.
-* Überprüfen, ob die eingegebenen Daten erfolgreich validiert und in der Datenbank gespeichert werden.
+4. Der User gibt die Team Details an (Projektgruppe, Ansprechpartner, Email, Vergabestatus).
+    a. Alle Felder sind korrekt ausgefüllt.
+    b. Mindestens ein Feld ist nicht korrekt ausgefüllt.
+5. Der User klickt auf Speichern.
 
 ==== Erwartetes Ergebnis
-* Die Seite zur Verwaltung der Vergabe öffnet sich ohne Fehler.
-* Die VMs werden korrekt in der Auswahlliste angezeigt.
-* Die Detailinformationen der ausgewählten VM werden korrekt angezeigt.
-* Die eingegebenen Team Details und der ausgewählte Vergabestatus werden korrekt im System erfasst.
-* Nach dem Klick auf Speichern werden die Daten erfolgreich validiert und in der Datenbank gespeichert.
-* Der User erhält eine Erfolgsmeldung über die erfolgreiche Vergabe der VM an das Projektteam.
-
+1. Die Seite zur Verwaltung der Vergabe öffnet sich ohne Fehler.
+2. Die VMs werden korrekt in der Auswahlliste angezeigt.
+3. Die Detailinformationen der ausgewählten VM werden korrekt angezeigt.
+4. Die eingegebenen Team Details und der ausgewählte Vergabestatus werden korrekt im System erfasst.
+   a. Im Erfolgsfall:
+      * Es erfolgt keine Fehlermeldung.
+      * Die Daten werden erfolgreich validiert.
+      * Die Daten werden in der Datenbank gespeichert.
+   b. Im Fehlerfall:
+      * Es wird eine Fehlermeldung angezeigt, dass mindestens ein Feld nicht korrekt ausgefüllt ist.
+      * Die Daten werden nicht validiert.
