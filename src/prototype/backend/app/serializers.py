@@ -1,18 +1,17 @@
 from rest_framework import serializers
-from . models import *
+from .models import VM
 
 class VMSerializer(serializers.ModelSerializer):
     class Meta:
         model = VM
-        fields = ['id','dns_name', 'created_at', 'team_id', 'team_name', 'team_email', 'external_net', 'ip', 'operating_sys', 'allocationStage']
+        fields = ['id', 'hostname', 'project_name', 'contact_email', 'contact_name', 'ip', 'operating_sys', 'allocationStage', 'awarded_on']
         extra_kwargs = {
             'dns_name': {'required': True},
-            'created_at':  {'required': False},
-            'team_id': {'required': True},
-            'team_name': {'required': True},
-            'team_email': {'required': True},
-            'external_net': {'required': False},
+            'project_name': {'required': False},
+            'contact_email': {'required': False},
+            'contact_name': {'required': False},
             'ip': {'required': True},
             'operating_sys': {'required': True},
-            'allocationStage': {'required': False}
+            'allocationStage': {'required': False},
+            'awarded_on': {'required': False}
         }

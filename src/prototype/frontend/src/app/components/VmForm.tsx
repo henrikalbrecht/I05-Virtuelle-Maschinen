@@ -5,27 +5,37 @@ import React, { useState, ChangeEvent, FormEvent } from 'react';
 import axios from 'axios';
 
 interface FormData {
-  dns_name: string;
-  team_id: string;
-  team_name: string;
-  team_email: string;
-  external_net: boolean;
+  hostname: string;
+  project_name: string;
+  contact_email: string;
+  contact_name: string;
+  
+  // external_net: boolean;
   ip: string;
   operating_sys: string;
   allocationStage: string;
+  awarded_on: string;
 }
 
 const VmForm: React.FC = () => {
+ 
+
   const [formData, setFormData] = useState<FormData>({
-    dns_name: '',
-    team_id: '',
-    team_name: '',
-    team_email: '',
-    external_net: false,
+    hostname: '',
+    project_name: '',
+    contact_name: '',
+    contact_email: '',
+    // external_net: false,
     ip: '',
     operating_sys: '',
     allocationStage: 'unassigned', // Default value
+    awarded_on: ''
   });
+
+  const handleDateChange = (e: ChangeEvent<HTMLInputElement>) => {
+    setFormData({ ...formData, awarded_on: e.target.value });
+  };
+
 
   const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -49,59 +59,59 @@ const VmForm: React.FC = () => {
   return (
     <div className="flex items-center justify-center h-screen text-orange ">
       <form onSubmit={handleSubmit} className="max-w-md mx-auto p-10 bg-white rounded-md shadow-md container_card ">
-        <label htmlFor="dns_name" className="block text-gray-700">
-          DNS Name:
+        <label htmlFor="hostname" className="block text-gray-700">
+          Hostname:
         </label>
         <input
           type="text"
-          id="dns_name"
-          name="dns_name"
-          value={formData.dns_name}
+          id="hostname"
+          name="hostname"
+          value={formData.hostname}
           onChange={handleChange}
           required
           className="mt-1 p-2 border rounded-md w-full"
         />
 
-        <label htmlFor="team_id" className="block text-gray-700 mt-4">
-          Team ID:
+        <label htmlFor="project_name" className="block text-gray-700 mt-4">
+          Project Name:
         </label>
         <input
           type="text"
-          id="team_id"
-          name="team_id"
-          value={formData.team_id}
+          id="project_name"
+          name="project_name"
+          value={formData.project_name}
           onChange={handleChange}
           required
           className="mt-1 p-2 border rounded-md w-full "
         />
 
-        <label htmlFor="team_name" className="block text-gray-700 mt-4">
-          Team Name:
+        <label htmlFor="contact_name" className="block text-gray-700 mt-4">
+         Contact Name:
         </label>
         <input
           type="text"
-          id="team_name"
-          name="team_name"
-          value={formData.team_name}
+          id="contact_name"
+          name="contact_name"
+          value={formData.contact_name}
           onChange={handleChange}
           required
           className="mt-1 p-2 border rounded-md w-full"
         />
 
-        <label htmlFor="team_email" className="block text-gray-700 mt-4">
-          Team Email:
+        <label htmlFor="contact_email" className="block text-gray-700 mt-4">
+          Contact Email:
         </label>
         <input
           type="email"
-          id="team_email"
-          name="team_email"
-          value={formData.team_email}
+          id="contact_email"
+          name="contact_email"
+          value={formData.contact_email}
           onChange={handleChange}
           required
           className="mt-1 p-2 border rounded-md w-full"
         />
 
-        <label htmlFor="external_net" className="block text-gray-700 mt-4">
+        {/* <label htmlFor="external_net" className="block text-gray-700 mt-4">
           External Network:
         </label>
         <input
@@ -111,7 +121,7 @@ const VmForm: React.FC = () => {
           checked={formData.external_net}
           onChange={handleCheckboxChange}
           className="mt-1"
-        />
+        /> */}
 
         <label htmlFor="ip" className="block text-gray-700 mt-4">
           IP Address:
@@ -129,15 +139,21 @@ const VmForm: React.FC = () => {
         <label htmlFor="operating_sys" className="block text-gray-700 mt-4">
           Operating System:
         </label>
-        <input
-          type="text"
+        <select
+          // type="text"
           id="operating_sys"
           name="operating_sys"
           value={formData.operating_sys}
           onChange={handleChange}
           required
           className="mt-1 p-2 border rounded-md w-full"
-        />
+          >
+          <option value="windows">Windows</option>
+          <option value="linux">Linux</option>
+          </select>
+
+          
+        
 
         <label htmlFor="allocationStage" className="block text-gray-700 mt-4">
           Allocation Stage:
@@ -153,10 +169,15 @@ const VmForm: React.FC = () => {
           <option value="preparation">Preparation</option>
           <option value="in_use">In Use</option>
         </select>
-
-        <button type="submit" className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        <div className='flex justify-center p-5'>
+          <button type="submit" className="mt-4 p-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
           Allocate VM
-        </button>
+          </button>
+          
+
+
+        </div>
+        
       </form>
     </div>
   );
