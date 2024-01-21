@@ -1,14 +1,59 @@
 = Test Cases: {project-name}
-Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
+Clemens Näther <clemens.naether@stud.htw-dresden.de>;
 {localdatetime}
 include::../_includes/default-attributes.inc.adoc[]
 // Platzhalter für weitere Dokumenten-Attribute
 
 
 == Allgemeine Informationen
+Die nachfolgenden Test Cases dienen der Überprüfung und Sicherstellung der Funktionalität des entwickelten Systems. Test Cases stellen sicher, dass das zu testende Objekt/der zu testende Anwendungsfall korrekt funktioniert.
 
 == Test Cases
 
-=== Test Case 01
+=== Test Case 01: VMs auflisten
+==== Beschreibung
+Das Ziel dieses Test Cases ist es, sicherzustellen, dass der UC01 "VMs auflisten" ordnungsgemäß funktioniert und alle vorhandenen VMs erfolgreich aufgelistet werden.
 
-=== Test Case 02
+==== Vorbedingungen
+1. Der User (Herr Zirkelbach) ist erfolgreich am System angemeldet. 
+2. Es existiert mindestens eine VM im System.
+
+==== Testablauf
+1. Der User navigiert im System zum Menüpunkt "VMs auflisten".
+2. Das System zeigt eine Liste aller vorhandenen VMs und deren Eigenschaften an.
+
+==== Erwartetes Ergebnis
+* Die Übersichtsseite öffnet sich ohne Fehler.
+* Alle vorhandenen VMs werden korrekt aufgelistet.
+* Die angezeigten Informationen entsprechen den erwarteten Daten aus dem Testdatensatz.
+* Es werden keine Fehler bei der Anzeige oder den aufgelisteten Informationen festgestellt.
+
+=== Test Case 02: Vergabe verwalten
+==== Beschreibung
+Das Ziel dieses Test Cases ist es, sicherzustellen, dass der UC03 "Vergabe verwalten" ordnungsgemäß funktioniert und die Vergabe von VMs an Projektteams erfolgreich durchgeführt werden kann.
+
+==== Vorbedingungen
+1. Der User (Herr Zirkelbach) ist erfolgreich am System angemeldet.
+2. Es existiert mindestens eine VM in der Datenbank.
+
+==== Testablauf
+1. Der User klickt auf den Menüpunkt Vergabe verwalten.
+2. Es werden die Namen aller VMs aus der Datenbank gelesen und in einer Auswahlliste angezeigt.
+3. Der User wählt eine VM aus der Auswahlliste aus.
+4. Der User gibt die Team Details an (Projektgruppe, Ansprechpartner, Email, Vergabestatus).
+    a. Alle Felder sind korrekt ausgefüllt.
+    b. Mindestens ein Feld ist nicht korrekt ausgefüllt.
+5. Der User klickt auf Speichern.
+
+==== Erwartetes Ergebnis
+1. Die Seite zur Verwaltung der Vergabe öffnet sich ohne Fehler.
+2. Die VMs werden korrekt in der Auswahlliste angezeigt.
+3. Die Detailinformationen der ausgewählten VM werden korrekt angezeigt.
+4. Die eingegebenen Team Details und der ausgewählte Vergabestatus werden korrekt im System erfasst.
+   a. Im Erfolgsfall:
+      * Es erfolgt keine Fehlermeldung.
+      * Die Daten werden erfolgreich validiert.
+      * Die Daten werden in der Datenbank gespeichert.
+   b. Im Fehlerfall:
+      * Es wird eine Fehlermeldung angezeigt, dass mindestens ein Feld nicht korrekt ausgefüllt ist.
+      * Die Daten werden nicht validiert.
