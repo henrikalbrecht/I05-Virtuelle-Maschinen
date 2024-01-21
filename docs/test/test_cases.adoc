@@ -6,7 +6,7 @@ include::../_includes/default-attributes.inc.adoc[]
 
 
 == Allgemeine Informationen
-Die nachfolgenden Test Cases dienen der Überprüfung und Sicherstellung der Funktionalität der entwickelten VM-Vergabe. Im Allgemeinen zielen Test Cases darauf ab, sicherzustellen, dass das zu testende Objekt korrekt funktioniert.
+Die nachfolgenden Test Cases dienen der Überprüfung und Sicherstellung der Funktionalität des entwickelten Systems. Test Cases stellen sicher, dass das zu testende Objekt/der zu testende Anwendungsfall korrekt funktioniert.
 
 == Test Cases
 
