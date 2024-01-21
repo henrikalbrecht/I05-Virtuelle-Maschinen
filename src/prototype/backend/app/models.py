@@ -5,14 +5,17 @@ class VM(models.Model):
         ('unassigned', 'Unassigned'),
         ('preparation', 'Preparation'),
         ('in_use', 'In_use'),
+        ('blocked', 'Blocked')
     )
-    
-    dns_name = models.CharField(max_length=50)
-    created_at = models.DateTimeField(auto_now_add=True)
-    team_id = models.IntegerField()
-    team_name = models.CharField(max_length=30)
-    team_email = models.EmailField()
-    external_net = models.BooleanField(default=False)
+    OPERATING_SYSTEM_CHOICES = (
+        ('windows', 'Windows'),
+        ('linux', 'Linux'),
+    )
+    hostname = models.CharField(max_length=50)
+    awarded_on = models.DateTimeField(default=None, null=True)
+    project_name = models.CharField(max_length=30, default=None, null=True)
+    contact_email = models.EmailField(default=None, null=True)
+    contact_name = models.CharField(max_length= 20, default=None, null=True)
     ip = models.GenericIPAddressField()
-    operating_sys = models.CharField(max_length=20)
+    operating_sys = models.CharField(max_length=20, choices= OPERATING_SYSTEM_CHOICES)
     allocationStage = models.CharField(max_length=20, choices=STATUS_CHOICES, default="unassigned")
