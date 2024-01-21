@@ -14,22 +14,22 @@ In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fa
 | Begriff | Definition und Erläuterung | Synonyme
 //| Kommissionierung | Bereitstellung von Waren aus einem Lager entsprechend eines Kundenauftrags | (keine)
 
-| Docker-Container |Ein einfaches, eigenständig ausführbares Softwarepaket, welches alles zur Ausführung einer Software enthält: Code, Laufzeit, Systemtools, Sytembibliotheken und Einstellungen. | 
+| Docker-Container | Enthält, im vergleich zur VM, nur alle nötigen Resourcen, zur Ausführung einer bestimmten Software. Lässt sich leicht als Datei transportieren und installieren. | 
 | Kernel |   Ein elementares, zentrales Modul (Betriebssystemkern), das die Schnittstelle zwischen Software und Systemhardware darstellt, hat direkten Zugriff auf die Hardware. |
-| Frameworks |   Ist ein Entwicklungsrahmen, um beim programmieren eine grundlegenden Architektur der Software zu bestimmen. |
-| Frontend ? |   Der für den Nutzer sichtbare und interaktive Teil einer Softwareanwendung.|
-| Backend ? |   Der nicht sichtbare Teil einer Softwareanwendung, welcher Anfragen vom Frontend bearbeitet.|
+| Frameworks |   Ist ein Programmiergerüst und dient als Hilfestellung zum Programmieren. Es umfasst Komponenten, Laufzeitumgebungen und Bibliotheken.|
+| Frontend  |   Der für den Nutzer sichtbare und interaktive Teil einer Softwareanwendung.|
+| Backend  |   Der nicht sichtbare Teil einer Softwareanwendung, welcher Anfragen vom Frontend bearbeitet.|
 | Repository |   Zentraler Ort zur Speicherung von Daten wie Quellcode oder Projektdokumentationen. gesteuert über Versionskontrollsysteme, wie zum Beispiel Git.|
 | Use Case |   Ein Use Case beschreibt  eine Technik zur Beschreibung der Interaktion zwischen der Anwendung und dem Anwender.|
-| Architecture Notebook ?|   Sammlung von Informationen, Zeichnungen, Entwürfen, Dokumentationen und anderen relevanten Materialien, die sich auf die Architektur einer Softwareanwendung, eines Systems oder einer IT-Lösung beziehen.Es dient als zentrale Quelle für alle architekturrelevanten Entscheidungen, Designmuster, Diagramme, Beschreibungen von Systemkomponenten, technische Spezifikationen und andere wichtige Informationen, die für die Planung, Entwicklung, Wartung und Skalierung von IT-Systemen von Bedeutung sind.| 
+| Architecture Notebook |   Sammlung von Informationen, Zeichnungen, Entwürfen, Dokumentationen und anderen relevanten Materialien, die sich auf die Architektur einer Softwareanwendung, eines Systems oder einer IT-Lösung beziehen.Es dient als zentrale Quelle für alle architekturrelevanten Entscheidungen, Designmuster, Diagramme, Beschreibungen von Systemkomponenten, technische Spezifikationen und andere wichtige Informationen, die für die Planung, Entwicklung, Wartung und Skalierung von IT-Systemen von Bedeutung sind.| 
 | Altsystem |   Beispielsweise veraltete Software Anwendungen oder Hardware Plattformen, welche auf älteren Technologien basieren und somit Schwierigkeiten bei Wartung und Weiterentwicklung verursachen. |
 | Visual Paradigm | Eine Desktop-Software für die Modellierung von Software mit gängigen Modellierungssprachen wie UML und SysML.|
-| Merge ?|   Ein Software-Befehl, der die Änderungen aus dem Arbeits- oder Feature-Branch in den Hauptbranch integriert.|
-| VMWare Clusters ? | Eine Gruppierung von mehreren physischen Servern, wobei die kombinierten Ressourcen als Einheit aggieren.|
-| PostgreSQL Datenbank? | ||Open-Source-Datenbank ? | Datenbankanwendungen auf Codebasis, welche kostenlos und vollumfänglich zur verfügung stehen. |
+| Merge |   Ein Software-Befehl, der die Änderungen aus dem Arbeits- oder Feature-Branch in den Hauptbranch integriert.|
+| VMWare Clusters  | Eine Gruppierung von mehreren physischen Servern, wobei die kombinierten Ressourcen als Einheit aggieren.|
+| PostgreSQL Datenbank  | Eine Open Source Datenbank, die sich stark an den SQL-Standart hält. |
 | VM Pool | (Umfang) bezieht sich auf eine Sammlung von virtuellen Maschinen |
-| Django | Django ist ein leistungsstarkes Open-Source-Webframework, das in Python entwickelt wurde. Es wurde entworfen, um die Entwicklung von Webanwendungen zu erleichtern, indem es eine Vielzahl von Werkzeugen und Funktionen bereitstellt, um komplexe Webanwendungen schnell und effizient zu erstellen.|
-| Datenbank SQL-Dump ? |   Teilweise oder ganze Auszüge aus einer Datenbank werden als Datenbankdump (dump = engl. für Auszug) bezeichnet. Derartige Auszüge werden für die Datensicherung oder Portierung der Datenbank erstellt. Ein Datenbankdump kann aber auch nur die Struktur der Datenbank ohne Daten beinhalten.|
+| Django | Django ist ein leistungsstarkes |
+| Datenbank SQL-Dump  |   Teilweise oder ganze Auszüge aus einer Datenbank werden als Datenbankdump (dump = engl. für Auszug) bezeichnet. Derartige Auszüge werden für die Datensicherung oder Portierung der Datenbank erstellt. Ein Datenbankdump kann aber auch nur die Struktur der Datenbank ohne Daten beinhalten.|
 | IP Adresse |   ist eine numerische Kennung, die jedem Gerät in einem Computernetzwerk eine eindeutige Identifikation zuweist. Sie dient dazu, die Kommunikation zwischen verschiedenen Geräten in einem Netzwerk zu ermöglichen und zu steuern.|Internet Protocol-Adresse |
 |===
 
@@ -39,7 +39,7 @@ In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fa
 |===
 | Abkürzung | Bedeutung | Erläuterung
 //| UP | Unified Process | Vorgehensmodell für die Softwareentwicklung
-| VPN | Virtual Private Network | xstellt eine sichere Verbindung zwischen Internet und Benutzer über ein privates Netzwerk her
+| VPN | Virtual Private Network | Stellt eine sichere Verbindung zwischen Internet und Benutzer über ein privates Netzwerk her
 | OS | Operating System | engl. Abkürzung für Betriebssystem
 | HDD | Hard Disk Drive | (Festplattenlaufwerk) - permanenter Speicher zur Langzeitdatenspeicherung
 | RAM | Random Access Memory | (Arbeitsspeicher) - temporärer Speicher, um Daten vorübergehend zu speichern und schnell darauf zugreifen zu können
@@ -48,6 +48,7 @@ In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fa
 | VM | Virtuelle Maschiene | Eine VM steht für eine virtuelle Maschine. Eine virtuelle Maschine ist eine Softwareemulation eines  Computersystems. Sie ermöglicht es, eine vollständige Computerumgebung auf einem einzelnen physischen Rechner auszuführen, indem sie Ressourcen wie CPU, Speicher, Netzwerk und Speicherplatz in einem isolierten, abgeschotteten Bereich zur Verfügung stellt.
 | ESXi-Hosts |  |Damit ist es möglich, physische Host Ressourcen, beispielsweise Arbeitsspeicher, CPU, Netzwerk Verbindungen oder Speicherplatz unterschiedlichen virtuellen Maschinen zuzuweisen.
 | SQL | Structured Query Language | Es ist eine standardisierte Programmiersprache, die für das Management von relationalen Datenbankmanagementsystemen (RDBMS) entwickelt wurde. SQL ermöglicht es, auf eine Datenbank zuzugreifen, Daten abzurufen, zu manipulieren, zu verwalten und zu definieren.
+| ORM | Objektrelationale Abbildung (object-relational mapping) | Technik der Softwareentwicklung, in der durch ein mit objektorientierten Programmiersprache geschriebenes Anwendungsprogramm, Objekte in einer relationalen Datenbank ablegen kann. 
 
 |===
 
