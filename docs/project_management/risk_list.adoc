@@ -31,7 +31,7 @@ Die Risiken sind in folgender Tabelle: <<table_risks>> dargestellt. Das Datum de
 .Risiken
 [%header, format="csv" ]
 |===
-include::resources/Risk_list_v1.csv[]
+include::resources/Risklist.csv[]
 |===
 
 // PDF-Export: Seite zurück zum Hochformat
