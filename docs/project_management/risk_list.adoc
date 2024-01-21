@@ -27,7 +27,6 @@ Die Risiken sind in folgender Tabelle: <<table_risks>> dargestellt. Das Datum de
 [.landscape]
 <<<
 
-// table risks
 [#table_risks]
 .Risiken
 [%header, format="csv" ]
