@@ -11,6 +11,7 @@ interface FormData {
   contact_name: string;
   
   // external_net: boolean;
+  //change
   ip: string;
   operating_sys: string;
   allocationStage: string;
