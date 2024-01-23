@@ -21,6 +21,9 @@ In diesem Dokument werden die systemweiten Anforderungen für das Projekt {proje
 * *NFAF-1*: Authentifizierung
 **  Um den Zugriff durch Unbefugte auf das System zu verhindern, muss eine Anmeldung an das System mittels Nutzername und Passwort erfolgen.
 
+* *NFAF-2*: Persistenz
+** Das System muss in der Lage sein gespeicherte Daten nach einem Systemausfall oder Neustart wiederherzustellen. Zur Überprüfung wird die Datenbank mit Testdaten gefüllt. Anschließend wird das System ausgeschaltet und überprüft ob die Testdaten noch vorhanden sind. Wenn dies so ist, dann ist die Anforderung erfüllt.
+
 
 == Qualitätsanforderungen für das Gesamtsystem
 //Qualitätsanforderungen repräsentieren das "URPS" im FURPS+ zu Klassifikation von Anforderungen
