@@ -8,7 +8,7 @@ include::../_includes/default-attributes.inc.adoc[]
 == Einführung
 Wir als das Team I05-Virtuelle Maschinen verwenden zur Strukturierung unseres Projektes eine abgewandelte Version des Open Unified Process. 
 
-Der Projektplan wird fortlaufend erweitert. Die Verantwortlichkeit, zur Pflege des Projektplans liegt beim Projektmanager. 
+Der Projektplan wird fortlaufend erweitert. Die Verantwortlichkeit zur Pflege des Projektplans liegt beim Projektmanager. 
 
 
 == Projektorganisation
@@ -19,7 +19,7 @@ Es findet ein wöchentliches Meeting im 6. Unterrichtsblock der HTW Dresden stat
 
 WhatsApp wird verwendet, um auf kurzem Wege alle Teammitglieder an kommende Meetings, wichtige Entwicklungen in Github oder Deadlines zu erinnern. 
 
-Im Discord treffen sich Teilmengen der Gruppenmitglieder, um Dokumentationen zu bearbeiten oder Co-Coding Sessions zu realisieren. Außerdem werden Terminabstimmungen mithilfe eines Umfrage-Bots realisiert um möglichst einfach die Wünsche aller Mitglieder zu berücksichtigen.
+Im Discord treffen sich Teilmengen der Gruppenmitglieder, um Dokumentationen zu bearbeiten oder Co-Coding Sessions zu realisieren. Außerdem werden Terminabstimmungen mithilfe eines Umfrage-Bots realisiert, um möglichst einfach die Wünsche aller Mitglieder zu berücksichtigen.
 
 GitHub stellt die Struktur zur Verfügung, welche wir zur Aufgabenverwaltung und -verteilung verwenden. 
 
@@ -32,7 +32,7 @@ Dabei erstellen wir Iterationen, die jeweils *14 Tage* dauern. Um alle Iteration
 
 Damit wir ein starkes Wir-Gefühl entwickeln nutzen wir https://www2.htw-dresden.de/~anke/openup/practice.mgmt.whole_team.base/guidances/practices/whole_team_FB18D57E.html?nodeId=d77fbe98[Whole Team].
 
-Begonnen haben wir damit, als wir die Rollen innerhalb des Teams auf Grundlage der Wünsche jedes Einzelnen verteilt haben.  Weiterhin veranstalten wir regelmäßige *Teamevents*. Um den Wissensstand innerhalb des Teams so gleichmäßig wie möglich zu halten, halten wir Workshops, beispielsweise für GitHub, um jeden Einzelnen an die Funktionalitäten heranzuführen und das Wissen zu streuen. Die Erkenntnisse der Workshops werden außerdem im https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/wiki[Wiki] zusammengetragen.
+Begonnen haben wir damit, als wir die Rollen innerhalb des Teams auf Grundlage der Wünsche jedes Einzelnen verteilt haben.  Weiterhin veranstalten wir regelmäßige *Teamevents*. Um den Wissensstand innerhalb des Teams so gleichmäßig wie möglich zu halten, führen wir interne Workshops durch, beispielsweise für GitHub, um jeden Einzelnen an die Funktionalitäten heranzuführen und das Wissen zu streuen. Die Erkenntnisse der Workshops werden außerdem im https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/wiki[Wiki] zusammengetragen.
 
 Um allen Teammitgliedern die Möglichkeit zu geben, eigene Anregungen in das Projekt einzubringen, nutzen wir unsere GitHub Issues, welche in einem https://github.com/users/henrikalbrecht/projects/2/views/1[Projekt] organisiert sind. Dieses Vorgehen bietet die Möglichkeit, die Vorschläge strukturiert einzuordnen, damit wir diese danach konstruktiv evaluieren können. Diese Praktik spiegelt die Inhalte des https://www2.htw-dresden.de/~anke/openup/index.htm[Team Change Managements] aus dem Open UP wieder.
 
@@ -82,19 +82,27 @@ Um die Verwendung von GitHub zu strukturieren und praxisorientiert zu arbeiten, 
 
 | I4
 |
-* TODO
+* Durchführung Retrospektive für I3
+* Verfeinerung von UC01 und UC03
+* Evaluierung der Risikoliste
 | 18.12.2023-31.12.2023
 | 14
 
 | I5
 |
-* TODO
+* Verfeinerung von UC01 und UC03
+* Erarbeitung eines lauffähigen Prototypen
+* Evaluierung der Risikoliste
 | 01.01.2024-14.01.2024
 | 14
 
 | I6
 |
-* TODO
+* Durchführung Retrospektive für I4 + I5
+* Verfeinerung des Prototypen
+* Demonstration des Prototypen
+* Evaluierung der Risikoliste
+* Finalisierung der Dokumentation
 | 15.01.2024-28.01.2024
 | 14
 |===
