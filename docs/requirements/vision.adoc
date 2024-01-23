@@ -20,7 +20,8 @@ Siehe link:glossary.adoc[Glossar]
 
 === Referenzen
 //(hier externe Verweise zu anderen Dokumenten, Quellen, Standards etc. einfügen, sofern notwendig)
-//TODO
+* Projektmanagement auf Grundlage des https://www2.htw-dresden.de/~anke/openup/index.htm[open Unified Process]
+* Projektdokumentation mit https://asciidoctor.org/[Asciidoctor]
 
 == Positionierung
 
@@ -149,7 +150,7 @@ Beispiel Produkt:
 
 | Mobile Darstellung | mittel | xx
 
-|Vollständiges Benutzerhandbuch |niedrig |xx
+|Vollständiges Dokumentation |niedrig |xx
 |===
 
 //Zutreffendes angeben, nicht zutreffendes streichen oder auskommentieren
