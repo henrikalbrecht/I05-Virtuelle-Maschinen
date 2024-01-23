@@ -114,3 +114,4 @@ Um die Verwendung von GitHub zu strukturieren und praxisorientiert zu arbeiten, 
 
 == Erkenntnisse (Lessons learned)
 //List lessons learned from the retrospective, with special emphasis on actions to be taken to improve, for example: the development environment, the process, or team collaboration.
+//TODO AUSWERTUNG RETRO
