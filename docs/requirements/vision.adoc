@@ -146,11 +146,11 @@ Beispiel Produkt:
 
 | Einfaches Design | hoch | xx
 
-| Einfache Bedienbarkeit |hoch |xx
+| Einfache Bedienbarkeit | hoch |xx
 
 | Mobile Darstellung | mittel | xx
 
-|Vollständiges Dokumentation |niedrig |xx
+|Vollständige Dokumentation | niedrig |xx
 |===
 
 //Zutreffendes angeben, nicht zutreffendes streichen oder auskommentieren
