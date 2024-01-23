@@ -21,7 +21,5 @@ Um das Projekt zu Strukturieren wurden Rollen nach dem Open Unified Process verg
 
 |Clemens Näther | Tester | Developer |
 
-|Eric Steinchen | Analyst | Tester |
-
 |Julius Viertel | Analyst | Architect |
 |===
