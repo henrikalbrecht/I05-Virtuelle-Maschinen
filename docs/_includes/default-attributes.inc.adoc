@@ -1,6 +1,6 @@
 // Meta
-:project-name: I05 - Vergabe virtueller Maschinen
-:project-system-name: VM-Verwaltungssystem
+:project-name: I05 - Verwaltung der Vergabe virtueller Maschinen
+:project-system-name: VM-Vergabeverwaltungssystem
 :project-team-name: Team I05
 // Settings:
 :toc:
