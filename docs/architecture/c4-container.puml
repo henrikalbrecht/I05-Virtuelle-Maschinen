@@ -4,7 +4,7 @@
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
 Person(admin, "VM-Verwalter")
-System_Boundary(c1, "VM-Verwaltungssystem") {
+System_Boundary(c1, "VM-Vergabeverwaltungssystem") {
     Container(frontend, "Frontend", "Container, React", "Stellt die Nutzeransicht im Browser zur Verfügung")
     Container(database, "Database", "Container, Relational Database, PostgreSQL", "Ermöglicht es, die Verwaltungsdaten der VMs persistent vorzuhalten"   )
     Container(backend, "Backend", "Container, Django", "Setzt die durch den Nutzer eingegeben Änderungen um" )
