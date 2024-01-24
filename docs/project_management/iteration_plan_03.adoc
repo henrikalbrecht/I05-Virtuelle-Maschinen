@@ -46,7 +46,7 @@ a|* Die Verteilung der Aufgaben gestaltet sich mitunter schwierig, da das techni
 * Auftraggeber hat finalisierte Vision bestätigt
 * Use-Case Model und identifizierte Use-Cases liegen zum Auftraggeber-Meeting am 05.12.2023 vor
 * Risikoliste liegt mit min. 5 vollständigen Einträgen vor
-* Workshop für Developer und Tester wurden inkl. Erfolgskontrolle durchgeführt
+* Workshop für Developer und Tester wurde inkl. Erfolgskontrolle durchgeführt
 
 
 == Assessment
@@ -58,7 +58,7 @@ a|* Die Verteilung der Aufgaben gestaltet sich mitunter schwierig, da das techni
 
 | Assessment Datum | 10.12.2023
 | Teilnehmer | PK, HA
-| Projektstatus: *grün*	
+| Projektstatus: *grün* 
 a|* Durch die konsequente Durchführung von Workshops und Erfahrungsaustausch während der Team-Meetings konnte das technische Verständnis verbessert werden.
 * Issues wurden zeitiger in Github angelegt und das Team regelmäßig auf neu angelegte Issues hingewiesen, damit es selbstständig die zugewiesenen Aufgaben abarbeiten kann.
 |===
@@ -69,7 +69,7 @@ a|* Durch die konsequente Durchführung von Workshops und Erfahrungsaustausch w�
 
 | Assessment Datum | 04.12.2023
 | Teilnehmer | {project-team-name}
-| Projektstatus: *grün*	
+| Projektstatus: *grün* 
 | Der Git Workflow wurde auf einen Branching-Workflow umgestellt und die erforderlichen Kenntnisse während eines Team-Meetings dem gesamten Team vermittelt.
 |===
 
@@ -84,10 +84,10 @@ a|* Überprüfung der Iterationsziele:
 ** Vision wurde finalisiert **(Y)**
 ** Bestätigung der Vision wurde eingeholt **(Y)**
 ** Das Use-Case Model erhielt positive Rückmeldung **(Y)**
-** Use-Case 01 liegt vollständig vor **(Y/N)**
-** Use-Case 03 liegt vollständig vor **(Y/N)**
+** Use-Case 01 liegt vollständig vor **(N)**
+** Use-Case 03 liegt vollständig vor **(N)**
 ** Probleme aus Iteration 02 wurden adressiert und behoben **(Y)**
-** Risikoliste wurde mit mindestens 5 Risiken erarbeitet **(Y/N)**
+** Risikoliste wurde mit mindestens 5 Risiken erarbeitet **(Y)**
 ** Developer und Tester Workshop wurde durchgeführt **(Y)**
 |===
 
@@ -97,7 +97,7 @@ a|* Überprüfung der Iterationsziele:
 
 | Assessment Datum | 18.12.2023
 | Teilnehmer | {project-team-name}
-| Projektstatus: *grün* | //TODO: Retro durchführen
+| Projektstatus: *grün* | Eine Retrospektive wurde link:resources/RETRO_I_18DEC2023.pdf[vorbereitet] und durchgeführt. Als Grundlage wurde das Tool https://retromat.org/en/?id=59-9-51-49-67[Retromat] verwendet.
 |===
 
 
@@ -114,3 +114,4 @@ a|* Überprüfung der Iterationsziele:
 
 * Andere Belange und Abweichungen
 //Führen Sie weitere Themen auf, für die eine Bewertung durchgeführt wurde. Beispiele sind Finanzen, Zeitabweichungen oder Feedback von Stakeholdern, die nicht bereits an anderer Stelle dokumentiert wurden.
+
