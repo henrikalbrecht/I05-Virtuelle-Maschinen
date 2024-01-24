@@ -1,5 +1,5 @@
 = Projektplan: {project-name}
-Paul Kiok <paul.kiok@stud.htw-dresden.de>; Henrik Albrecht <henrik.albrecht@stud.htw-dresden.de>; Arshnoor Singh <arshnoor.singh@stud.htw-dresden.de>; Eric Steinchen <eric.steinchen@stud.htw-dresden.de>
+Paul Kiok <paul.kiok@stud.htw-dresden.de>; Henrik Albrecht <henrik.albrecht@stud.htw-dresden.de>; Arshnoor Singh <arshnoor.singh@stud.htw-dresden.de>
 {localdatetime}
 include::../_includes/default-attributes.inc.adoc[]
 
@@ -20,8 +20,6 @@ Um das Projekt zu Strukturieren wurden Rollen nach dem Open Unified Process verg
 |Jakub Kliemann | Developer | Frontend Developer, Tester | Backend Developer
 
 |Clemens Näther | Tester | Developer |
-
-|Eric Steinchen | Analyst | Tester |
 
 |Julius Viertel | Analyst | Architect |
 |===
