@@ -14,27 +14,29 @@ In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fa
 | Begriff | Definition und Erläuterung | Synonyme
 //| Kommissionierung | Bereitstellung von Waren aus einem Lager entsprechend eines Kundenauftrags | (keine)
 
-| Docker-Container | Die Docker-Technologie verwendet den Linux-Kernel und seine Funktionen wie Cgroups und Namespaces, um Prozesse zu isolieren, damit diese unabhängig voneinander ausgeführt werden können. Diese Unabhängigkeit ist der Zweck der Container die Fähigkeit, mehrere Prozesse und Apps getrennt voneinander ausführen zu können. | 
-| Linux-Kernel |   Der Kernel ist ein elementares, zentrales Modul eines Betriebssystems, mit anderen Worten: der Betriebssystemkern. Er ist die Schnittstelle zwischen der Software und der Systemhardware, indem er die unterste Software-Schicht des Systems einnimmt und somit einen direkten Zugriff auf die Hardware hat. |
-| Oberflächen-Frameworks |   (englisch für Rahmenstruktur) ist ein Programmiergerüst, das in der Softwaretechnik, insbesondere bei der objektorientierten Softwareentwicklung sowie bei komponentenbasierten Entwicklungsansätzen, verwendet wird. Im allgemeineren Sinne bezeichnet man mit Framework auch einen Ordnungsrahmen. |
-| Ojektorientierte Softwareentwicklung |    In der Entwicklung von Software ist das eine Sichtweise auf komplexe Systeme, bei der ein System durch das Zusammenspiel kooperierender Objekte beschrieben wird.|
-| Komponentenbasierte Entwicklungsansätze |  Damit ist es dem Entwickler möglich, seinen Fokus klar auf verschiedene Teilaspekte einer Anwendung zu legen.|
-| Komponente |   Eine Komponente ist im Kontext der Softwarearchitektur ein Teil einer Software, der mit anderen Softwareteilen gemäß den Regeln eines Komponentenmodells zusammenwirken kann.|
-| Frontend |   Der für den Nutzer sichtbare und interaktive Teil einer Softwareanwendung.|
-| Backend |   Der nicht sichtbare Teil einer Softwareanwendung, welcher Anfragen vom Frontend bearbeitet.|
-| Repository |   Zentraler Ort zur Speicherung von Daten wie Quellcode oder Projektdokumentationen. gesteuert über Versionskontrollsysteme, wie zum Beispiel Git.|
+| Docker-Container | Enthält, im vergleich zur VM, nur alle nötigen Resourcen die zur Ausführung einer bestimmten Software benötigt werden. Er lässt sich leicht als Datei transportieren und installieren. | 
+| Kernel |   Ein elementares, zentrales Modul (Betriebssystemkern), das die Schnittstelle zwischen Software und Systemhardware darstellt, hat direkten Zugriff auf die Hardware. |
+| Framework |   Ist ein Programmiergerüst und dient als Hilfestellung zum Programmieren. Es umfasst Komponenten, Laufzeitumgebungen und Bibliotheken.|
+| Frontend  |   Der für den Nutzer sichtbare und interaktive Teil einer Softwareanwendung.|
+| Backend  |   Der nicht sichtbare Teil einer Softwareanwendung, welcher Anfragen vom Frontend bearbeitet.|
+| Repository |   Zentraler Ort zur Speicherung von Daten, wie Quellcode oder Projektdokumentationen, gesteuert über Versionskontrollsysteme, wie zum Beispiel Git.|
 | Use Case |   Ein Use Case beschreibt  eine Technik zur Beschreibung der Interaktion zwischen der Anwendung und dem Anwender.|
 | Architecture Notebook |   Sammlung von Informationen, Zeichnungen, Entwürfen, Dokumentationen und anderen relevanten Materialien, die sich auf die Architektur einer Softwareanwendung, eines Systems oder einer IT-Lösung beziehen.Es dient als zentrale Quelle für alle architekturrelevanten Entscheidungen, Designmuster, Diagramme, Beschreibungen von Systemkomponenten, technische Spezifikationen und andere wichtige Informationen, die für die Planung, Entwicklung, Wartung und Skalierung von IT-Systemen von Bedeutung sind.| 
 | Altsystem |   Beispielsweise veraltete Software Anwendungen oder Hardware Plattformen, welche auf älteren Technologien basieren und somit Schwierigkeiten bei Wartung und Weiterentwicklung verursachen. |
-| Retro Durchführung |    Abschluss eines Arbeitszyklus, einer Entwicklungsphase oder eines Projekts mit dem Ziel den Projektstand einzusehen und daraus Schlüsse für die Weiterarbeit zu Gewinnen folgende Dinge sind dabei wichtig: Rückblick und Reflexion, Maßnahmen und Verbesserungen, Identifizierung von Stärken und Verbesserungsbereichen, Diskussion, Datenerhebung |
-| Visual Paradigm |   Visual Paradigm wird von Softwareentwicklern, Projektmanagern, Systemarchitekten und Geschäftsanalysten verwendet, um komplexe Systeme zu visualisieren, zu modellieren, zu dokumentieren und zu verbessern |
-| Merge |   Dabei werden die Änderungen aus dem Arbeits- oder Feature-Branch in den Hauptbranch integriert.|
-| VMWare Clusters |  Ein Cluster aus virtuellen Maschinen über mehrere physische Hosts hinweg schützt vor Software- und Hardwarefehlern auf der physischen Maschine, indem die Clusterknoten auf unterschiedlichen ESXi-Hosts platziert werden|
-| PostgreSQL Datenbank | ||Open-Source-Datenbankverwaltungssystem | Es bietet viele Funktionen für die Verwaltung von Datenbanken und wird oft in Webanwendungen, großen Datenbanken und vielen anderen Anwendungsfällen eingesetzt. |
+| Visual Paradigm | Eine Desktop-Software für die Modellierung von Software mit gängigen Modellierungssprachen wie UML und SysML.|
+| Merge |   Vorgang, welcher mehrerer Änderungen, die an verschiedenen Versionen derselben Datei getätigt wurden, abgleicht.|
+| VMware Cluster  | Eine Gruppierung von mehreren physischen Servern, wobei die kombinierten Ressourcen als Einheit agieren.|
+| PostgreSQL Datenbank  | Ein freies, objektrelationales Datenbankmanagementsystem, welches weitgehend konform mit dem SQL-Standard SQL:2011 ist. Zudem gibt es ein umfangreiches Angebot an Erweiterungen durch Dritthersteller. | Postgres
 | VM Pool | (Umfang) bezieht sich auf eine Sammlung von virtuellen Maschinen |
-| Django | Django ist ein leistungsstarkes Open-Source-Webframework, das in Python entwickelt wurde. Es wurde entworfen, um die Entwicklung von Webanwendungen zu erleichtern, indem es eine Vielzahl von Werkzeugen und Funktionen bereitstellt, um komplexe Webanwendungen schnell und effizient zu erstellen.|
-| Datenbank SQL-Dump |   Teilweise oder ganze Auszüge aus einer Datenbank werden als Datenbankdump (dump = engl. für Auszug) bezeichnet. Derartige Auszüge werden für die Datensicherung oder Portierung der Datenbank erstellt. Ein Datenbankdump kann aber auch nur die Struktur der Datenbank ohne Daten beinhalten.|
-| IP Adresse |   ist eine numerische Kennung, die jedem Gerät in einem Computernetzwerk eine eindeutige Identifikation zuweist. Sie dient dazu, die Kommunikation zwischen verschiedenen Geräten in einem Netzwerk zu ermöglichen und zu steuern.|Internet Protocol-Adresse |
+| Django | Django ist ein leistungsstarkes Open-Source-Webframework, das in Python entwickelt wurde. Es wurde entworfen, um die Entwicklung von Webanwendungen zu erleichtern, indem es eine Vielzahl von Werkzeugen und Funktionen bereitstellt, um komplexe Webanwendungen schnell und effizient zu erstellen. |
+| Datenbank SQL-Dump  |   Teilweise oder ganze Auszüge aus einer Datenbank werden als Datenbankdump (dump = engl. für Auszug) bezeichnet. Derartige Auszüge werden für die Datensicherung oder Portierung der Datenbank erstellt. Ein Datenbankdump kann aber auch nur die Struktur der Datenbank ohne Daten beinhalten.|
+| IP Adresse |   ist eine numerische Kennung, die jedem Gerät in einem Computernetzwerk eine eindeutige Identifikation zuweist. Sie dient dazu, die Kommunikation zwischen verschiedenen Geräten in einem Netzwerk zu ermöglichen und zu steuern.|Internet Protocol-Adresse 
+| Git | Ist eine Software zur verteilten Versionsverwaltung von Dateien |
+| REST-API  (RESTful)-API| Eine API, die auf die REST-Architektur beschränkt ist. und Interaktionen mit dem REST Webservice ermöglicht. |
+| GET | Ein HTTP-Befehl, welcher von einem REST-Clienten verwendet werden kann. GET = Abrufen einer bestimmten Ressource.|
+| POST | Ein HTTP-Befehl, welcher von einem REST-Clienten verwendet werden kann. POST = Erstellen einer neuen Ressource|
+| Client-Server-Architektur | Client- und Server-Komponenten sind in der Rest-Architektur voneinader getrennt und klar definiert. Dies ermöglicht, dass an beiden Komponenten unabhängig voneinander Änderungen vorgenommen werden können, ohne gegenseitige Auswirkungen auf die andere Komponente zu haben.|
+| Server | Ein Computerprogramm oder Gerät, welches Ressourcen wie Dienstprogramme oder Daten bereitstellt, damit, meist über ein Netzwerk, andere Geräte oder Programme zugreifen können.|
 |===
 
 
@@ -43,16 +45,21 @@ In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fa
 |===
 | Abkürzung | Bedeutung | Erläuterung
 //| UP | Unified Process | Vorgehensmodell für die Softwareentwicklung
-| VPN | Virtual Private Network | xstellt eine sichere Verbindung zwischen Internet und Benutzer über ein privates Netzwerk her
+| VPN | Virtual Private Network | Stellt eine sichere Verbindung zwischen Internet und Benutzer über ein privates Netzwerk her
 | OS | Operating System | engl. Abkürzung für Betriebssystem
 | HDD | Hard Disk Drive | (Festplattenlaufwerk) - permanenter Speicher zur Langzeitdatenspeicherung
-| RAM | Random Access Memory | (Arbeitsspeicher) - temporärer Speicher, um Daten vorübergehend zu speichern und schnell darauf zugreifen zu können
+| RAM | Random Access Memory | (Arbeitsspeicher) - flüchtiger Speicher, um Daten vorübergehend zu speichern und schnell darauf zugreifen zu können
 | CPU | Central Processing Unit | ein zentrales Bauteil “Gehirn” in einem Computer, steuert Hardwarekomponenten und führt die meisten Rechenoperationen durch
 | DNS | Domain Name System | ein System, welches IP-Adressen in Domain Namen übersetzt und umgekehrt
-| VM | Virtuelle Maschiene | Eine VM steht für eine virtuelle Maschine. Eine virtuelle Maschine ist eine Softwareemulation eines  Computersystems. Sie ermöglicht es, eine vollständige Computerumgebung auf einem einzelnen physischen Rechner auszuführen, indem sie Ressourcen wie CPU, Speicher, Netzwerk und Speicherplatz in einem isolierten, abgeschotteten Bereich zur Verfügung stellt.
+| VM | Virtuelle Maschiene | Eine VM steht für eine virtuelle Maschine. Eine virtuelle Maschine ist eine Softwareemulation eines  Computersystems. Sie ermöglicht die Ausführung einer vollständigen Computerumgebung auf einem einzelnen physischen Rechner, indem sie Ressourcen, wie CPU, Speicher, Netzwerk und Speicherplatz in einem isolierten, abgeschotteten Bereich zur Verfügung stellt.
 | ESXi-Hosts |  |Damit ist es möglich, physische Host Ressourcen, beispielsweise Arbeitsspeicher, CPU, Netzwerk Verbindungen oder Speicherplatz unterschiedlichen virtuellen Maschinen zuzuweisen.
 | SQL | Structured Query Language | Es ist eine standardisierte Programmiersprache, die für das Management von relationalen Datenbankmanagementsystemen (RDBMS) entwickelt wurde. SQL ermöglicht es, auf eine Datenbank zuzugreifen, Daten abzurufen, zu manipulieren, zu verwalten und zu definieren.
-
+| ORM | Objektrelationale Abbildung (object-relational mapping) | Technik der Softwareentwicklung, in der durch ein mit objektorientierten Programmiersprachen geschriebenes Anwendungsprogramm Objekte in einer relationalen Datenbank ablegen kann. 
+| RDBMS | relationales Datenbankverwaltungssystem (Relational Database Management System) | Ein Programm zum Erstellen, Aktualisieren und Verwalten relationaler Datenbanken. (z.B.: MySQL, PostgreSQL)
+| DBMS | Datenbankmanagementsystem | Ist für die Verwaltung der Daten, die Engine, die den Benutzern den Zugriff auf die Daten innerhalb der Datenbank ermöglicht, verantwortlich.
+| REST (RESTful)| Representational State Transfer | Ein API-Typ, der die Kommunikation zwischen Webbasierten Apps unterstützt. Die Daten werden mithilfe von JSON übertragen, meist mit der verwendung des HTTP-Protokolls. Auch RESTful genannt.
+| API |  Application-Program-Interface | Um eine Software zu erstellen oder mit einem externen Sytem interagieren zu können, bietet ein API ein Satz von Befehlen, Funktionen, Protokollen und Objekten, die vom Programmierer verwendet werden können.
+| JSON | JavaScript Object Notation | Ist ein kompaktes Datenformat und ermöglicht den Datenaustausch zwischen Anwendungen in einer einfach lesbaren Textform. JSON ist unabhängig von Programmiersprachen, da Generatoren in allen verbreiteten Sprachen existieren.
 |===
 
 == Verzeichnis der Datenstrukturen
