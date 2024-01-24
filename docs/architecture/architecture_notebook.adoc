@@ -55,7 +55,7 @@ https://www2.htw-dresden.de/~anke/openup/core.tech.common.extend_supp/guidances/
 
 . Um den Zugriff Unbefugter zu verhindern xref:../requirements/system-wide_requirements.adoc#NFAF1[(NFAF-1)] nutzen wir eine Kombination aus Nutzername und Passwort zur Authentifizierung des Vergabe-Verwalters.
 
-. Während der Analyse haben wir die Entscheidung getroffen die Daten persistent vorzuhalten.xref:../requirements/system-wide_requirements.adoc#NFAF2[(NFAF-2)] Die aktuelle Implementierung beruht auf einer SQLite Datenbank, da diese von Django direkt mitgeliefert wird. In Zukunft wird diese gegen eine PostgreSQL Datenbank ausgetauscht um den Anforderungen des Projektgebers zu entsprechen. 
+. Während der Analyse haben wir die Entscheidung getroffen, die Daten persistent vorzuhalten.xref:../requirements/system-wide_requirements.adoc#NFAF2[(NFAF-2)] Die aktuelle Implementierung beruht auf einer SQLite Datenbank, da diese von Django direkt mitgeliefert wird. In Zukunft wird diese gegen eine PostgreSQL Datenbank ausgetauscht, um den Anforderungen des Projektgebers zu entsprechen. 
 
 
 == Wesentliche Abstraktionen

@@ -24,7 +24,7 @@ In diesem Dokument werden die systemweiten Anforderungen für das Projekt {proje
 
 * *NFAF-2*: Persistenz
 [[NFAF2]]
-** Das System muss in der Lage sein gespeicherte Daten nach einem Systemausfall oder Neustart wiederherzustellen. Zur Überprüfung wird die Datenbank mit Testdaten gefüllt. Anschließend wird das System ausgeschaltet und überprüft ob die Testdaten noch vorhanden sind. Wenn dies so ist, dann ist die Anforderung erfüllt.
+** Das System muss in der Lage sein, gespeicherte Daten nach einem Systemausfall oder Neustart wiederherzustellen. Zur Überprüfung wird die Datenbank mit Testdaten gefüllt. Anschließend wird das System ausgeschaltet und überprüft, ob die Testdaten noch vorhanden sind. Wenn dies so ist, dann ist die Anforderung erfüllt.
 
 
 == Qualitätsanforderungen für das Gesamtsystem
