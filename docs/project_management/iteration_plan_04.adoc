@@ -1,0 +1,90 @@
+= Iteration Plan 04: {project-name}
+Paul Kiok <paul.kiok@stud.htw-dresden.de>
+{localdatetime}
+include::../_includes/default-attributes.inc.adoc[]
+// Platzhalter für weitere Dokumenten-Attribute
+
+== Wesentliche Ziele
+//Nennen Sie 1-5 wesentliche Ziele für die Iteration.
+
+* Verstärkte Einbeziehung der Developer-Rollen
+* Erarbeitung der Datenstruktur
+* Finalisierung von zwei Use-Cases
+
+== Aufgabenzuordnung
+//Dieser Abschnitt sollte einen Verweis auf die Work Items List enthalten, die die für diese Iteration vorgesehenen Aufgaben dokumentiert sowie die Zuordnung dieser Aufgaben zu Teammitgliedern. Alternativ können die Aufgaben für die Iteration und die Zuordnung zu Teammitgliedern in nachfolgender Tabelle dokumentiert werden - je nach dem, was einfacher für die Projektbeteiligten einfacher zu finden ist.
+
+Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestellt: https://github.com/users/henrikalbrecht/projects/2/views/10[Iteration 4].
+
+== Probleme (optional)
+//Optional: Führen Sie alle Probleme auf, die in dieser Iteration adressiert werden sollen. Aktualisieren Sie den Status, wenn neue Probleme bei den täglichen / regelmäßigen Abstimmungen berichtet werden.
+
+[%header, cols="2,1,3"]
+|===
+| Problem | Status | Notizen
+
+| PRB03 : Nutzung von Google Docs | fixed  (siehe Assessment) | Für die Erstellung des Glossars wurde durch die Verantwortlichen ein Google Docs Dokument angelegt, was Mehrarbeit zur Folge hat, da die Daten im Anschluss in das entsprechende Dokument auf Github überführt werden müssen. Es gilt Einigung darüber zu erreichen, dass Arbeit direkt über die Entwicklungsumgebung an den Github-Dokumenten durchgeführt wird, um effizient zu bleiben.
+
+| PRB04: Statusaktualisierung Github Issues | open | Die in Git angelegten Issues, welche die Verteilung der Aufgaben an alle Teammitglieder darstellt, sind dafür vorgesehen, von dem entsprechenden Bearbeiter in den Status "In progress" gesetzt zu werden, sobald die Arbeit daran beginnt. Diese Regel wird aktuell ungenügend beachtet und muss in einem zukünftigen Team-Meeting erneut vermittelt werden.
+
+| PRB05: Unzureichende Arbeitsergebnisse | open | Verteilte Aufgaben werden teilweise in unzureichender Qualität bearbeitet, was zu einer erhöhten Mehrbelastung anderer Teammitglieder führt. Das Problem muss in Meetings kommuniziert und ggf. in Einzelgesprächen weiter erörtert werden, um Lösungsstrategien zu entwickeln.
+|===
+
+
+== Bewertungskriterien
+//Eine kurze Beschreibung, wie Erfüllung die o.g. Ziele bewertet werden sollen.
+
+* Feedback von Auftraggeber wurde in UC01 und UC03 eingearbeitet
+* Min. ein Developer hat sich mit Docker auseinandergesetzt
+* Min. ein Developer hat sich mit Django und Datenhaltung auseinandergesetzt
+* Backend-Developer hat die bereitgestellte VM nach Vorgabe der Projektleitung grundkonfiguriert
+
+
+== Assessment
+//In diesem Abschnitt werden die Ergebnisse und Maßnahmen der Bewertung erfasst und kommuniziert. Die Bewertung wird üblicherweise am Ende jeder Iteration durchgeführt. Wenn Sie diese Bewertungen nicht machen, ist das Team möglicherweise nicht in der Lage, die eigene Arbeitsweise ("Way of Working") zu verbessern.
+
+
+[%header, cols="1,3"]
+|===
+| Assessment Ziel | Problemlösung zu __PRB03__
+
+| Assessment Datum | 18.12.2023
+| Teilnehmer | {project-team-name}
+| Projektstatus: *grün* 
+| Die umständliche Vorgehensweise über Google Docs wurde während eines Meetings kommuniziert. Zukünftig wird das Glossar ebenfalls über besser geeignete Bearbeitungsmittel gepflegt.
+|===
+
+[%header, cols="1,3"]
+|===
+| Review | Iteration 4
+
+| Assessment Datum | 01.01.2024
+| Teilnehmer | {project-team-name}
+| Projektstatus: *gelb*
+a|* Überprüfung der Iterationsziele: 
+** Vision wurde finalisiert **(Y)**
+** Bestätigung der Vision wurde eingeholt **(Y)**
+** Das Use-Case Model erhielt positive Rückmeldung **(Y)**
+** Use-Case 01 liegt vollständig vor **(N)**
+** Use-Case 03 liegt vollständig vor **(N)**
+** Probleme aus Iteration 02 wurden adressiert und behoben **(Y)**
+** Risikoliste wurde mit mindestens 5 Risiken erarbeitet **(Y)**
+** Developer und Tester Workshop wurde durchgeführt **(Y)**
+|===
+
+
+//TODO: 10.12.2023, PK
+* Beurteilung im Vergleich zu den Zielen
+//Dokumentieren Sie, ob die angestrebten Ziele des Iterationsplans erreicht wurden.
+
+* Geplante vs. erledigte Aufgaben
+//Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
+
+* Beurteilung im Vergleich zu den Bewertungskriterien
+//Document whether you met the evaluation criteria as specified in the Iteration Plan.
+//Geben Sie an, ob Sie die o.g. Bewertungskriterien erfüllt haben. Das kann z.B. folgende Informationen enthalten: “Demo for Department X was well-received, with some concerns raised around usability,” or “495 test cases were automated with a 98% pass rate. 9 test cases were deferred because the corresponding Work Items were postponed.”
+
+* Andere Belange und Abweichungen
+//Führen Sie weitere Themen auf, für die eine Bewertung durchgeführt wurde. Beispiele sind Finanzen, Zeitabweichungen oder Feedback von Stakeholdern, die nicht bereits an anderer Stelle dokumentiert wurden.
+
+
