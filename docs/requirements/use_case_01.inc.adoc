@@ -6,7 +6,7 @@ ifndef::main-document[include::../_includes/default-attributes.inc.adoc[]]
 
 === Kurzbeschreibung
 //<Kurze Beschreibung des Use Case>
-Der Use-Case umfasst die Auflistung aller vorhandenen VMs.
+Der Use-Case umfasst die Auflistung aller vorhandenen VMs, sowie deren Eigenschaften und Zustände.
 
 === Kurzbeschreibung der Akteure
 - Herr Zirkelbach (User)
@@ -16,10 +16,9 @@ Der User muss angemeldet sein.
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
-. Der Use Case beginnt, wenn der User auf den Menüpunkt *Übersicht* klickt.
-. Die Übersichtsseite wird geöffnet.
-. Es werden grundlegende Informationen zu allen VMs aufgelistet. (Lesen aus DB)
-. Der Use Case endet mit der abgeschlossenen Auflistung der letzten VM.
+. Der User öffnet die Seite *Übersicht*.
+. Das System liest alle VMs aus der Datenbank und sortiert sie nach dem Status.
+. Das System zeigt grundlegende Informationen zu allen VMs aufgelistet an.
 
 ==== Wireframe
 .Wireframe - UC01 VMs auflisten
@@ -34,7 +33,6 @@ Sobald sich der User erfolgreich am System angemeldet hat, wird mit Schritt 2 de
 
 ==== Vergabe aus Übersicht heraus verwalten (Erweiterung)
 Wenn sich der User auf der Seite *Übersicht* befindet und eine bereits vergebene oder in Vorbereitung befindliche VM anklickt, dann
-
 . wird ein Symbol zum Editieren angezeigt.
 . Klickt der User auf das Symbol, so öffnet sich die Seite zur Verwaltung der Vergabe mit der entsprechenden VM vorausgewählt.
 
@@ -43,6 +41,11 @@ Wenn sich der User auf der Seite *Übersicht* befindet und eine bereits vergeben
 .Wireframe - UC01 Vergabe aufrufen
 image::uc01_wireframe_extension.png[]
 
+==== Übersicht mit Filter
+. Der User öffnet die Seite *Übersicht*.
+. Der User setzt den Filter auf "nur vergebene VMs".
+. Das System liest nur vergebene VMs aus der Datenbank.
+. Das System zeigt grundlegende Informationen zu allen vergebenen VMs aufgelistet an.
 
 === Wesentliche Szenarios
 //Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
