@@ -110,8 +110,11 @@ Um die Verwendung von GitHub zu strukturieren und praxisorientiert zu arbeiten, 
 
 == Deployment
 //Outline the strategy for deploying the software (and its updates) into the production environment.
-
+Die Deployment-Strategie, die eine reibungslose Integration in die Produktionsumgebung ermöglichen wird, wird Teil des kommenden Semesters sein.
 
 == Erkenntnisse (Lessons learned)
 //List lessons learned from the retrospective, with special emphasis on actions to be taken to improve, for example: the development environment, the process, or team collaboration.
-//TODO AUSWERTUNG RETRO
+Erkenntnisse lassen sich grundsätzlich den einzelnen Iterationsplänen entnehmen. Darüber hinaus sind folgende lessons learned hier gesondert erwähnenswert:
+
+* Es ist bisher nicht gelungen, einen teamübergreifenden Gedanken zu entwickeln, bei dem jedes Teammitglied regelmäßig proaktiv auf neue/offene Github issues prüft. Dies sorgt für unnötigen Leerlauf und zusätzlichen Kommunikationsaufwand durch die Projektleiter. Diese Arbeitsweise ist mit geeigneten Mitteln im kommenden Semester weiter zu verbessern.
+
