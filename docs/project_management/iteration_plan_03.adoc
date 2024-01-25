@@ -31,9 +31,11 @@ a|* Die Verteilung der Aufgaben gestaltet sich mitunter schwierig, da das techni
 
 | PRB02: Git Workflow | fixed  (siehe Assessment)| Um die Arbeit an einzelnen Funktionalitäten in den Pull requests besser unterscheiden zu können, ist eine Arbeit mit branches notwendig. Die Arbeit mit branches muss bei einem weiteren Workshop während eines Team-Meetings vermittelt werden.
 
-| PRB03: Nutzung von Google Docs | open | Für die Erstellung des Glossars wurde durch die Verantwortlichen ein Google Docs Dokument angelegt, was Mehrarbeit zur Folge hat, da die Daten im Anschluss in das entsprechende Dokument auf Github überführt werden müssen. Es gilt Einigung darüber zu erreichen, dass Arbeit direkt über die Entwicklungsumgebung an den Github-Dokumenten durchgeführt wird, um effizient zu bleiben.
+| PRB03: Nutzung von Google Docs | new | Für die Erstellung des Glossars wurde durch die Verantwortlichen ein Google Docs Dokument angelegt, was Mehrarbeit zur Folge hat, da die Daten im Anschluss in das entsprechende Dokument auf Github überführt werden müssen. Es gilt Einigung darüber zu erreichen, dass Arbeit direkt über die Entwicklungsumgebung an den Github-Dokumenten durchgeführt wird, um effizient zu bleiben.
 
-| PRB04: Statusaktualisierung Github Issues | open | Die in Git angelegten Issues, welche die Verteilung der Aufgaben an alle Teammitglieder darstellt, sind dafür vorgesehen, von dem entsprechenden Bearbeiter in den Status "In progress" gesetzt zu werden, sobald die Arbeit daran beginnt. Diese Regel wird aktuell ungenügend beachtet und muss in einem zukünftigen Team-Meeting erneut vermittelt werden.
+| PRB04: Statusaktualisierung Github Issues | new | Die in Git angelegten Issues, welche die Verteilung der Aufgaben an alle Teammitglieder darstellt, sind dafür vorgesehen, von dem entsprechenden Bearbeiter in den Status "In progress" gesetzt zu werden, sobald die Arbeit daran beginnt. Diese Regel wird aktuell ungenügend beachtet und muss in einem zukünftigen Team-Meeting erneut vermittelt werden.
+
+| PRB05: Unzureichende Arbeitsergebnisse | new | Die Arbeitsergebnisse eines Teammitgliedes werden konstant als unzureichend bewertet. Die negativen Auswirkungen auf die Motivation anderer Teammitglieder, der erhöhte Zeitaufwand und die Mehrbelastung durch Kompensation durch das übrige Team sind deutlich erkennbar. Das Problem muss in geeigneter Weise schnellsmöglich behandelt werden.
 |===
 
 
@@ -100,18 +102,38 @@ a|* Überprüfung der Iterationsziele:
 | Projektstatus: *grün* | Eine Retrospektive wurde link:resources/RETRO_I_18DEC2023.pdf[vorbereitet] und durchgeführt. Als Grundlage wurde das Tool https://retromat.org/en/?id=59-9-51-49-67[Retromat] verwendet.
 |===
 
+|===
+| Review | Iteration 3
 
-//TODO: 10.12.2023, PK
-* Beurteilung im Vergleich zu den Zielen
+| Assessment Datum | 18.12.2023
+| Teilnehmer | {project-team-name}
+| Projektstatus: *grün* 
+a|* Ergebnisse aus der Retrospektive: 
+** Happiness Histogram (Durchschnittsnote): 2,71
+** Learning Matrix - good: Allgemeiner Workflow, Projektmanagement
+** Learning Matrix - not good: Zeitmanagement Developer, Benutzung Github
+** Learning Matrix - ideas: Bessere Aufgabenverteilung
+** Lean Coffee (Discussion) - Deadlines, Commitment
+** Dot-voting - Start: Mehr Kommunikation, Planung Development, Selbstständigere Arbeit
+** Dot-voting - Stop: Procrastination
+** Dot-Voting - Keep: Schnelle Arbeit an Pull Requests, Arbeit von Projektmanagement
+** Abschlussgedanken: "Teamwork ist nicht einfach", "Mehr machen, mehr fragen, mehr feedback einholen", "Mehr Kommunikation", "Selbstständiger arbeiten"
+|===
+
+
+=== Beurteilung im Vergleich zu den Zielen
 //Dokumentieren Sie, ob die angestrebten Ziele des Iterationsplans erreicht wurden.
+Die angestrebten Ziele wurden nicht vollständig erreicht. Nach Einschätzung der Projektleitung befindet sich der Zielerreichungsgrad allerdings bei ca. 90%.
 
-* Geplante vs. erledigte Aufgaben
+=== Geplante vs. erledigte Aufgaben
 //Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
+* Use-Cases 01 und 03 wurden ausgearbeitet und mit dem Auftraggeber besprochen. Allerdings wurde das Feedback noch nicht eingearbeitet. Die Anpassungen sollen in der nächsten Iteration erfolgen.
 
-* Beurteilung im Vergleich zu den Bewertungskriterien
+=== Beurteilung im Vergleich zu den Bewertungskriterien
 //Document whether you met the evaluation criteria as specified in the Iteration Plan.
 //Geben Sie an, ob Sie die o.g. Bewertungskriterien erfüllt haben. Das kann z.B. folgende Informationen enthalten: “Demo for Department X was well-received, with some concerns raised around usability,” or “495 test cases were automated with a 98% pass rate. 9 test cases were deferred because the corresponding Work Items were postponed.”
+* Die Risikoliste wurde zwar mit 15 Einträgen erarbeitet, dem Projektmanagement allerdings nur vorab über Discord bereitgestellt. Diese Vorgehensweise ist nachteilig für den Dokumentationsstand und muss in der nächsten Iteration verbessert werden.
 
-* Andere Belange und Abweichungen
+=== Andere Belange und Abweichungen
 //Führen Sie weitere Themen auf, für die eine Bewertung durchgeführt wurde. Beispiele sind Finanzen, Zeitabweichungen oder Feedback von Stakeholdern, die nicht bereits an anderer Stelle dokumentiert wurden.
-
+* Das Problem PRB05 wurde während der Retrospektive am 18.12.2023 angesprochen und nach Lösungen gesucht, die Situation zu verbessern. Die Projektleitung erörtert mit Hilfestellung des Coaches schnellstens eine mögliche Strategie für den worst-case.
