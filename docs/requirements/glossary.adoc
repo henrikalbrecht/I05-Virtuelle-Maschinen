@@ -73,9 +73,28 @@ In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fa
 | Emailadresse muss `@`-Zeichen und `.` Punkt enthalten.
 | Login
 
-| xx
-| xx
-| xx
-| xx
-| xx
+| VM-Daten
+| Sammlung aller Daten einer virtuellen Maschine. Die Daten umfassen hostname, ip, status sowie für vergebene VMs auch den Projektnamen, die Kontaktdaten, das OS-COnfig-Template und das Ausstellungdatum.
+| String, int, date, boolean, email, ip
+| Gültige Emailadresse und IPv4-Adresse
+| 
+
+| Email-Template
+| Vorlage für eine Email (Betreff, Inhalt) mit dazugehörigen Namen dieser.
+| String
+| 
+| 
+
+| OS-Config-Tempalate
+| Vorlage für eine Betriebssystemkonfiguration mit allen dafür benötigten Daten (OS, CPU-Anzahl, HDD, RAM).
+| String, int
+|
+|
+
+| Projektgruppen-Backup
+| Die Archivierung erfasst, welche VMs zu welchem Zeitpunkt von welchem Team benutzt wurden. 
+| String, date, int
+| 
+| 
+
 |===
