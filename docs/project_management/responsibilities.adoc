@@ -1,4 +1,4 @@
-= Projektplan: {project-name}
+= Projektorganisation: {project-name}
 Paul Kiok <paul.kiok@stud.htw-dresden.de>; Henrik Albrecht <henrik.albrecht@stud.htw-dresden.de>; Arshnoor Singh <arshnoor.singh@stud.htw-dresden.de>
 {localdatetime}
 include::../_includes/default-attributes.inc.adoc[]
