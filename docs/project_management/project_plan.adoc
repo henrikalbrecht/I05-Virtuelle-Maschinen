@@ -110,7 +110,7 @@ Um die Verwendung von GitHub zu strukturieren und praxisorientiert zu arbeiten, 
 
 == Deployment
 //Outline the strategy for deploying the software (and its updates) into the production environment.
-Die Deployment-Strategie, die eine reibungslose Integration in die Produktionsumgebung ermöglichen wird, wird Teil des kommenden Semesters sein.
+Die fertig entwickelte Lösung wird als fertiger Docker-Container per USB-Stick an den Auftraggeber übergeben.
 
 == Erkenntnisse (Lessons learned)
 //List lessons learned from the retrospective, with special emphasis on actions to be taken to improve, for example: the development environment, the process, or team collaboration.
