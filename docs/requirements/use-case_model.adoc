@@ -31,10 +31,10 @@ image::use-case_diagram.png[]
 include::use_case_01.inc.adoc[]
 
 //<<<
-//include::use_case_02.inc.adoc[]
+include::use_case_03.inc.adoc[]
 
 //<<<
-include::use_case_03.inc.adoc[]
+include::use_case_02.inc.adoc[]
 
 //<<<
 include::use_case_04.inc.adoc[]
