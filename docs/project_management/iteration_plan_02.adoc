@@ -11,6 +11,7 @@ include::../_includes/default-attributes.inc.adoc[]
 * Erstellen eines groben grafischen Prototyps zur Veranschaulichung der Hauptfunktionalität
 * Besprechung der Vision und des grafischen Prototyps mit Auftraggeber
 * Finalisierung der Vision
+* Erreichen Meilenstein LCO
 * Erarbeitung der Risikoliste
 * Weiterbildung des gesamten Teams durch einen Git-Workshop
 
@@ -27,10 +28,10 @@ Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestel
 |===
 | Problem | Status | Notizen
 
-| PRB01: Aufgabenverteilung | new 
+| PROB01: Aufgabenverteilung | new 
 a|* Die Verteilung der Aufgaben gestaltet sich mitunter schwierig, da das technische Verständnis über die Aufgabenstellung im Team noch nicht auf einem adäquaten Niveau ist.
 * Dadurch, dass issues in GitHub erst spät angelegt wurden, ist das Bewusstsein über den Projektumfang noch nicht ausgeprägt.
-| PRB02: Git Workflow | new | Um die Arbeit an einzelnen Funktionalitäten in den Pull requests besser unterscheiden zu können, ist eine Arbeit mit branches notwendig. Die Arbeit mit branches muss bei einem weiteren Workshop während eines Team meetings vermittelt werden.
+| PROB02: Git Workflow | new | Um die Arbeit an einzelnen Funktionalitäten in den Pull requests besser unterscheiden zu können, ist eine Arbeit mit branches notwendig. Die Arbeit mit branches muss bei einem weiteren Workshop während eines Team meetings vermittelt werden.
 |===
 
 
@@ -39,6 +40,7 @@ a|* Die Verteilung der Aufgaben gestaltet sich mitunter schwierig, da das techni
 
 * Auftraggeber hat finalisierte Vision bestätigt
 * GUI Prototyp liegt zum Auftraggeber-Meeting am 27.11.2023 vor
+* Der Meilenstein LCO wurde erreicht
 * Risikoliste liegt mit min. 5 vollständigen Einträgen vor
 * Git Workshops wurden inkl. Erfolgskontrollen durchgeführt
 
@@ -59,6 +61,7 @@ a|* Überprüfung der Iterationsziele:
 ** Vision und GUI Prototyp wurden mit Auftraggeber besprochen **(Y)**
 ** Vision wurde finalisiert **(N)**
 ** Bestätigung der Vision wurde eingeholt **(N)**
+** Meilenstein LCO wurde erreicht **(N)**
 ** Risikoliste wurde erarbeitet **(N)**
 ** Git-Workshop wurde durchgeführt **(Y)**
 |===
@@ -72,6 +75,23 @@ a|* Überprüfung der Iterationsziele:
 | Projektstatus: *gelb* | Eine Retrospektive wurde nicht durchgeführt.
 |===
 
+[%header, cols="1,3"]
+|===
+| Review | Zielerreichung Meilenstein LCO
+
+| Assessment Datum | 04.12.2023
+| Teilnehmer | {project-team-name}
+| Projektstatus: *gelb* 
+a|* Das Team versteht im Grunde, was für ein System entwickelt werden soll.
+* Die grundlegenden Funktionalitäten sind klar.
+* Durch regelmäßige Meetings mit dem Auftraggeber sind kritische Anforderungen identifiziert.
+* Die erarbeitete Vision ist umsetzbar.
+|===
+
+=== Essence Navigator
+Gemäß den Alpha States des Essence Navigators befindet sich das Team auf folgendem Stand:
+image:alphas_it02.png[]
+
 === Beurteilung im Vergleich zu den Zielen
 //Dokumentieren Sie, ob die angestrebten Ziele des Iterationsplans erreicht wurden.
 Die angestrebten Ziele wurden nur teilweise erreicht. Nach Einschätzung der Projektleitung befindet sich der Zielerreichungsgrad bei ca. 80%.
@@ -79,7 +99,7 @@ Die angestrebten Ziele wurden nur teilweise erreicht. Nach Einschätzung der Pro
 === Geplante vs. erledigte Aufgaben
 //Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
 * Die Vision wurde in einer ersten Version erarbeitet, konnte jedoch aufgrund von Zeitverzug nicht finalalisiert und nicht vom Auftraggeber bestätigt werden. Die Bestätigung wird in der kommenden Iteration neu forciert.
-* Die Teamfindung und Abstimmung der Arbeitsweisen dauert länger, als erwartet. Die Risikoliste konnte daher nicht aufgestellt werden. Dies wird in der kommenden Iteration erfolgen.
+* Die Teamfindung und Abstimmung der Arbeitsweisen dauert länger, als erwartet. Die Risikoliste konnte daher nicht aufgestellt werden. Dies wird in der kommenden Iteration erfolgen. Das Erreichen des Meilensteins LCO wurde dadurch behindert.
 
 === Beurteilung im Vergleich zu den Bewertungskriterien
 //Document whether you met the evaluation criteria as specified in the Iteration Plan.
