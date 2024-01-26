@@ -27,10 +27,10 @@ Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestel
 |===
 | Problem | Status | Notizen
 
-| PRB01: Aufgabenverteilung | open 
+| PRB01: Aufgabenverteilung | new 
 a|* Die Verteilung der Aufgaben gestaltet sich mitunter schwierig, da das technische Verständnis über die Aufgabenstellung im Team noch nicht auf einem adäquaten Niveau ist.
 * Dadurch, dass issues in GitHub erst spät angelegt wurden, ist das Bewusstsein über den Projektumfang noch nicht ausgeprägt.
-| PRB02: Git Workflow | open | Um die Arbeit an einzelnen Funktionalitäten in den Pull requests besser unterscheiden zu können, ist eine Arbeit mit branches notwendig. Die Arbeit mit branches muss bei einem weiteren Workshop während eines Team meetings vermittelt werden.
+| PRB02: Git Workflow | new | Um die Arbeit an einzelnen Funktionalitäten in den Pull requests besser unterscheiden zu können, ist eine Arbeit mit branches notwendig. Die Arbeit mit branches muss bei einem weiteren Workshop während eines Team meetings vermittelt werden.
 |===
 
 
@@ -72,16 +72,20 @@ a|* Überprüfung der Iterationsziele:
 | Projektstatus: *gelb* | Eine Retrospektive wurde nicht durchgeführt.
 |===
 
-// TODO
-//* Beurteilung im Vergleich zu den Zielen
+=== Beurteilung im Vergleich zu den Zielen
 //Dokumentieren Sie, ob die angestrebten Ziele des Iterationsplans erreicht wurden.
+Die angestrebten Ziele wurden nur teilweise erreicht. Nach Einschätzung der Projektleitung befindet sich der Zielerreichungsgrad bei ca. 80%.
 
-//* Geplante vs. erledigte Aufgaben
+=== Geplante vs. erledigte Aufgaben
 //Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
+* Die Vision wurde in einer ersten Version erarbeitet, konnte jedoch aufgrund von Zeitverzug nicht finalalisiert und nicht vom Auftraggeber bestätigt werden. Die Bestätigung wird in der kommenden Iteration neu forciert.
+* Die Teamfindung und Abstimmung der Arbeitsweisen dauert länger, als erwartet. Die Risikoliste konnte daher nicht aufgestellt werden. Dies wird in der kommenden Iteration erfolgen.
 
-//* Beurteilung im Vergleich zu den Bewertungskriterien
+=== Beurteilung im Vergleich zu den Bewertungskriterien
 //Document whether you met the evaluation criteria as specified in the Iteration Plan.
 //Geben Sie an, ob Sie die o.g. Bewertungskriterien erfüllt haben. Das kann z.B. folgende Informationen enthalten: “Demo for Department X was well-received, with some concerns raised around usability,” or “495 test cases were automated with a 98% pass rate. 9 test cases were deferred because the corresponding Work Items were postponed.”
+* Der grafische Prototyp wurde sehr positiv aufgenommen und diente als reichhaltige Quelle für wertvolles Feedback.
+* Die Git-Workshops erwiesen sich als gewinnbringend für das technische Verständnis aller Teammitglieder. Es erscheint sinnvoll, zukünftig weitere Workshops durchzuführen.
 
 //* Andere Belange und Abweichungen
 //Führen Sie weitere Themen auf, für die eine Bewertung durchgeführt wurde. Beispiele sind Finanzen, Zeitabweichungen oder Feedback von Stakeholdern, die nicht bereits an anderer Stelle dokumentiert wurden.
