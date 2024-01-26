@@ -24,7 +24,7 @@ Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestel
 == Probleme (optional)
 //Optional: Führen Sie alle Probleme auf, die in dieser Iteration adressiert werden sollen. Aktualisieren Sie den Status, wenn neue Probleme bei den täglichen / regelmäßigen Abstimmungen berichtet werden.
 
-[%header, cols="2,1,3"]
+[%header, cols="2,1,7"]
 |===
 | Problem | Status | Notizen
 
@@ -89,8 +89,6 @@ a|* Das Team versteht im Grunde, was für ein System entwickelt werden soll.
 * Die erarbeitete Vision ist umsetzbar.
 |===
 
-[%always]
-<<<
 === Essence Navigator
 Gemäß den Alpha States des Essence Navigators befindet sich das Team auf folgendem Stand:
 .Essence Alpha States - Iteration 2

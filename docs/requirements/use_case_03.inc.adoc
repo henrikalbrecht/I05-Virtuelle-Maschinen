@@ -26,6 +26,9 @@ Der Use-Case umfasst die Verwaltung der Vergabe von VMs an Projektteams.
 . Das System prüft die Eingaben des Users auf Plausibilität.
 . Das System speichert die Änderungen in der Datenbank.
 
+[%always]
+<<<
+
 ==== Wireframe
 .Wireframe - UC03 Vergabe verwalten
 image::uc03_wireframe.png[]
@@ -45,6 +48,9 @@ Wenn der User nach Schritt 5 des Standardablaufes auf *Email* klickt, dann
 
 . wird die Funktion zum Versenden einer neuen Email aufgerufen
 . und die zur VM hinterlegte Email-Adresse als Empfänger für die Email definiert.
+
+[%always]
+<<<
 
 === Wesentliche Szenarios
 //Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
@@ -78,6 +84,9 @@ Sobald der User auf *Speichern* klickt, werden die eingegebenen Daten validiert.
 Nach erfolgreicher Validierung werden die Daten persistent in der Datenbank gespeichert.
 Sind die Daten erfolgreich in der Datenbank gespeichert worden, ist dies mit einer entsprechenden Erfolgsmeldung dem User anzuzeigen.
 Falls die Daten nicht in der Datenbank gespeichert werden konnten, ist dies mit einer entsprechenden Fehlermeldung dem User anzuzeigen.
+
+[%always]
+<<<
 
 === Besondere Anforderungen
 //Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.

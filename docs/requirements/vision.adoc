@@ -16,7 +16,8 @@ Dieses Visions-Dokument bezieht sich auf das System "{project-system-name}", das
 
 === Definitionen, Akronyme und Abkürzungen
 //Verweis passend zum Belegabgabe-Template se1_belegabgabe_t00.adoc
-Siehe link:glossary.adoc[Glossar]
+//Siehe link:glossary.adoc[Glossar]
+Siehe Glossar
 
 === Referenzen
 //(hier externe Verweise zu anderen Dokumenten, Quellen, Standards etc. einfügen, sofern notwendig)
@@ -122,8 +123,10 @@ Beispiel Produkt:
 //. Gibt es besondere Umgebungsbedingungen, z.B. mobil, offline, Außeneinsatz, Touchbedienung, Nutzung durch seh- oder hörbeeinträchtigte Personen?
 //. Welche Systemplattformen werden heute eingesetzt? Welche sind es ggf. zukünftig?
 //. Welche anderen Anwendungen sind im Einsatz? Muss ihre Anwendung mit diesen integriert werden?
+
 [%always]
 <<<
+
 == Produkt-/Lösungsüberblick
 
 === Bedarfe und Hauptfunktionen
