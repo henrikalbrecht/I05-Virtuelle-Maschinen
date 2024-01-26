@@ -1,12 +1,11 @@
 //Nutzen Sie dieses Template als Grundlage für die Spezifikation *einzelner* Use-Cases. Diese lassen sich dann per Include in das Use-Case Model Dokument einbinden (siehe Beispiel dort).
 ifndef::main-document[include::../_includes/default-attributes.inc.adoc[]]
 
-
-== UC02: VMs verwalten
+== UC05: VM Templates verwalten
 
 === Kurzbeschreibung
 //<Kurze Beschreibung des Use Case>
-Der Use-Case umfasst die Verwaltung von VMs. Dazu gehört das Anlegen, Löschen und Bearbeiten von VMs.
+Der Use-Case beschreibt die Verwaltung von VM Templates. Dazu gehören das Anlegen, Bearbeiten und Löschen von VM Templates.
 
 === Kurzbeschreibung der Akteure
 - Herr Zirkelbach (User)

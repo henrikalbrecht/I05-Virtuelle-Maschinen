@@ -12,7 +12,7 @@ Der Use-Case umfasst die Auflistung aller vorhandenen VMs, sowie deren Eigenscha
 - Herr Zirkelbach (User)
 
 === Vorbedingungen
-Der User muss angemeldet sein.
+- Der User muss angemeldet sein.
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
