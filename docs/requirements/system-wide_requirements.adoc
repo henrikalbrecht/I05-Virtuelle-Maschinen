@@ -12,9 +12,7 @@ In diesem Dokument werden die systemweiten Anforderungen für das Projekt {proje
 * Qualitätsanforderungen für Benutzbarkeit, Zuverlässigkeit, Effizienz und Wartbarkeit (URPS) sowie
 * zusätzliche Anforderungen (+) für technische, rechtliche, organisatorische Randbedingungen
 
-//TODO
 //NOTE: Die funktionalen Anforderungen, die sich aus der Interaktion von Nutzern mit dem System ergeben, sind als Use Cases in einem separaten Dokument festgehalten. [hier ggf. Verweis einfügen]
-
 
 == Systemweite funktionale Anforderungen (Functionality)
 //Angabe von system-weiten funktionalen Anforderungen, die nicht als Use Cases ausgedrückt werden können. Beispiele sind Drucken, Berichte, Authentifizierung, Änderungsverfolgung (Auditing), zeitgesteuerte Aktivitäten (Scheduling), Sicherheit / Maßnahmen zum Datenschutz
@@ -66,7 +64,7 @@ In diesem Dokument werden die systemweiten Anforderungen für das Projekt {proje
 
 === Interface Requirements
 * Die Webanwendung soll auf Desktopumgebungen zugeschnitten sein.
-* Eine Optimierung für mobile Endgeräte, wie Smartphones und Tablets, ist nicht vorgesehen.
+* Eine Optimierung für mobile Endgeräte, wie Smartphones und Tablets, ist vorerst nachrangig zu priorisieren.
 
 === Organisatorische Randbedingungen
 //Angaben ergänzen, nicht relevante Unterpunkte streichen oder auskommentieren
