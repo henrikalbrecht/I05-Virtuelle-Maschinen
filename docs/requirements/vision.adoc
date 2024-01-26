@@ -87,13 +87,13 @@ Beispiel Produkt:
 |===
 | Name | Beschreibung | Verantwortlichkeiten
 
-| Christoph Zirkelbach / Auftraggeber
-| Ist der Auftraggeber, welcher für die Vergabe der virtuellen Maschinen zuständig ist und zu der Verwaltung Zugang hat.
-| * Anlegen, Bearbeiten, Löschen und Anzeigen von VMs
+| Auftraggeber
+| Christoph Zirkelbach st der Auftraggeber, welcher für die Vergabeverwaltung der virtuellen Maschinen zuständig ist und zu dem {project-system-name} Zugang hat.
+| * Anlegen, Bearbeiten, Löschen und Anzeigen von VM-Vergaben
 * Verwaltung der VM-Konfigkurationsmöglichkeiten
-* Verwaltung von E-Mail-Templates für die Vergabe und Kommunikation mit der Projektgruppe und dem Laborbereich Informatik
+* Verwaltung von E-Mail-Templates für die Vergabe, sowie Kommunikation mit der Projektgruppe und dem Laborbereich Informatik
 * Verwaltung der Vergabe von VMs
-* Vergabe von VMs an Projektgruppen
+* Zuweisung von VM-Vergaben an Projektgruppen
 
 | Projektgruppe
 | Das Projektteam, welches im Rahmen der Module SE I + SE II eine virtuelle Maschine benötigt.
@@ -101,9 +101,9 @@ Beispiel Produkt:
 * Auswahl von verschiedenen Konfigurationsmöglichkeiten
 
 | Laborbereich der HTW Dresden
-| Betrieb der Nutzeranwendung für die Vergabe und Verwaltung von VMs.
+| Betrieb der Nutzeranwendung {project-system-name}.
 | 
-* Bereitstellung und Deaktivierung der virtuellen Maschinen
+* Bereitstellung, Konfiguration und Deaktivierung der virtuellen Maschinen
 |===
 
 === Benutzerumgebung
@@ -112,7 +112,7 @@ Beispiel Produkt:
 * Der Auftraggeber ist der einzige Nutzer der textbasierten Lösung.
 * Er verwaltet die Vergabe der VMs, welche von Projektgruppen beantragt werden.
 * Die Kommunikation mit Projektgruppen und Laborbereich findet per E-Mail statt.
-* Die Arbeit findet hauptsächlich am Arbeitsplatzcomputer/-notebook im Büro statt
+* Die Arbeit findet hauptsächlich am Arbeitsplatzcomputer/-notebook im Büro statt.
 //Zutreffendes angeben, nicht zutreffendes streichen oder auskommentieren
 //. Anzahl der Personen, die an der Erfüllung der Aufgabe beteiligt sind. Ändert sich das?
 //. Wie lange dauert die Bearbeitung der Aufgabe? Wie viel Zeit wird für jeden Arbeitsschritt benötigt? Ändert sich das?
@@ -125,12 +125,12 @@ Beispiel Produkt:
 === Bedarfe und Hauptfunktionen
 //Vermeiden Sie Angaben zum Entwurf. Nennen wesentliche Features (Produktmerkmale) auf allgemeiner Ebene. Fokussieren Sie sich auf die benötigten Fähigkeiten des Systems und warum (nicht wie!) diese realisiert werden sollen. Geben Sie die von den Stakeholdern vorgegebenen Prioritäten und das geplante Release für die Veröffentlichung der Features an.
 
-[%header, cols="4,1,4,1"]
+[%header, cols="2,1,4,1"]
 |===
 | Bedarf | Priorität | Features | Geplantes Release
-| Übersicht der VMs | hoch | Zeige den Pool der VMs mit dem Namen, dem zugehörigen Team oder ob es kein zugehöriges Team gibt. | xx
+| Übersicht der VMs | hoch | Zeige den Pool der VM-Vergaben mit dem Namen, dem zugehörigen Team oder ob es kein zugehöriges Team gibt. | xx
 
-| Verwaltung der Vergabe der VMs | hoch | Hinzufügen, Ändern, Entfernen der VMs inkl. Anpassung des Vergabestatus. | xx
+| Verwaltung der Vergabe der VMs | hoch | Hinzufügen, Ändern, Entfernen der VM-Vergaben inkl. Anpassung des Vergabestatus. | xx
 
 | Verwaltung der VM-Templates | mittel | Hinzufügen, Ändern, Entfernen von vordefinierten VM-Eigenschaften. | xx
 
@@ -139,7 +139,7 @@ Beispiel Produkt:
 
 
 == Zusätzliche Produktanforderungen
-[%header, cols="4,1,1"]
+[%header, cols="3*"]
 |===
 | Anforderung | Priorität | Geplantes Release
 | Einfach Zugänglich | hoch | xx
@@ -150,7 +150,7 @@ Beispiel Produkt:
 
 | Mobile Darstellung | mittel | xx
 
-|Vollständige Dokumentation | niedrig |xx
+| Vollständige Dokumentation | niedrig |xx
 |===
 
 //Zutreffendes angeben, nicht zutreffendes streichen oder auskommentieren
