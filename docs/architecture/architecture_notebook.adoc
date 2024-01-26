@@ -1,5 +1,5 @@
 = Architecture Notebook: {project-name}
-Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
+Henrik Albrecht <henrik.albrecht@stud.htw-dresden.de>;
 {localdatetime}
 include::../_includes/default-attributes.inc.adoc[]
 // Platzhalter für weitere Dokumenten-Attribute
@@ -87,11 +87,9 @@ Das _Layer Pattern_ beschreibt einen konzeptionellen Ansatz in der Softwarearchi
 == Architektursichten (Views)
 //[Describe the architectural views that you will use to describe the software architecture. This illustrates the different perspectives that you will make available to review and to document architectural decisions.]
 
-Folgende Sichten werden empfohlen:
-
 === Logische Sicht
 //Beschreibt die Struktur und das Verhalten Systemteilen, die hohen Einfluss auf die Architektur haben. Dies kann die Paketstruktur, kritische Schnittstellen, wichtige Klassen und Subsysteme sowie die Beziehungen zwischen diesen Elementen enthalten. Zudem sollten die physische und logische Sicht persistenter Daten beschrieben werden, wenn es diesen Aspekt im System gibt. Dies ist ein hier dokumentierter Teilaspekt des Entwurfs.
-Das System selbst wird vollständig in einem Docker Container ausgeführt. Da es lediglich die Verwaltung der VMs beinhaltet besteht auch nur eine Schnittstelle nach außen zum VM-Verwalter. 
+Das System selbst wird vollständig in einem Docker Container ausgeführt. Da es lediglich die Verwaltung der VMs beinhaltet, besteht auch nur eine Schnittstelle nach außen zum VM-Verwalter. 
 
 ==== C4-Modell Context
 image::Context.png[]
