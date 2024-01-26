@@ -64,6 +64,21 @@ https://www2.htw-dresden.de/~anke/openup/core.tech.common.extend_supp/guidances/
 
 - _Klasse_ PG: Die Klasse speichert alle relevanten Informationen zu einer Projektgruppe welche eine VM beantragt haben.
 
+- _Klasse_ Anmeldedaten:: Diese Klasse speichert die Zusammensetzung von Benutzername und Passwort. Die gültige Emailadresse muss das `@`-Zeichen und mindestens einen `.` Punkt enthalten. Alias: Login.
+
+
+- _Klasse_ VM-Daten:: Diese Klasse speichert alle relevanten Informationen zu einer virtuellen Maschine. Die Daten umfassen Hostname, IP, Status und für vergebene VMs auch den Projektnamen, die Kontaktdaten, das OS-Config-Template und das Ausstellungsdatum. Datentypen: String, int, date, boolean, email, IP. Gültige Emailadresse und IPv4-Adresse.
+
+- _Klasse_ Email-Template:: Diese Klasse dient als Vorlage für eine Email mit Betreff und Inhalt, sowie den dazugehörigen Namen.
+
+
+- _Klasse_ OS-Config-Template:: Diese Klasse ist eine Vorlage für die Betriebssystemkonfiguration und enthält alle dafür benötigten Daten, einschließlich OS, CPU-Anzahl, HDD und RAM. Datentypen: String, int.
+
+
+
+- _Klasse_ Projektgruppen-Backup:: Diese Klasse archiviert, welche VMs zu welchem Zeitpunkt von welchem Team benutzt wurden. Datentypen: String, date, int.
+
+
 == Schichten oder Architektur-Framework
 //[Describe the architectural pattern that you will use or how the architecture will be consistent and uniform. This could be a simple reference to an existing or well-known architectural pattern, such as the Layer framework, a reference to a high-level model of the framework, or a description of how the major system components should be put together.]
 - *Layer-Pattern:*

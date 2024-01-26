@@ -30,7 +30,9 @@ In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fa
 | VM Pool | (Umfang) bezieht sich auf eine Sammlung von virtuellen Maschinen |
 | Django | Django ist ein leistungsstarkes Open-Source-Webframework, das in Python entwickelt wurde. Es wurde entworfen, um die Entwicklung von Webanwendungen zu erleichtern, indem es eine Vielzahl von Werkzeugen und Funktionen bereitstellt, um komplexe Webanwendungen schnell und effizient zu erstellen. |
 | Datenbank SQL-Dump  |   Teilweise oder ganze Auszüge aus einer Datenbank werden als Datenbankdump (dump = engl. für Auszug) bezeichnet. Derartige Auszüge werden für die Datensicherung oder Portierung der Datenbank erstellt. Ein Datenbankdump kann aber auch nur die Struktur der Datenbank ohne Daten beinhalten.|
-| IP Adresse |   ist eine numerische Kennung, die jedem Gerät in einem Computernetzwerk eine eindeutige Identifikation zuweist. Sie dient dazu, die Kommunikation zwischen verschiedenen Geräten in einem Netzwerk zu ermöglichen und zu steuern.|Internet Protocol-Adresse 
+| IP | Das Internet Protocol ist ein grundlegendes Kommunikationsprotokoll, das die Übertragung von Datenpaketen in Computernetzwerken ermöglicht. | Internet Protocol
+| IPv4 | IPv4 steht für Internet Protocol Version 4 und ist eine der Hauptversionen des Internet Protocol (IP), das für die Adressierung und den Routing von Datenpaketen im Internet verwendet wird. | Internet Protocol Version 4
+| IP-Adresse |   ist eine numerische Kennung, die jedem Gerät in einem Computernetzwerk eine eindeutige Identifikation zuweist. Sie dient dazu, die Kommunikation zwischen verschiedenen Geräten in einem Netzwerk zu ermöglichen und zu steuern.|Internet Protocol-Adresse 
 | Git | Ist eine Software zur verteilten Versionsverwaltung von Dateien |
 | REST-API  (RESTful)-API| Eine API, die auf die REST-Architektur beschränkt ist. und Interaktionen mit dem REST Webservice ermöglicht. |
 | GET | Ein HTTP-Befehl, welcher von einem REST-Clienten verwendet werden kann. GET = Abrufen einer bestimmten Ressource.|
@@ -73,9 +75,28 @@ In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fa
 | Emailadresse muss `@`-Zeichen und `.` Punkt enthalten.
 | Login
 
-| xx
-| xx
-| xx
-| xx
-| xx
+| VM-Daten
+| Sammlung aller Daten einer virtuellen Maschine. Die Daten umfassen Hostname, IPv4-Adresse, Status, sowie für vergebene VMs auch den Projektnamen, die Kontaktdaten, das OS-Config-Template und das Ausstellungdatum.
+| String, int, date, boolean, email, ip
+| Gültige Emailadresse und IPv4-Adresse
+| 
+
+| Email-Template
+| Vorlage für eine Email (Betreff, Inhalt) mit dazugehörigen Namen dieser.
+| String
+| 
+| 
+
+| OS-Config-Template
+| Vorlage für eine Betriebssystemkonfiguration mit allen dafür benötigten Daten (OS, CPU-Anzahl, HDD, RAM).
+| String, int
+|
+|
+
+| Projektgruppen-Backup
+| Die Archivierung erfasst, welche VMs zu welchem Zeitpunkt von welchem Team benutzt wurden. 
+| String, date, int
+| 
+| 
+
 |===
