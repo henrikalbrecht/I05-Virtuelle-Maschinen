@@ -25,17 +25,17 @@ Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestel
 |===
 | Problem | Status | Notizen
 
-| PRB01: Aufgabenverteilung | fixed (siehe Assessment)
+| PROB01: Aufgabenverteilung | fixed (siehe Assessment)
 a|* Die Verteilung der Aufgaben gestaltet sich mitunter schwierig, da das technische Verständnis über die Aufgabenstellung im Team noch nicht auf einem adäquaten Niveau ist.
 * Dadurch, dass issues in GitHub erst spät angelegt wurden, ist das Bewusstsein über den Projektumfang noch nicht ausgeprägt.
 
-| PRB02: Git Workflow | fixed  (siehe Assessment)| Um die Arbeit an einzelnen Funktionalitäten in den Pull requests besser unterscheiden zu können, ist eine Arbeit mit branches notwendig. Die Arbeit mit branches muss bei einem weiteren Workshop während eines Team-Meetings vermittelt werden.
+| PROB02: Git Workflow | fixed  (siehe Assessment)| Um die Arbeit an einzelnen Funktionalitäten in den Pull requests besser unterscheiden zu können, ist eine Arbeit mit branches notwendig. Die Arbeit mit branches muss bei einem weiteren Workshop während eines Team-Meetings vermittelt werden.
 
-| PRB03: Nutzung von Google Docs | new | Für die Erstellung des Glossars wurde durch die Verantwortlichen ein Google Docs Dokument angelegt, was Mehrarbeit zur Folge hat, da die Daten im Anschluss in das entsprechende Dokument auf Github überführt werden müssen. Es gilt Einigung darüber zu erreichen, dass Arbeit direkt über die Entwicklungsumgebung an den Github-Dokumenten durchgeführt wird, um effizient zu bleiben.
+| PROB03: Nutzung von Google Docs | new | Für die Erstellung des Glossars wurde durch die Verantwortlichen ein Google Docs Dokument angelegt, was Mehrarbeit zur Folge hat, da die Daten im Anschluss in das entsprechende Dokument auf Github überführt werden müssen. Es gilt Einigung darüber zu erreichen, dass Arbeit direkt über die Entwicklungsumgebung an den Github-Dokumenten durchgeführt wird, um effizient zu bleiben.
 
-| PRB04: Statusaktualisierung Github Issues | new | Die in Git angelegten Issues, welche die Verteilung der Aufgaben an alle Teammitglieder darstellt, sind dafür vorgesehen, von dem entsprechenden Bearbeiter in den Status "In progress" gesetzt zu werden, sobald die Arbeit daran beginnt. Diese Regel wird aktuell ungenügend beachtet und muss in einem zukünftigen Team-Meeting erneut vermittelt werden.
+| PROB04: Statusaktualisierung Github Issues | new | Die in Git angelegten Issues, welche die Verteilung der Aufgaben an alle Teammitglieder darstellt, sind dafür vorgesehen, von dem entsprechenden Bearbeiter in den Status "In progress" gesetzt zu werden, sobald die Arbeit daran beginnt. Diese Regel wird aktuell ungenügend beachtet und muss in einem zukünftigen Team-Meeting erneut vermittelt werden.
 
-| PRB05: Unzureichende Arbeitsergebnisse | new | Die Arbeitsergebnisse eines Teammitgliedes werden konstant als unzureichend bewertet. Die negativen Auswirkungen auf die Motivation anderer Teammitglieder, der erhöhte Zeitaufwand und die Mehrbelastung durch Kompensation durch das übrige Team sind deutlich erkennbar. Das Problem muss in geeigneter Weise schnellsmöglich behandelt werden.
+| PROB05: Unzureichende Arbeitsergebnisse | new | Die Arbeitsergebnisse eines Teammitgliedes werden konstant als unzureichend bewertet. Die negativen Auswirkungen auf die Motivation anderer Teammitglieder, der erhöhte Zeitaufwand und die Mehrbelastung durch Kompensation durch das übrige Team sind deutlich erkennbar. Das Problem muss in geeigneter Weise schnellsmöglich behandelt werden.
 |===
 
 
@@ -56,7 +56,7 @@ a|* Die Verteilung der Aufgaben gestaltet sich mitunter schwierig, da das techni
 
 [%header, cols="1,3"]
 |===
-| Assessment Ziel | Problemlösung zu __PRB01__
+| Assessment Ziel | Problemlösung zu __PROB01__
 
 | Assessment Datum | 10.12.2023
 | Teilnehmer | PK, HA
@@ -67,7 +67,7 @@ a|* Durch die konsequente Durchführung von Workshops und Erfahrungsaustausch w�
 
 [%header, cols="1,3"]
 |===
-| Assessment Ziel | Problemlösung zu __PRB02__
+| Assessment Ziel | Problemlösung zu __PROB02__
 
 | Assessment Datum | 04.12.2023
 | Teilnehmer | {project-team-name}
@@ -140,4 +140,4 @@ Die angestrebten Ziele wurden nicht vollständig erreicht. Nach Einschätzung de
 
 === Andere Belange und Abweichungen
 //Führen Sie weitere Themen auf, für die eine Bewertung durchgeführt wurde. Beispiele sind Finanzen, Zeitabweichungen oder Feedback von Stakeholdern, die nicht bereits an anderer Stelle dokumentiert wurden.
-* Das Problem PRB05 wurde während der Retrospektive am 18.12.2023 angesprochen und nach Lösungen gesucht, die Situation zu verbessern. Die Projektleitung erörtert mit Hilfestellung des Coaches schnellstens eine mögliche Strategie für den worst-case.
+* Das Problem PROB05 wurde während der Retrospektive am 18.12.2023 angesprochen und nach Lösungen gesucht, die Situation zu verbessern. Die Projektleitung erörtert mit Hilfestellung des Coaches schnellstens eine mögliche Strategie für den worst-case.
