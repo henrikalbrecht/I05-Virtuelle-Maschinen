@@ -2,7 +2,7 @@
 ifndef::main-document[include::../_includes/default-attributes.inc.adoc[]]
 
 
-== UC02: VMs verwalten
+== UC06: Backup verwalten
 
 === Kurzbeschreibung
 //<Kurze Beschreibung des Use Case>
