@@ -74,7 +74,7 @@ In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fa
 | Login
 
 | VM-Daten
-| Sammlung aller Daten einer virtuellen Maschine. Die Daten umfassen hostname, ip, status sowie für vergebene VMs auch den Projektnamen, die Kontaktdaten, das OS-Config-Template und das Ausstellungdatum.
+| Sammlung aller Daten einer virtuellen Maschine. Die Daten umfassen Hostname, IPv4-Adresse, Status, sowie für vergebene VMs auch den Projektnamen, die Kontaktdaten, das OS-Config-Template und das Ausstellungdatum.
 | String, int, date, boolean, email, ip
 | Gültige Emailadresse und IPv4-Adresse
 | 
