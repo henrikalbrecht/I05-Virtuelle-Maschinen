@@ -6,6 +6,7 @@ ifndef::main-document[include::../_includes/default-attributes.inc.adoc[]]
 
 === Kurzbeschreibung
 //<Kurze Beschreibung des Use Case>
+Der Use-Case beinhaltet die Verwaltung von Email Templates für die Kommunikation mit den Projektgruppen. Dazu gehören das Anlegen, Bearbeiten und Löschen von Email Templates.
 
 === Kurzbeschreibung der Akteure
 

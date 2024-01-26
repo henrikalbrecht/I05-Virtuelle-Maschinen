@@ -6,6 +6,7 @@ ifndef::main-document[include::../_includes/default-attributes.inc.adoc[]]
 
 === Kurzbeschreibung
 //<Kurze Beschreibung des Use Case>
+Der Use-Case beschreibt die Verwaltung von VM Templates. Dazu gehören das Anlegen, Bearbeiten und Löschen von Templates.
 
 === Kurzbeschreibung der Akteure
 
