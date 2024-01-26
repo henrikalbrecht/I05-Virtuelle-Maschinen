@@ -60,8 +60,6 @@ In diesem Dokument werden die wesentlichen Begriffe aus den Anwendungsgebieten V
 | VM Pool | (Umfang) bezieht sich auf eine Sammlung von virtuellen Maschinen |
 |===
 
-[%always]
-<<<
 == Abkürzungen und Akronyme
 [%header]
 [cols="2,3,7"]

@@ -24,6 +24,9 @@ Der Use-Case umfasst die Auflistung aller vorhandenen VMs, sowie deren Eigenscha
 .Wireframe - UC01 VMs auflisten
 image::uc01_wireframe.png[]
 
+[%always]
+<<<
+
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
 
