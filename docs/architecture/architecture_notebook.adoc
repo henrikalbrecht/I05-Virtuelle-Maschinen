@@ -64,7 +64,7 @@ https://www2.htw-dresden.de/~anke/openup/core.tech.common.extend_supp/guidances/
 
 - _Klasse_ PG: Die Klasse speichert alle relevanten Informationen zu einer Projektgruppe welche eine VM beantragt haben.
 
-- _Klasse_ Anmeldedaten:: Diese Klasse speichert die Zusammensetzung von Benutzername und Passwort. Die gültige Emailadresse muss das `@`-Zeichen und einen `.` Punkt enthalten. Alias: Login.
+- _Klasse_ Anmeldedaten:: Diese Klasse speichert die Zusammensetzung von Benutzername und Passwort. Die gültige Emailadresse muss das `@`-Zeichen und mindestens einen `.` Punkt enthalten. Alias: Login.
 
 
 - _Klasse_ VM-Daten:: Diese Klasse speichert alle relevanten Informationen zu einer virtuellen Maschine. Die Daten umfassen Hostname, IP, Status und für vergebene VMs auch den Projektnamen, die Kontaktdaten, das OS-Config-Template und das Ausstellungsdatum. Datentypen: String, int, date, boolean, email, IP. Gültige Emailadresse und IPv4-Adresse.
