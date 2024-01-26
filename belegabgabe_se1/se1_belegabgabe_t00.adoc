@@ -1,9 +1,9 @@
 // --- 1. Projektthema -------------------------
 = SE I - Belegabgabe: {project-name}
 // --- 2. Teammitglieder -----------------------
-Vorname Nachname <s00000@htw-dresden.de>; Vorname Nachname <s00000@htw-dresden.de>; Vorname Nachname <s00000@htw-dresden.de>; Vorname Nachname <s00000@htw-dresden.de>; Vorname Nachname <s00000@htw-dresden.de>; Vorname Nachname <s00000@htw-dresden.de>
+Paul Kiok <s85430@htw-dresden.de>; Henrik Albrecht <s85551@htw-dresden.de>; Clemens Näther <s85426@htw-dresden.de>; Jakub Kliemann <s85515@htw-dresden.de>; Arshnoor Singh <s85827@htw-dresden.de>; Julius Viertel <s84305@htw-dresden.de>
 // --- 3. Abgabedatum --------------------------
-01. Januar 2020
+26. Januar 2024
 // ---------------------------------------------
 :docs: ../docs
 include::{docs}/_includes/default-attributes.inc.adoc[]
@@ -27,7 +27,7 @@ include::{docs}/_includes/default-attributes.inc.adoc[]
 :experimental:
 // Folders
 :imagesdir-reset: {imagesdir}
-:docs-test2: {docs}/test2
+:docs-test2: {docs}/test
 :docs-requirements: {docs}/requirements
 :docs-project-management: {docs}/project_management
 :docs-architecture: {docs}/architecture
@@ -41,7 +41,7 @@ include::{docs}/_includes/default-attributes.inc.adoc[]
 // --- Technische Spezifikation ---
 = Technische Spezifikation
 * Vision
-* Use Case Model (inkl. Wireframes, sofern vorhanden)
+* Use Case Model (inkl. Wireframes)
 * System-wide Requirements
 * Glossar
 * Domänenmodel
@@ -67,11 +67,16 @@ include::{docs-requirements}/domain_model.adoc[lines=1..1;4..-1,leveloffset=+1]
 
 // --- Projektdokumentation ---
 = Projektdokumentation
+* Rollenübersicht
 * Projektplan
 * Risikoliste
-* Iteration Plan (für zwei ausgewählte Iterationen)
+* Iterationspläne (für Iterationen 2 und 3)
 
 :imagesdir: {docs-project-management}/images
+
+// Verantwortlichkeiten
+include::{docs-project-management}/responsibilities.adoc[lines=1..1;4..-1,leveloffset=+1]
+<<<
 
 // Projektplan
 include::{docs-project-management}/project_plan.adoc[lines=1..1;4..-1,leveloffset=+1]
@@ -80,20 +85,20 @@ include::{docs-project-management}/project_plan.adoc[lines=1..1;4..-1,leveloffse
 include::{docs-project-management}/risk_list.adoc[lines=1..1;4..-1,leveloffset=+1]
 <<<
 // Iteration 1
-include::{docs-project-management}/iteration_plan_01.adoc[lines=1..1;4..-1,leveloffset=+1]
+//include::{docs-project-management}/iteration_plan_01.adoc[lines=1..1;4..-1,leveloffset=+1]
 <<<
 // Iteration 2
-//include::{docs-project-management}/iteration_plan_02.adoc[lines=1..1;4..-1,leveloffset=+1]
+include::{docs-project-management}/iteration_plan_02.adoc[lines=1..1;4..-1,leveloffset=+1]
 <<<
 // Iteration 3
-//include::{docs-project-management}/iteration_plan_03.adoc[lines=1..1;4..-1,leveloffset=+1]
+include::{docs-project-management}/iteration_plan_03.adoc[lines=1..1;4..-1,leveloffset=+1]
 <<<
 
 // --- Entwurfsdokumentation ---
 = Entwurfsdokumentation
 * Architektur-Notizbuch
 * Test Cases
-* Design
+//* Design
 
 // Architektur-Notizbuch
 :imagesdir: {docs-architecture}/images
@@ -104,9 +109,9 @@ include::{docs-architecture}/architecture_notebook.adoc[lines=1..1;4..-1,levelof
 include::{docs-test}/test_cases.adoc[lines=1..1;4..-1,leveloffset=+1]
 <<<
 // Design
-:imagesdir: {docs-development}/images
-include::{docs-development}/design.adoc[lines=1..1;4..-1,leveloffset=+1]
-<<<
+//:imagesdir: {docs-development}/images
+//include::{docs-development}/design.adoc[lines=1..1;4..-1,leveloffset=+1]
+//<<<
 
 // ---------------------------------------------
 
