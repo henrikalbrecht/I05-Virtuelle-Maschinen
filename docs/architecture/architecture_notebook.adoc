@@ -91,13 +91,21 @@ Folgende Sichten werden empfohlen:
 
 === Logische Sicht
 //Beschreibt die Struktur und das Verhalten Systemteilen, die hohen Einfluss auf die Architektur haben. Dies kann die Paketstruktur, kritische Schnittstellen, wichtige Klassen und Subsysteme sowie die Beziehungen zwischen diesen Elementen enthalten. Zudem sollten die physische und logische Sicht persistenter Daten beschrieben werden, wenn es diesen Aspekt im System gibt. Dies ist ein hier dokumentierter Teilaspekt des Entwurfs.
+Das System selbst wird vollständig in einem Docker Container ausgeführt. Da es lediglich die Verwaltung der VMs beinhaltet besteht auch nur eine Schnittstelle nach außen zum VM-Verwalter. 
 
-image::Container.png[]
+==== C4-Modell Context
+image::Context.png[]
+
+
 === Physische Sicht (Betriebssicht)
 //Beschreibt die physischen Knoten (Rechner) des Systems, der Prozesse, Threads und Komponenten, die in diesen Knoten ausgeführt werden. Diese Sicht wird nicht benötigt, wenn das System in einem einzelnen Prozess oder Thread ausgeführt wird.
-image::Context.png[]
+Das System ist in drei wesentliche Bestandteile gegliedert. Das Frontend, Backend und die Datenbank. Dabei findet die Kommunikation dieser Systemteile untereinander auf Grundlage des <<SDA,Layer Pattern>> statt. 
+
+==== C4-Modell Container
+image::Container.png[]
 
 === Use cases
 //Eine Liste oder ein Diagramm der Use Cases, die architektur-relevante Anforderungne enthalten.
+In unserem System hat jeder Usecase aus dem Usecase Diagramm einen Einfluss auf die Architektur.
 
 image::../../requirements/images/use-case_diagram.png[]
