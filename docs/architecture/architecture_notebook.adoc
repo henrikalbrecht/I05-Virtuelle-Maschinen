@@ -78,8 +78,9 @@ https://www2.htw-dresden.de/~anke/openup/core.tech.common.extend_supp/guidances/
 
 - _Klasse_ Projektgruppen-Backup:: Diese Klasse archiviert, welche VMs zu welchem Zeitpunkt von welchem Team benutzt wurden. Datentypen: String, date, int.
 
-
-== Schichten oder Architektur-Framework
+[%always]
+<<<
+== Schichten / Architektur-Framework
 //[Describe the architectural pattern that you will use or how the architecture will be consistent and uniform. This could be a simple reference to an existing or well-known architectural pattern, such as the Layer framework, a reference to a high-level model of the framework, or a description of how the major system components should be put together.]
 - *Layer-Pattern:*
 Das _Layer Pattern_ beschreibt einen konzeptionellen Ansatz in der Softwarearchitektur. Dabei werden die Funktionalitäten in drei separate, hierarchisch angeordnete Schichten gegliedert. Die Kommunikation zwischen den Schichten findet über klar definierte Schnittstellen statt. Dabei repräsentiert unser Frontend die _Präsentationsschicht_, unser Backend die _Anwendungsschicht_ und unsere Datenbank die _Datenzugriffsschicht_. 
@@ -92,18 +93,24 @@ Das _Layer Pattern_ beschreibt einen konzeptionellen Ansatz in der Softwarearchi
 Das System selbst wird vollständig in einem Docker Container ausgeführt. Da es lediglich die Verwaltung der VMs beinhaltet, besteht auch nur eine Schnittstelle nach außen zum VM-Verwalter. 
 
 ==== C4-Modell Context
+.C4 Modell - Context
 image::Context.png[]
 
-
+[%always]
+<<<
 === Physische Sicht (Betriebssicht)
 //Beschreibt die physischen Knoten (Rechner) des Systems, der Prozesse, Threads und Komponenten, die in diesen Knoten ausgeführt werden. Diese Sicht wird nicht benötigt, wenn das System in einem einzelnen Prozess oder Thread ausgeführt wird.
 Das System ist in drei wesentliche Bestandteile gegliedert. Das Frontend, Backend und die Datenbank. Dabei findet die Kommunikation dieser Systemteile untereinander auf Grundlage des <<SDA,Layer Pattern>> statt. 
 
 ==== C4-Modell Container
+.C4 Modell - Container
 image::Container.png[]
 
+[%always]
+<<<
 === Use cases
 //Eine Liste oder ein Diagramm der Use Cases, die architektur-relevante Anforderungne enthalten.
 In unserem System hat jeder Usecase aus dem Usecase Diagramm einen Einfluss auf die Architektur.
 
+.UML Use Case Diagram
 image::../../requirements/images/use-case_diagram.png[]

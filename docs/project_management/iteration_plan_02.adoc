@@ -34,7 +34,8 @@ a|* Die Verteilung der Aufgaben gestaltet sich mitunter schwierig, da das techni
 | PROB02: Git Workflow | new | Um die Arbeit an einzelnen Funktionalitäten in den Pull requests besser unterscheiden zu können, ist eine Arbeit mit branches notwendig. Die Arbeit mit branches muss bei einem weiteren Workshop während eines Team meetings vermittelt werden.
 |===
 
-
+[%always]
+<<<
 == Bewertungskriterien
 //Eine kurze Beschreibung, wie Erfüllung die o.g. Ziele bewertet werden sollen.
 
@@ -88,8 +89,11 @@ a|* Das Team versteht im Grunde, was für ein System entwickelt werden soll.
 * Die erarbeitete Vision ist umsetzbar.
 |===
 
+[%always]
+<<<
 === Essence Navigator
 Gemäß den Alpha States des Essence Navigators befindet sich das Team auf folgendem Stand:
+.Essence Alpha States - Iteration 2
 image:alphas_it02.png[]
 
 === Beurteilung im Vergleich zu den Zielen

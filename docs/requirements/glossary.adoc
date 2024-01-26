@@ -12,7 +12,7 @@ In diesem Dokument werden die wesentlichen Begriffe aus den Anwendungsgebieten V
 [%header]
 [cols="2,7,1"]
 |===
-| Begriff | Definition und Erläuterung | Synonyme
+| Begriff | Definition und Erläuterung | Syno-nyme
 | Altsystem |   Beispielsweise veraltete Software Anwendungen oder Hardware Plattformen, welche auf älteren Technologien basieren und somit Schwierigkeiten bei Wartung und Weiterentwicklung verursachen. |
 
 | Architecture Notebook |   Sammlung von Informationen, Zeichnungen, Entwürfen, Dokumentationen und anderen relevanten Materialien, die sich auf die Architektur einer Softwareanwendung, eines Systems oder einer IT-Lösung beziehen.Es dient als zentrale Quelle für alle architekturrelevanten Entscheidungen, Designmuster, Diagramme, Beschreibungen von Systemkomponenten, technische Spezifikationen und andere wichtige Informationen, die für die Planung, Entwicklung, Wartung und Skalierung von IT-Systemen von Bedeutung sind.| 
@@ -60,12 +60,13 @@ In diesem Dokument werden die wesentlichen Begriffe aus den Anwendungsgebieten V
 | VM Pool | (Umfang) bezieht sich auf eine Sammlung von virtuellen Maschinen |
 |===
 
-
+[%always]
+<<<
 == Abkürzungen und Akronyme
 [%header]
-[cols="1,3,7"]
+[cols="2,3,7"]
 |===
-| Abkürzung | Bedeutung | Erläuterung
+| Abkür-zung | Bedeutung | Erläuterung
 
 | API |  Application-Program-Interface | Um eine Software zu erstellen oder mit einem externen Sytem interagieren zu können, bietet ein API ein Satz von Befehlen, Funktionen, Protokollen und Objekten, die vom Programmierer verwendet werden können.
 
