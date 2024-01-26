@@ -23,6 +23,8 @@ Siehe link:glossary.adoc[Glossar]
 * Projektmanagement auf Grundlage des https://www2.htw-dresden.de/~anke/openup/index.htm[open Unified Process]
 * Projektdokumentation mit https://asciidoctor.org/[Asciidoctor]
 
+[%always]
+<<<
 == Positionierung
 
 === Fachliche Motivation
@@ -78,7 +80,8 @@ Beispiel Produkt:
 |===
 ////
 
-
+[%always]
+<<<
 == Stakeholder Beschreibungen
 
 === Zusammenfassung der Stakeholder
@@ -95,12 +98,12 @@ Beispiel Produkt:
 * Verwaltung der Vergabe von VMs
 * Zuweisung von VM-Vergaben an Projektgruppen
 
-| Projektgruppe
+| Projekt-gruppe
 | Das Projektteam, welches im Rahmen der Module SE I + SE II eine virtuelle Maschine benötigt.
 | * Beantragung einer VM für das Projekt
 * Auswahl von verschiedenen Konfigurationsmöglichkeiten
 
-| Laborbereich der HTW Dresden
+| Laborbe-reich der HTW Dresden
 | Betrieb der Nutzeranwendung {project-system-name}.
 | 
 * Bereitstellung, Konfiguration und Deaktivierung der virtuellen Maschinen
@@ -119,7 +122,8 @@ Beispiel Produkt:
 //. Gibt es besondere Umgebungsbedingungen, z.B. mobil, offline, Außeneinsatz, Touchbedienung, Nutzung durch seh- oder hörbeeinträchtigte Personen?
 //. Welche Systemplattformen werden heute eingesetzt? Welche sind es ggf. zukünftig?
 //. Welche anderen Anwendungen sind im Einsatz? Muss ihre Anwendung mit diesen integriert werden?
-
+[%always]
+<<<
 == Produkt-/Lösungsüberblick
 
 === Bedarfe und Hauptfunktionen

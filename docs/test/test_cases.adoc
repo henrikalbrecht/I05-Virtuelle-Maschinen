@@ -28,6 +28,8 @@ Das Ziel dieses Test Cases ist es, sicherzustellen, dass der UC01 "VMs auflisten
 * Die angezeigten Informationen entsprechen den erwarteten Daten aus dem Testdatensatz.
 * Es werden keine Fehler bei der Anzeige oder den aufgelisteten Informationen festgestellt.
 
+[%always]
+<<<
 === Test Case 02: Vergabe verwalten
 ==== Beschreibung
 Das Ziel dieses Test Cases ist es, sicherzustellen, dass der UC03 "Vergabe verwalten" ordnungsgemäß funktioniert und die Vergabe von VMs an Projektteams erfolgreich durchgeführt werden kann.

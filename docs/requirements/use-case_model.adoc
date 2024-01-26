@@ -22,27 +22,31 @@ include::../_includes/default-attributes.inc.adoc[]
 |*_UC07_*| _VMs zurücksetzen_ | _low_
 |===
 
+[%always]
+<<<
 == Use Case Diagramm
 
 .UML Use Case Diagram
 image::use-case_diagram.png[]
 
-//<<<
+[%always]
+<<<
 include::use_case_01.inc.adoc[]
 
-//<<<
+[%always]
+<<<
 include::use_case_03.inc.adoc[]
 
-//<<<
+[%always]
+<<<
 include::use_case_02.inc.adoc[]
 
-//<<<
 include::use_case_04.inc.adoc[]
 
-//<<<
 include::use_case_05.inc.adoc[]
 
-//<<<
+[%always]
+<<<
 include::use_case_06.inc.adoc[]
 
 //<<<

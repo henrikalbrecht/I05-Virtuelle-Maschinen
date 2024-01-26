@@ -6,5 +6,5 @@ include::../_includes/default-attributes.inc.adoc[]
 
 
 == Domänenmodell für die Verwaltung der Vergabe virtueller Maschinen
-
+.Domänenmodell
 image::domain_model.png[]

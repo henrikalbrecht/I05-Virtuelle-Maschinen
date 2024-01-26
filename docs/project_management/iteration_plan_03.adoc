@@ -120,8 +120,11 @@ a|* Ergebnisse aus der Retrospektive:
 ** Abschlussgedanken: "Teamwork ist nicht einfach", "Mehr machen, mehr fragen, mehr feedback einholen", "Mehr Kommunikation", "Selbstständiger arbeiten"
 |===
 
+[%always]
+<<<
 === Essence Navigator
 Gemäß den Alpha States des Essence Navigators befindet sich das Team auf folgendem Stand:
+.Essence Alpha States - Iteration 3
 image:alphas_it03.png[]
 
 
