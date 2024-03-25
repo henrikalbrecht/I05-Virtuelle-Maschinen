@@ -2,3 +2,33 @@
 ifndef::main-document[include::../_includes/default-attributes.inc.adoc[]]
 
 == UC06: Backup verwalten
+
+=== Kurzbeschreibung
+Der Use-Case umfasst die Auflistung aller in der Vergangenheit genutzten VMs und die Möglichkeit diese endgültig zu löschen oder wiederherzustellen.
+
+=== Kurzbeschreibung der Akteure
+- Herr Zirkelbach (User)
+
+=== Vorbedingungen
+- Der User muss angemeldet sein.
+
+=== Standardablauf (Basic Flow)
+. Der User öffnet die Seite *Backup*.
+. Das System liest alle in der Vergangenheit genutzten VMs aus der Datenbank.
+. Das System zeigt eine Liste grundlegender Informationen dieser VMs an.
+
+=== Alternative Abläufe
+
+==== VM wiederherstellen
+. Der User klickt auf die Schaltfläche *Wiederherstellen* einer VM.
+. Das System zeigt eine Bestätigungsmeldung an.
+. Der User bestätigt die Wiederherstellung.
+. Das System verschiebt die VM wieder in die Datenbank der aktiven VMs.
+. Das System zeigt eine Erfolgsmeldung an.
+
+==== VM löschen
+. Der User klickt auf die Schaltfläche *Löschen* einer VM.
+. Das System zeigt eine Bestätigungsmeldung an.
+. Der User bestätigt das Löschen.
+. Das System löscht die VM endgültig aus der Datenbank.
+. Das System zeigt eine Erfolgsmeldung an.
