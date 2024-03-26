@@ -13,3 +13,39 @@ Der Use-Case beinhaltet die Verwaltung von Email Templates für die Kommunikatio
 
 === Vorbedingungen
 - Der User muss angemeldet sein.
+
+=== Standardablauf (Basic Flow)
+1. Der User klickt auf den Menüpunkt "Email Templates".
+2. Das System zeigt eine Übersicht der vorhandenen Email Templates an.
+3. Der User klickt auf den Button "Neues Template anlegen".
+4. Das System zeigt ein Formular zur Eingabe der Template-Daten an.
+5. Der User gibt die Template-Daten ein und klickt auf den Button "Speichern".
+
+=== Wireframe
+//<Bild des Wireframes einfügen>
+
+=== Alternativabläufe
+
+==== Template bearbeiten
+1. Der User klickt auf den Menüpunkt "Email Templates".
+2. Das System zeigt eine Übersicht der vorhandenen Email Templates an.
+3. Der User klickt auf den Button "Bearbeiten" neben einem bestehenden Template.
+4. Das System zeigt ein Formular zur Bearbeitung der Template-Daten an.
+5. Der User ändert die Template-Daten und klickt auf den Button "Speichern".
+
+==== Template löschen
+1. Der User klickt auf den Menüpunkt "Email Templates".
+2. Das System zeigt eine Übersicht der vorhandenen Email Templates an.
+3. Der User klickt auf den Button "Löschen" neben einem bestehenden Template.
+4. Das System zeigt eine Bestätigungsabfrage an.
+5. Der User bestätigt die Löschung.
+6. Das System löscht das Email-Template aus der Datenbank.
+//< Oder vorest Archivierung des Templates? >//
+
+=== Wesentliche Szenarios
+
+==== Szenario 1: Template anlegen
+
+==== Szenario 2: Template bearbeiten
+
+=== Nachbedingungen
