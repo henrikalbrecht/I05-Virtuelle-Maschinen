@@ -17,6 +17,13 @@ Der Use-Case umfasst die Auflistung aller in der Vergangenheit genutzten VMs und
 . Das System liest alle in der Vergangenheit genutzten VMs aus der Datenbank.
 . Das System zeigt eine Liste grundlegender Informationen dieser VMs an.
 
+==== Wireframe
+.Wireframe - UC01 VMs auflisten
+image::uc06_wireframe.png[]
+
+[%always]
+<<<
+
 === Alternative Abläufe
 
 ==== VM wiederherstellen
@@ -32,3 +39,11 @@ Der Use-Case umfasst die Auflistung aller in der Vergangenheit genutzten VMs und
 . Der User bestätigt das Löschen.
 . Das System löscht die VM endgültig aus der Datenbank.
 . Das System zeigt eine Erfolgsmeldung an.
+
+==== Übersicht mit Jahresauswahl
+
+. Der User klickt auf die Schaltfläche *Jahr auswählen*.
+. Das System zeigt eine Liste aller Jahre an, in denen VMs genutzt wurden.
+. Der User wählt ein Jahr aus.
+. Das System liest aus der Datenbank alle in diesem Jahr genutzten VMs aus.
+. Das System zeigt eine Liste grundlegender Informationen dieser VMs an.
