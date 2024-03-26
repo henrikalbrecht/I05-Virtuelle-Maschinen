@@ -12,3 +12,36 @@ Der Use-Case beschreibt die Verwaltung von VM Templates. Dazu gehören das Anleg
 
 === Vorbedingungen
 - Der User muss angemeldet sein.
+
+=== Standardablauf (Basic Flow)
+1. Der User klickt auf den Menüpunkt "VM Templates".
+2. Das System zeigt eine Liste aller vorhandenen VM Templates an.
+3. Der User klickt auf den Button "Neues VM Template anlegen".
+4. Das System zeigt ein Formular zum Anlegen eines neuen VM Templates an.
+5. Der User füllt das Formular aus und klickt auf den Button "Speichern".
+6. Das System speichert das neue VM Template.
+
+=== Wireframe
+
+=== Alternativabläufe
+==== VM Template bearbeiten
+1. Der User klickt auf den Menüpunkt "VM Templates".
+2. Das System zeigt eine Liste aller vorhandenen VM Templates an.
+3. Der User klickt auf den Button "Bearbeiten" neben dem gewünschten VM Template.
+4. Das System zeigt ein Formular zum Bearbeiten des VM Templates an.
+5. Der User ändert die gewünschten Felder und klickt auf den Button "Speichern".
+6. Das System speichert die Änderungen am VM Template.
+
+==== VM Template löschen
+1. Der User klickt auf den Menüpunkt "VM Templates".
+2. Das System zeigt eine Liste aller vorhandenen VM Templates an.
+3. Der User klickt auf den Button "Löschen" neben dem gewünschten VM Template.
+4. Das System zeigt eine Bestätigungsdialog an.
+5. Der User bestätigt das Löschen.
+6. Das System löscht das VM Template in der Datenbank.
+// Oder Archivieren statt Löschen?
+
+=== Wesentliche Szenarios
+
+
+=== Nachbedingungen
