@@ -2,3 +2,39 @@
 ifndef::main-document[include::../_includes/default-attributes.inc.adoc[]]
 
 == UC07: VMs zurücksetzen
+
+=== Kurzbeschreibung
+
+Der Use-Case dient dazu alle VMs wieder in den unzugeordneten Zustand zurückzusetzen und die Daten als Backup speichern.
+
+=== Kurzbeschreibung der Akteure
+
+- Herr Zirkelbach (User)
+
+=== Vorbedingungen
+- Der User muss angemeldet sein.
+
+=== Standardablauf (Basic Flow)
+. Der User öffnet die Seite *Zurücksetzen*.
+. Das System liest alle VMs welche genutzt werden oder in Bearbeitung sind aus.
+. Das System zeigt eine Liste der VMs an.
+. Der User wählt die VMs aus, welche zurückgesetzt werden sollen.
+. Das System fordert den User auf, die Auswahl zu bestätigen.
+. Der User bestätigt die Auswahl.
+. Das System setzt die VMs zurück und speichert die Daten als Backup.
+
+==== Wireframe
+.Wireframe - UC01 VMs auflisten
+image::uc07_wireframe.png[]
+
+[%always]
+<<<
+
+=== Alternativabläufe
+
+==== Alle VMs zurücksetzen
+. Der User wählt die Option *Alle VMs zurücksetzen*.
+. Das System fordert den User auf, die Auswahl zu bestätigen.
+. Der User bestätigt die Auswahl.
+. Das System setzt alle VMs zurück und speichert die Daten als Backup.
+
